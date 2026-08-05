@@ -3,8 +3,8 @@
  "category_id": "103096",
  "name": "NBL (Australia)",
  "af_id": 1,
- "espn_path": null,
- "source": "api-basketball",
+ "espn_path": "nbl",
+ "source": "espn",
  "seasons": [
   "2022-2023",
   "2023-2024",
@@ -12,10 +12,10 @@
  ],
  "mu": 113.0,
  "hfa": 2.3,
- "lr": 0.1,
+ "lr": 0.06,
  "sd_margin": 15.1,
- "sd_total": 18.0,
+ "sd_total": 18.4,
  "fh_share": 0.504,
- "backtest_N": 234,
- "backtest_ml_acc": 62.4
+ "backtest_N": 338,
+ "backtest_ml_acc": 66.6
 }

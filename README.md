@@ -33,12 +33,12 @@ Sorted by historical sample size. `code` = internal league directory; `categoryI
 | LKL (Lithuania) | 60 | 105267 | 637 | 72.7% | 0.06 | 12.9 | 16.8 | api-basketball |
 | Basketball Champions League | 202 | 103093 | 597 | 55.5% | 0.10 | 12.4 | 20.4 | api-basketball |
 | Basket League (Greece) | 45 | 104348 | 539 | 73.3% | 0.08 | 12.4 | 18.2 | api-basketball |
-| NBL (Australia) | 1 | 103096 | 467 | 62.4% | 0.10 | 15.1 | 18.0 | api-basketball |
+| NBL (Australia) | 1 | 103096 | 676 | 66.6% | 0.06 | 15.1 | 18.4 | ESPN |
 | Liga Endesa (Spain ACB) | 117 | 103094 | 325 | 69.3% | 0.08 | 11.4 | 16.6 | api-basketball |
 
-> 历史深度与时效:NBA / WNBA / NCAA 由 ESPN 免费源覆盖到**最新完整赛季 2025/26**(不限赛季);其余联赛覆盖 2022/23–2024/25(免费数据源上限)。评级为在线滚动,近期比赛权重远高于早期——重磅交易/换血会在球队打几场后自动反映;每个联赛的近期权重(`lr`)已按回测单独校准。每日增量任务持续把新结果并入评级。
+> 历史深度与时效:NBA / WNBA / NCAA / NBL 由 ESPN 免费源覆盖到**最新完整赛季 2025/26**(不限赛季);其余联赛覆盖 2022/23–2024/25(免费数据源上限——ESPN 篮球库不含欧洲/亚洲俱乐部联赛)。评级为在线滚动,近期比赛权重远高于早期——重磅交易/换血会在球队打几场后自动反映;每个联赛的近期权重(`lr`)已按回测单独校准。每日增量任务持续把新结果并入评级。
 >
-> History & recency: NBA / WNBA / NCAA are covered by the free ESPN source through the **latest full 2025/26 season** (no season cap); other leagues cover 2022/23–2024/25 (free-source limit). Ratings are online and weight recent games far more than old ones — blockbuster trades show up within a few games — and each league's recency weight (`lr`) is individually calibrated by backtest. A daily incremental job keeps merging new results.
+> History & recency: NBA / WNBA / NCAA / NBL are covered by the free ESPN source through the **latest full 2025/26 season** (no season cap); other leagues cover 2022/23–2024/25 (free-source limit — ESPN's basketball catalog does not include the European/Asian club leagues). Ratings are online and weight recent games far more than old ones — blockbuster trades show up within a few games — and each league's recency weight (`lr`) is individually calibrated by backtest. A daily incremental job keeps merging new results.
 
 ---
 

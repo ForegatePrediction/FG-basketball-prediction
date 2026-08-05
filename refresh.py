@@ -5,7 +5,7 @@
 - WNBA:ESPN scoreboard 免费接口按日期拉。
 零训练秒级:from_snapshot 载入现有评级,只 update 新增比赛,写回 ratings.json + last_date。
 用量极低:即便不付费,每天仅需拉当天新增,约 1 次 api-basketball + 若干次 ESPN。
-注:NBA / WNBA / NCAA 走 ESPN 免费源(不限赛季,当前赛季可用);其余联赛走 api-basketball,
+注:NBA / WNBA / NCAA / NBL 走 ESPN 免费源(不限赛季,当前赛季可用);其余联赛走 api-basketball,
     免费层仅放行 2022–2024 赛季,当前赛季需付费计划方能日更。
 环境变量:APIBASKETBALL_KEY(api-basketball key)。
 """
