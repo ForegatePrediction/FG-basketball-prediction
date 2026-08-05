@@ -12,10 +12,10 @@
  ],
  "mu": 113.0,
  "hfa": 2.3,
- "lr": 0.06,
+ "lr": 0.1,
  "sd_margin": 15.1,
  "sd_total": 18.0,
  "fh_share": 0.504,
  "backtest_N": 234,
- "backtest_ml_acc": 61.5
+ "backtest_ml_acc": 62.4
 }

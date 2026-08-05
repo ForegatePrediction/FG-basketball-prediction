@@ -12,28 +12,33 @@ A zero-dependency (Python standard library only) pre-game basketball probability
 
 Sorted by historical sample size. `code` = internal league directory; `categoryId` = platform category id; `Moneyline Acc` = walk-forward out-of-sample backtest (50% burn-in).
 
-| 联赛 League | code | categoryId | 样本 Games | 胜负命中率 ML Acc | σ 净胜分 σ_margin | σ 总分 σ_total |
-|---|---|---|---|---|---|---|
-| NCAA (NCAA Men's) | 116 | 100396 | 18,602 | 71.7% | 13.7 | 16.9 |
-| NBA | 12 | 745 | 4,149 | 65.5% | 14.6 | 19.5 |
-| B.League (Japan) | 56 | 104349 | 2,210 | 68.6% | 13.0 | 16.5 |
-| CBA (China) | 31 | 103097 | 1,525 | 76.5% | 13.1 | 19.4 |
-| EuroLeague | 120 | 102669 | 989 | 65.1% | 12.0 | 17.1 |
-| BBL (Germany) | 40 | 104345 | 969 | 66.8% | 12.7 | 18.3 |
-| LNB Pro A (France) | 2 | 103099 | 920 | 69.6% | 12.9 | 18.3 |
-| KBL (Korea) | 91 | 103100 | 875 | 63.0% | 13.4 | 16.2 |
-| VTB United League | 82 | 104344 | 837 | 74.9% | 13.0 | 16.9 |
-| Lega A (Italy) | 52 | 103095 | 802 | 67.3% | 12.3 | 17.2 |
-| WNBA | wnba | 100254 | 792 | 66.9% | 12.5 | 16.3 |
-| ABA League (Adriatic) | 198 | 104346 | 664 | 77.1% | 11.9 | 17.0 |
-| LKL (Lithuania) | 60 | 105267 | 637 | 72.7% | 12.9 | 16.8 |
-| Basketball Champions League | 202 | 103093 | 597 | 50.8% | 12.3 | 19.8 |
-| Basket League (Greece) | 45 | 104348 | 539 | 71.5% | 12.4 | 18.7 |
-| NBL (Australia) | 1 | 103096 | 467 | 61.5% | 15.1 | 18.0 |
-| Liga Endesa (Spain ACB) | 117 | 103094 | 325 | 66.9% | 11.3 | 16.4 |
+`lr` = 该联赛按回测选出的最优在线学习率(近期权重强度,阵容更替越频繁取值越高)。
 
-> 历史深度:各联赛均覆盖最近 3 个赛季(2022/23–2024/25)。每日增量任务持续把新结果并入评级。
-> History depth: every league covers the last 3 seasons (2022/23–2024/25). A daily incremental job keeps merging new results into the ratings.
+`lr` = the per-league online learning rate chosen by backtest (recency strength; higher for leagues with faster roster turnover).
+
+| 联赛 League | code | categoryId | 样本 Games | 胜负命中率 ML Acc | lr | σ 净胜分 | σ 总分 | 源 Source |
+|---|---|---|---|---|---|---|---|---|
+| NCAA (NCAA Men's) | 116 | 100396 | 23,573 | 73.5% | 0.10 | 13.7 | 17.3 | ESPN |
+| NBA | 12 | 745 | 5,557 | 66.6% | 0.06 | 14.7 | 20.0 | ESPN |
+| B.League (Japan) | 56 | 104349 | 2,210 | 69.0% | 0.03 | 12.9 | 16.7 | api-basketball |
+| CBA (China) | 31 | 103097 | 1,525 | 76.5% | 0.03 | 13.2 | 19.4 | api-basketball |
+| WNBA | wnba | 100254 | 1,349 | 65.8% | 0.045 | 13.8 | 19.1 | ESPN |
+| EuroLeague | 120 | 102669 | 989 | 65.1% | 0.06 | 12.0 | 17.1 | api-basketball |
+| BBL (Germany) | 40 | 104345 | 969 | 66.8% | 0.06 | 12.7 | 18.3 | api-basketball |
+| LNB Pro A (France) | 2 | 103099 | 920 | 70.7% | 0.08 | 13.0 | 18.3 | api-basketball |
+| KBL (Korea) | 91 | 103100 | 875 | 64.4% | 0.08 | 13.5 | 16.1 | api-basketball |
+| VTB United League | 82 | 104344 | 837 | 74.9% | 0.06 | 13.0 | 16.9 | api-basketball |
+| Lega A (Italy) | 52 | 103095 | 802 | 67.3% | 0.06 | 12.3 | 17.2 | api-basketball |
+| ABA League (Adriatic) | 198 | 104346 | 664 | 79.2% | 0.10 | 12.1 | 17.1 | api-basketball |
+| LKL (Lithuania) | 60 | 105267 | 637 | 72.7% | 0.06 | 12.9 | 16.8 | api-basketball |
+| Basketball Champions League | 202 | 103093 | 597 | 55.5% | 0.10 | 12.4 | 20.4 | api-basketball |
+| Basket League (Greece) | 45 | 104348 | 539 | 73.3% | 0.08 | 12.4 | 18.2 | api-basketball |
+| NBL (Australia) | 1 | 103096 | 467 | 62.4% | 0.10 | 15.1 | 18.0 | api-basketball |
+| Liga Endesa (Spain ACB) | 117 | 103094 | 325 | 69.3% | 0.08 | 11.4 | 16.6 | api-basketball |
+
+> 历史深度与时效:NBA / WNBA / NCAA 由 ESPN 免费源覆盖到**最新完整赛季 2025/26**(不限赛季);其余联赛覆盖 2022/23–2024/25(免费数据源上限)。评级为在线滚动,近期比赛权重远高于早期——重磅交易/换血会在球队打几场后自动反映;每个联赛的近期权重(`lr`)已按回测单独校准。每日增量任务持续把新结果并入评级。
+>
+> History & recency: NBA / WNBA / NCAA are covered by the free ESPN source through the **latest full 2025/26 season** (no season cap); other leagues cover 2022/23–2024/25 (free-source limit). Ratings are online and weight recent games far more than old ones — blockbuster trades show up within a few games — and each league's recency weight (`lr`) is individually calibrated by backtest. A daily incremental job keeps merging new results.
 
 ---
 

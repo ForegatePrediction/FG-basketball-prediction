@@ -4,7 +4,7 @@
   "category_id": "745",
   "name": "NBA",
   "af_id": 12,
-  "source": "api-basketball"
+  "source": "espn"
  },
  {
   "code": "wnba",
@@ -18,7 +18,7 @@
   "category_id": "100396",
   "name": "NCAA (NCAAM)",
   "af_id": 116,
-  "source": "api-basketball"
+  "source": "espn"
  },
  {
   "code": "31",

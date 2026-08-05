@@ -4,10 +4,12 @@
   只保留我们关心的 league_id 与已结束比分。
 - WNBA:ESPN scoreboard 免费接口按日期拉。
 零训练秒级:from_snapshot 载入现有评级,只 update 新增比赛,写回 ratings.json + last_date。
-用量极低:即便不付费,每天仅需拉当天新增,约 1 次 api-basketball + 若干次 ESPN(WNBA 赛季内)。
+用量极低:即便不付费,每天仅需拉当天新增,约 1 次 api-basketball + 若干次 ESPN。
+注:NBA / WNBA / NCAA 走 ESPN 免费源(不限赛季,当前赛季可用);其余联赛走 api-basketball,
+    免费层仅放行 2022–2024 赛季,当前赛季需付费计划方能日更。
 环境变量:APIBASKETBALL_KEY(api-basketball key)。
 """
-import json, os, sys, time, datetime as dt, urllib.request
+import json, os, sys, time, datetime as dt, urllib.request, subprocess
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GAMES = os.path.join(ROOT, "games")
@@ -21,13 +23,22 @@ MAX_LOOKBACK = 14   # 最多回看天数,防止长时间未刷新时漏单
 
 def _get(url, headers=None):
     req = urllib.request.Request(url, headers=headers or {})
-    for _ in range(3):
+    for _ in range(2):
         try:
             with urllib.request.urlopen(req, timeout=25) as r:
                 return json.load(r)
         except Exception:
-            time.sleep(2)
-    return {}
+            time.sleep(1)
+    # 回退:部分环境对 Python 客户端做了拦截,改用 curl
+    try:
+        hdr = []
+        for k, v in (headers or {}).items():
+            hdr += ["-H", f"{k}: {v}"]
+        out = subprocess.run(["curl", "-s", "--max-time", "25", *hdr, url],
+                             capture_output=True, text=True, timeout=30).stdout
+        return json.loads(out) if out.strip() else {}
+    except Exception:
+        return {}
 
 
 def _dates_since(last_date):
@@ -72,11 +83,10 @@ def _apibasketball_by_date(dates):
     return by_league
 
 
-def _espn(path, dates):
+def _espn(path, dates, query=""):
     out = []
     for day in dates:
-        d = _get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/{path}/scoreboard?dates={day.replace('-','')}",
-                 {"User-Agent": "Mozilla/5.0"})
+        d = _get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/{path}/scoreboard?dates={day.replace('-','')}{query}")
         for e in d.get("events", []):
             if "FINAL" not in e["status"]["type"]["name"]:
                 continue
@@ -129,6 +139,8 @@ def main():
             if ld and (earliest is None or ld < earliest):
                 earliest = ld
     dates = _dates_since(earliest)
+    if not dates:
+        print("全部快照已是最新,无需回看"); return
     print(f"回看日期: {dates[0]} ~ {dates[-1]} ({len(dates)} 天)")
 
     ab = _apibasketball_by_date(dates) if KEY else {}
@@ -137,7 +149,7 @@ def main():
 
     for code, cfg in cfgs:
         if cfg.get("source") == "espn":
-            ms = _espn(cfg["espn_path"], dates)
+            ms = _espn(cfg["espn_path"], dates, cfg.get("espn_query", ""))
         else:
             ms = ab.get(cfg.get("af_id"), [])
         _apply(code, cfg, ms)

@@ -4,7 +4,7 @@
  "name": "NCAA (NCAAM)",
  "af_id": 116,
  "espn_path": "mens-college-basketball",
- "source": "api-basketball",
+ "source": "espn",
  "seasons": [
   "2022-2023",
   "2023-2024",
@@ -12,10 +12,11 @@
  ],
  "mu": 113.0,
  "hfa": 2.3,
- "lr": 0.06,
+ "lr": 0.1,
  "sd_margin": 13.7,
- "sd_total": 16.9,
+ "sd_total": 17.3,
  "fh_share": 0.504,
- "backtest_N": 9301,
- "backtest_ml_acc": 71.7
+ "backtest_N": 11787,
+ "backtest_ml_acc": 73.5,
+ "espn_query": "&groups=50&limit=400"
 }
