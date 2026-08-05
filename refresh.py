@@ -41,6 +41,20 @@ def _get(url, headers=None):
         return {}
 
 
+def _get_text(url):
+    """取纯文本(如 XML)。urllib 优先,失败回退 curl。"""
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url), timeout=25) as r:
+            return r.read().decode("utf-8", "ignore")
+    except Exception:
+        pass
+    try:
+        return subprocess.run(["curl", "-s", "--max-time", "25", url],
+                              capture_output=True, text=True, timeout=30).stdout
+    except Exception:
+        return ""
+
+
 def _dates_since(last_date):
     today = dt.date.today()
     if last_date:
@@ -103,6 +117,34 @@ def _espn(path, dates, query=""):
     return out
 
 
+def _euroleague(dates):
+    """EuroLeague 官方 XML(免费,不限赛季)。拉当前与上一赛季,回看窗口内的已完成比赛。"""
+    import xml.etree.ElementTree as ET, datetime as _dt
+    yr = _dt.date.today().year
+    seasons = {yr, yr - 1}   # 覆盖赛季切换
+    dset = set(dates); out = []
+    for s in seasons:
+        raw = _get_text(f"https://api-live.euroleague.net/v1/results?seasonCode=E{s}")
+        if not raw:
+            continue
+        try:
+            root = ET.fromstring(raw)
+        except Exception:
+            continue
+        for g in root.findall("game"):
+            if (g.findtext("played") or "").lower() != "true":
+                continue
+            try:
+                hp = int(g.findtext("homescore")); ap = int(g.findtext("awayscore"))
+                iso = _dt.datetime.strptime(g.findtext("date"), "%b %d, %Y").date().isoformat()
+            except Exception:
+                continue
+            if iso in dset:
+                out.append({"date": iso, "home": g.findtext("hometeam"),
+                            "away": g.findtext("awayteam"), "hp": hp, "ap": ap, "season": str(s)})
+    return out
+
+
 def _apply(code, cfg, new_ms):
     if not new_ms:
         print(f"[{code}] {cfg['name']}: 无新增"); return
@@ -147,9 +189,14 @@ def main():
     if not KEY:
         print("警告: 未设置 APIBASKETBALL_KEY,跳过 api-basketball 联赛")
 
+    el = _euroleague(dates)   # 一次拉取,复用
+
     for code, cfg in cfgs:
-        if cfg.get("source") == "espn":
+        src = cfg.get("source")
+        if src == "espn":
             ms = _espn(cfg["espn_path"], dates, cfg.get("espn_query", ""))
+        elif src == "euroleague":
+            ms = el
         else:
             ms = ab.get(cfg.get("af_id"), [])
         _apply(code, cfg, ms)

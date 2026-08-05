@@ -23,7 +23,7 @@ Sorted by historical sample size. `code` = internal league directory; `categoryI
 | B.League (Japan) | 56 | 104349 | 2,210 | 69.0% | 0.03 | 12.9 | 16.7 | api-basketball |
 | CBA (China) | 31 | 103097 | 1,525 | 76.5% | 0.03 | 13.2 | 19.4 | api-basketball |
 | WNBA | wnba | 100254 | 1,349 | 65.8% | 0.045 | 13.8 | 19.1 | ESPN |
-| EuroLeague | 120 | 102669 | 989 | 65.1% | 0.06 | 12.0 | 17.1 | api-basketball |
+| EuroLeague | 120 | 102669 | 2,018 | 64.5% | 0.06 | 11.8 | 17.6 | EuroLeague 官方 Official |
 | BBL (Germany) | 40 | 104345 | 969 | 66.8% | 0.06 | 12.7 | 18.3 | api-basketball |
 | LNB Pro A (France) | 2 | 103099 | 920 | 70.7% | 0.08 | 13.0 | 18.3 | api-basketball |
 | KBL (Korea) | 91 | 103100 | 875 | 64.4% | 0.08 | 13.5 | 16.1 | api-basketball |
@@ -36,9 +36,9 @@ Sorted by historical sample size. `code` = internal league directory; `categoryI
 | NBL (Australia) | 1 | 103096 | 676 | 66.6% | 0.06 | 15.1 | 18.4 | ESPN |
 | Liga Endesa (Spain ACB) | 117 | 103094 | 325 | 69.3% | 0.08 | 11.4 | 16.6 | api-basketball |
 
-> 历史深度与时效:NBA / WNBA / NCAA / NBL 由 ESPN 免费源覆盖到**最新完整赛季 2025/26**(不限赛季);其余联赛覆盖 2022/23–2024/25(免费数据源上限——ESPN 篮球库不含欧洲/亚洲俱乐部联赛)。评级为在线滚动,近期比赛权重远高于早期——重磅交易/换血会在球队打几场后自动反映;每个联赛的近期权重(`lr`)已按回测单独校准。每日增量任务持续把新结果并入评级。
+> 历史深度与时效:NBA / WNBA / NCAA / NBL 由 ESPN 免费源、EuroLeague 由其官方免费 API,均覆盖到**最新完整赛季 2025/26**(不限赛季);其余联赛覆盖 2022/23–2024/25(免费数据源上限——ESPN 篮球库不含这些联赛,且暂无稳定免费官方源)。评级为在线滚动,近期比赛权重远高于早期——重磅交易/换血会在球队打几场后自动反映;每个联赛的近期权重(`lr`)已按回测单独校准。每日增量任务持续把新结果并入评级。
 >
-> History & recency: NBA / WNBA / NCAA / NBL are covered by the free ESPN source through the **latest full 2025/26 season** (no season cap); other leagues cover 2022/23–2024/25 (free-source limit — ESPN's basketball catalog does not include the European/Asian club leagues). Ratings are online and weight recent games far more than old ones — blockbuster trades show up within a few games — and each league's recency weight (`lr`) is individually calibrated by backtest. A daily incremental job keeps merging new results.
+> History & recency: NBA / WNBA / NCAA / NBL (free ESPN source) and EuroLeague (its official free API) are covered through the **latest full 2025/26 season** (no season cap); other leagues cover 2022/23–2024/25 (free-source limit — no stable free official feed found yet). Ratings are online and weight recent games far more than old ones — blockbuster trades show up within a few games — and each league's recency weight (`lr`) is individually calibrated by backtest. A daily incremental job keeps merging new results.
 
 ---
 
