@@ -1,0 +1,29 @@
+{
+ "code": "40",
+ "name": "BBL (Germany)",
+ "source": "api-basketball",
+ "category_id": "30176",
+ "platform_id": "30176",
+ "platform_ids": [
+  "30176"
+ ],
+ "category_ids": [
+  "30176"
+ ],
+ "free_updatable": false,
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 13.7,
+ "sd_total": 17.9,
+ "fh_share": 0.505,
+ "q_shares": [
+  0.2531,
+  0.2519,
+  0.2535,
+  0.2416
+ ],
+ "af_id": 40,
+ "backtest_ml_acc": 65.9,
+ "backtest_N": 985
+}

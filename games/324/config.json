@@ -1,0 +1,29 @@
+{
+ "code": "324",
+ "name": "FIBA WCQ Africa (AfroBasket pool)",
+ "source": "api-basketball",
+ "category_id": "30215",
+ "platform_id": "30215",
+ "platform_ids": [
+  "30215"
+ ],
+ "category_ids": [
+  "30215"
+ ],
+ "free_updatable": false,
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 16.6,
+ "sd_total": 25.8,
+ "fh_share": 0.505,
+ "q_shares": [
+  0.2531,
+  0.2519,
+  0.2535,
+  0.2416
+ ],
+ "af_id": 324,
+ "backtest_ml_acc": 65.2,
+ "backtest_N": 66
+}

@@ -1,0 +1,29 @@
+{
+ "code": "282",
+ "name": "FIBA WCQ Americas (AmeriCup pool)",
+ "source": "api-basketball",
+ "category_id": "30213",
+ "platform_id": "30213",
+ "platform_ids": [
+  "30213"
+ ],
+ "category_ids": [
+  "30213"
+ ],
+ "free_updatable": false,
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 17.5,
+ "sd_total": 25.5,
+ "fh_share": 0.505,
+ "q_shares": [
+  0.2531,
+  0.2519,
+  0.2535,
+  0.2416
+ ],
+ "af_id": 282,
+ "backtest_ml_acc": 69.9,
+ "backtest_N": 153
+}

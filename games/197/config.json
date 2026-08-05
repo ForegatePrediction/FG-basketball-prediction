@@ -1,0 +1,29 @@
+{
+ "code": "197",
+ "name": "FIBA WCQ Europe (EuroBasket pool)",
+ "source": "api-basketball",
+ "category_id": "30214",
+ "platform_id": "30214",
+ "platform_ids": [
+  "30214"
+ ],
+ "category_ids": [
+  "30214"
+ ],
+ "free_updatable": false,
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 14.5,
+ "sd_total": 19.3,
+ "fh_share": 0.505,
+ "q_shares": [
+  0.2531,
+  0.2519,
+  0.2535,
+  0.2416
+ ],
+ "af_id": 197,
+ "backtest_ml_acc": 60.2,
+ "backtest_N": 259
+}

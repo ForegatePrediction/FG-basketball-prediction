@@ -13,7 +13,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Incremental refresh ratings (free ESPN source, no key)
+      - name: Incremental refresh ratings
+        # APIBASKETBALL_KEY 用于付费源联赛(CBA/欧洲各国等);ESPN/EuroLeague 免费源无需 key。
+        # 付费到期后:免费源联赛继续更新,付费源联赛自动跳过(冻结在已存历史)。
+        env:
+          APIBASKETBALL_KEY: ${{ secrets.APIBASKETBALL_KEY }}
         run: python3 refresh.py
       - name: Commit updated snapshots
         run: |

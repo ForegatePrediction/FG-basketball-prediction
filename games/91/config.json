@@ -1,0 +1,29 @@
+{
+ "code": "91",
+ "name": "KBL (Korea)",
+ "source": "api-basketball",
+ "category_id": "30165",
+ "platform_id": "30165",
+ "platform_ids": [
+  "30165"
+ ],
+ "category_ids": [
+  "30165"
+ ],
+ "free_updatable": false,
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 13.1,
+ "sd_total": 16.9,
+ "fh_share": 0.505,
+ "q_shares": [
+  0.2531,
+  0.2519,
+  0.2535,
+  0.2416
+ ],
+ "af_id": 91,
+ "backtest_ml_acc": 63.5,
+ "backtest_N": 871
+}

@@ -81,6 +81,22 @@ def _reasons(A, B, mk, lang):
             "winning_margin": [f"最可能:{bteam} 净胜 {brange} 分({pc(wm[band])})"]}
 
 
+def _platform_markets(mk, cfg):
+    """平台篮球玩法 key:moneyline / spreads / totals / soccer_extra_time(加时)。"""
+    import math
+    f = mk["full_game"]
+    mm = f["expected_points"]["home"] - f["expected_points"]["away"]
+    sd = cfg.get("sd_margin", 14.7)
+    base_ot = cfg.get("ot_base", 0.06)   # 势均力敌时进加时的基础概率
+    p_ot = base_ot * math.exp(-(mm * mm) / (2 * sd * sd))
+    return {
+        "moneyline": f["moneyline"],
+        "spreads": f["spreads"],
+        "totals": f["totals"],
+        "soccer_extra_time": {"yes": p_ot, "no": 1 - p_ot},
+    }
+
+
 def predict(code, A, B, lang="zh", odds_ml=None):
     cfg, snap = _load(code)
     teams = snap["teams"]
@@ -92,8 +108,10 @@ def predict(code, A, B, lang="zh", odds_ml=None):
                  sd_total=cfg.get("sd_total", 20.0), fh_share=cfg.get("fh_share", 0.505),
                  q_shares=cfg.get("q_shares"))
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
-           "A": a, "B": b, "lang": lang, "matched_exact": (A == a and B == b),
-           "markets": mk, "reasons": _reasons(a, b, mk, lang)}
+           "platform_id": cfg.get("platform_id"), "A": a, "B": b, "lang": lang,
+           "matched_exact": (A == a and B == b),
+           "markets": mk, "platform_markets": _platform_markets(mk, cfg),
+           "reasons": _reasons(a, b, mk, lang)}
     if odds_ml:
         m = mk["full_game"]["moneyline"]; model = [m["home"], m["away"]]
         market = devig_two(*odds_ml)

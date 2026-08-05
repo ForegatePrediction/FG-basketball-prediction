@@ -1,0 +1,29 @@
+{
+ "code": "56",
+ "name": "B.League (Japan)",
+ "source": "api-basketball",
+ "category_id": "30170",
+ "platform_id": "30170",
+ "platform_ids": [
+  "30170"
+ ],
+ "category_ids": [
+  "30170"
+ ],
+ "free_updatable": false,
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 13.1,
+ "sd_total": 16.7,
+ "fh_share": 0.505,
+ "q_shares": [
+  0.2531,
+  0.2519,
+  0.2535,
+  0.2416
+ ],
+ "af_id": 56,
+ "backtest_ml_acc": 68.8,
+ "backtest_N": 1813
+}

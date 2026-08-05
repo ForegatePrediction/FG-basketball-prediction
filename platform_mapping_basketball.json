@@ -1,0 +1,152 @@
+{
+ "30178": {
+  "code": "104",
+  "name": "BSL (Turkey)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30170": {
+  "code": "56",
+  "name": "B.League (Japan)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30211": {
+  "code": "301",
+  "name": "FIBA WCQ Asia (Asia Cup pool)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30207": {
+  "code": "wnba",
+  "name": "WNBA",
+  "source": "espn",
+  "free_updatable": true
+ },
+ "30212": {
+  "code": "wnba",
+  "name": "WNBA",
+  "source": "espn",
+  "free_updatable": true
+ },
+ "30172": {
+  "code": "202",
+  "name": "Basketball Champions League",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30167": {
+  "code": "18",
+  "name": "Liga A (Argentina)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30164": {
+  "code": "116",
+  "name": "NCAAB",
+  "source": "espn",
+  "free_updatable": true
+ },
+ "30215": {
+  "code": "324",
+  "name": "FIBA WCQ Africa (AfroBasket pool)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30179": {
+  "code": "45",
+  "name": "Basket League (Greece)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30169": {
+  "code": "120",
+  "name": "EuroLeague",
+  "source": "euroleague",
+  "free_updatable": true
+ },
+ "30220": {
+  "code": "17",
+  "name": "NBA Summer League",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30180": {
+  "code": "1",
+  "name": "NBL (Australia)",
+  "source": "espn",
+  "free_updatable": true
+ },
+ "30174": {
+  "code": "117",
+  "name": "Liga Endesa (Spain)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30177": {
+  "code": "198",
+  "name": "ABA League",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30166": {
+  "code": "31",
+  "name": "CBA (China)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30165": {
+  "code": "91",
+  "name": "KBL (Korea)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30214": {
+  "code": "197",
+  "name": "FIBA WCQ Europe (EuroBasket pool)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30175": {
+  "code": "52",
+  "name": "Lega A (Italy)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30213": {
+  "code": "282",
+  "name": "FIBA WCQ Americas (AmeriCup pool)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30168": {
+  "code": "cwbb",
+  "name": "CWBB (Women's College)",
+  "source": "espn",
+  "free_updatable": true
+ },
+ "30163": {
+  "code": "12",
+  "name": "NBA",
+  "source": "espn",
+  "free_updatable": true
+ },
+ "30171": {
+  "code": "82",
+  "name": "VTB United League",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30176": {
+  "code": "40",
+  "name": "BBL (Germany)",
+  "source": "api-basketball",
+  "free_updatable": false
+ },
+ "30173": {
+  "code": "2",
+  "name": "Pro A (France)",
+  "source": "api-basketball",
+  "free_updatable": false
+ }
+}
