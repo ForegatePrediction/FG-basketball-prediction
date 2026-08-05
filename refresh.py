@@ -185,11 +185,12 @@ def main():
         print("全部快照已是最新,无需回看"); return
     print(f"回看日期: {dates[0]} ~ {dates[-1]} ({len(dates)} 天)")
 
-    ab = _apibasketball_by_date(dates) if KEY else {}
-    if not KEY:
+    srcs = {cfg.get("source") for _, cfg in cfgs}
+    ab = _apibasketball_by_date(dates) if (KEY and "api-basketball" in srcs) else {}
+    if "api-basketball" in srcs and not KEY:
         print("警告: 未设置 APIBASKETBALL_KEY,跳过 api-basketball 联赛")
 
-    el = _euroleague(dates)   # 一次拉取,复用
+    el = _euroleague(dates) if "euroleague" in srcs else []   # 仅在需要时拉取
 
     for code, cfg in cfgs:
         src = cfg.get("source")

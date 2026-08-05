@@ -13,9 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Incremental refresh ratings
-        env:
-          APIBASKETBALL_KEY: ${{ secrets.APIBASKETBALL_KEY }}
+      - name: Incremental refresh ratings (free ESPN source, no key)
         run: python3 refresh.py
       - name: Commit updated snapshots
         run: |

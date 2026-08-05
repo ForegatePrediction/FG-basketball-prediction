@@ -53,17 +53,32 @@ def _reasons(A, B, mk, lang):
     f = mk["full_game"]; ml = f["moneyline"]; eg = f["expected_points"]
     pc = lambda x: f"{round(x*100)}%"
     fav, favp = (A, ml["home"]) if ml["home"] >= ml["away"] else (B, ml["away"])
+    mm = round(eg["home"] - eg["away"], 1)          # 主队净胜(正=主胜)
+    line = -abs(mm)                                  # 让分线(受让方视角)
+    fav_side = A if mm >= 0 else B
+    wm = mk["winning_margin"]
+    band = max(wm, key=wm.get)                       # 最可能净胜区间
+    _bz = {"home_1_5": (A, "1-5"), "home_6_10": (A, "6-10"), "home_11_15": (A, "11-15"),
+           "home_16plus": (A, "16+"), "away_1_5": (B, "1-5"), "away_6_10": (B, "6-10"),
+           "away_11_15": (B, "11-15"), "away_16plus": (B, "16+")}
+    bteam, brange = _bz[band]
     if lang == "en":
         return {"moneyline": [f"Projected score {A} {eg['home']} : {eg['away']} {B}",
                               f"Model lean: {fav} {pc(favp)} to win"],
-                "totals": [f"Projected total {eg['total']}"]}
+                "spreads": [f"Fair line: {fav_side} {line}"],
+                "totals": [f"Projected total {eg['total']}"],
+                "winning_margin": [f"Most likely: {bteam} by {brange} ({pc(wm[band])})"]}
     if lang == "vi":
         return {"moneyline": [f"Dự báo tỉ số {A} {eg['home']} : {eg['away']} {B}",
                               f"Mô hình nghiêng: {fav} thắng {pc(favp)}"],
-                "totals": [f"Tổng điểm dự báo {eg['total']}"]}
+                "spreads": [f"Kèo chấp hợp lý: {fav_side} {line}"],
+                "totals": [f"Tổng điểm dự báo {eg['total']}"],
+                "winning_margin": [f"Khả năng cao: {bteam} thắng {brange} ({pc(wm[band])})"]}
     return {"moneyline": [f"预计比分 {A} {eg['home']} : {eg['away']} {B}",
                           f"模型倾向:{fav} 胜 {pc(favp)}"],
-            "totals": [f"预计总分 {eg['total']}"]}
+            "spreads": [f"合理让分:{fav_side} {line}"],
+            "totals": [f"预计总分 {eg['total']}"],
+            "winning_margin": [f"最可能:{bteam} 净胜 {brange} 分({pc(wm[band])})"]}
 
 
 def predict(code, A, B, lang="zh", odds_ml=None):
@@ -73,8 +88,9 @@ def predict(code, A, B, lang="zh", odds_ml=None):
     if not a or not b:
         return {"error": f"未找到:{A if not a else B}", "missing": A if not a else B}
     ph, pa = PointsRatings.rates_from_snapshot(snap, a, b)
-    mk = markets(ph, pa, sd_margin=cfg.get("sd_margin", 14.9),
-                 sd_total=cfg.get("sd_total", 18.9), fh_share=cfg.get("fh_share", 0.504))
+    mk = markets(ph, pa, sd_margin=cfg.get("sd_margin", 14.7),
+                 sd_total=cfg.get("sd_total", 20.0), fh_share=cfg.get("fh_share", 0.505),
+                 q_shares=cfg.get("q_shares"))
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
            "A": a, "B": b, "lang": lang, "matched_exact": (A == a and B == b),
            "markets": mk, "reasons": _reasons(a, b, mk, lang)}
