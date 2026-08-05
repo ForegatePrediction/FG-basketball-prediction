@@ -1,0 +1,121 @@
+[
+ {
+  "code": "12",
+  "category_id": "745",
+  "name": "NBA",
+  "af_id": 12,
+  "source": "api-basketball"
+ },
+ {
+  "code": "wnba",
+  "category_id": "100254",
+  "name": "WNBA",
+  "af_id": null,
+  "source": "espn"
+ },
+ {
+  "code": "116",
+  "category_id": "100396",
+  "name": "NCAA (NCAAM)",
+  "af_id": 116,
+  "source": "api-basketball"
+ },
+ {
+  "code": "31",
+  "category_id": "103097",
+  "name": "CBA (China)",
+  "af_id": 31,
+  "source": "api-basketball"
+ },
+ {
+  "code": "120",
+  "category_id": "102669",
+  "name": "EuroLeague",
+  "af_id": 120,
+  "source": "api-basketball"
+ },
+ {
+  "code": "202",
+  "category_id": "103093",
+  "name": "Basketball Champions League",
+  "af_id": 202,
+  "source": "api-basketball"
+ },
+ {
+  "code": "117",
+  "category_id": "103094",
+  "name": "Liga Endesa (Spain ACB)",
+  "af_id": 117,
+  "source": "api-basketball"
+ },
+ {
+  "code": "52",
+  "category_id": "103095",
+  "name": "Lega A (Italy)",
+  "af_id": 52,
+  "source": "api-basketball"
+ },
+ {
+  "code": "2",
+  "category_id": "103099",
+  "name": "LNB Pro A (France)",
+  "af_id": 2,
+  "source": "api-basketball"
+ },
+ {
+  "code": "40",
+  "category_id": "104345",
+  "name": "BBL (Germany)",
+  "af_id": 40,
+  "source": "api-basketball"
+ },
+ {
+  "code": "82",
+  "category_id": "104344",
+  "name": "VTB United League",
+  "af_id": 82,
+  "source": "api-basketball"
+ },
+ {
+  "code": "198",
+  "category_id": "104346",
+  "name": "ABA League (Adriatic)",
+  "af_id": 198,
+  "source": "api-basketball"
+ },
+ {
+  "code": "45",
+  "category_id": "104348",
+  "name": "Basket League (Greece)",
+  "af_id": 45,
+  "source": "api-basketball"
+ },
+ {
+  "code": "91",
+  "category_id": "103100",
+  "name": "KBL (Korea)",
+  "af_id": 91,
+  "source": "api-basketball"
+ },
+ {
+  "code": "60",
+  "category_id": "105267",
+  "name": "LKL (Lithuania)",
+  "af_id": 60,
+  "source": "api-basketball"
+ },
+ {
+  "code": "56",
+  "category_id": "104349",
+  "name": "B.League (Japan)",
+  "af_id": 56,
+  "source": "api-basketball"
+ },
+ {
+  "code": "1",
+  "category_id": "103096",
+  "name": "NBL (Australia)",
+  "af_id": 1,
+  "source": "api-basketball"
+ }
+]

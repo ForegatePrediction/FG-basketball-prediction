@@ -1,0 +1,21 @@
+{
+ "code": "52",
+ "category_id": "103095",
+ "name": "Lega A (Italy)",
+ "af_id": 52,
+ "espn_path": null,
+ "source": "api-basketball",
+ "seasons": [
+  "2022-2023",
+  "2023-2024",
+  "2024-2025"
+ ],
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 12.3,
+ "sd_total": 17.2,
+ "fh_share": 0.504,
+ "backtest_N": 401,
+ "backtest_ml_acc": 67.3
+}

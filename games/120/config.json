@@ -1,0 +1,21 @@
+{
+ "code": "120",
+ "category_id": "102669",
+ "name": "EuroLeague",
+ "af_id": 120,
+ "espn_path": null,
+ "source": "api-basketball",
+ "seasons": [
+  2022,
+  2023,
+  2024
+ ],
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 12.0,
+ "sd_total": 17.1,
+ "fh_share": 0.504,
+ "backtest_N": 495,
+ "backtest_ml_acc": 65.1
+}

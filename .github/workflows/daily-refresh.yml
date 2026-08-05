@@ -1,0 +1,26 @@
+name: daily-refresh
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 每日 UTC 08:00
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Incremental refresh ratings
+        env:
+          APIBASKETBALL_KEY: ${{ secrets.APIBASKETBALL_KEY }}
+        run: python3 refresh.py
+      - name: Commit updated snapshots
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add games/*/ratings.json
+          git diff --cached --quiet || git commit -m "chore: daily ratings refresh"
+          git push

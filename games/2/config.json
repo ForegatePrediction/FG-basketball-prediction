@@ -1,0 +1,21 @@
+{
+ "code": "2",
+ "category_id": "103099",
+ "name": "LNB Pro A (France)",
+ "af_id": 2,
+ "espn_path": null,
+ "source": "api-basketball",
+ "seasons": [
+  "2022-2023",
+  "2023-2024",
+  "2024-2025"
+ ],
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 12.9,
+ "sd_total": 18.3,
+ "fh_share": 0.504,
+ "backtest_N": 460,
+ "backtest_ml_acc": 69.6
+}

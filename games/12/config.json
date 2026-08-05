@@ -1,0 +1,21 @@
+{
+ "code": "12",
+ "category_id": "745",
+ "name": "NBA",
+ "af_id": 12,
+ "espn_path": "nba",
+ "source": "api-basketball",
+ "seasons": [
+  "2022-2023",
+  "2023-2024",
+  "2024-2025"
+ ],
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 14.6,
+ "sd_total": 19.5,
+ "fh_share": 0.504,
+ "backtest_N": 2075,
+ "backtest_ml_acc": 65.5
+}

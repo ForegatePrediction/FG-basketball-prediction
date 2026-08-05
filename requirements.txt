@@ -1,0 +1,2 @@
+# server.py、core 预测、refresh.py 全部使用 Python 标准库,运行时零依赖。
+# server.py / core prediction / refresh.py all use the Python standard library only — zero runtime dependencies.

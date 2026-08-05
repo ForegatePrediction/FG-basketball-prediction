@@ -1,0 +1,21 @@
+{
+ "code": "56",
+ "category_id": "104349",
+ "name": "B.League (Japan)",
+ "af_id": 56,
+ "espn_path": null,
+ "source": "api-basketball",
+ "seasons": [
+  "2022-2023",
+  "2023-2024",
+  "2024-2025"
+ ],
+ "mu": 113.0,
+ "hfa": 2.3,
+ "lr": 0.06,
+ "sd_margin": 13.0,
+ "sd_total": 16.5,
+ "fh_share": 0.504,
+ "backtest_N": 1105,
+ "backtest_ml_acc": 68.6
+}

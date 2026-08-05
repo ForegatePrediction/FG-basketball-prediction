@@ -1,0 +1,6 @@
+games/*/data/
+__pycache__/
+*.pyc
+.DS_Store
+*_dev/
+_internal/
