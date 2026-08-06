@@ -49,36 +49,61 @@ def _find(teams, name):
     return best if bs >= 0.5 else None
 
 
-def _reasons(A, B, mk, lang):
-    f = mk["full_game"]; ml = f["moneyline"]; eg = f["expected_points"]
-    pc = lambda x: f"{round(x*100)}%"
+def _pc(x):
+    return f"{round((x or 0) * 100)}%"
+
+
+def _half_line(A, B, h, lang):
+    """上/下半场一句:预计比分 + 领先方概率 + 半场总分。"""
+    ml = h["moneyline"]; ep = h["expected_points"]; pc = _pc
+    fav, favp = (A, ml["home"]) if ml["home"] >= ml["away"] else (B, ml["away"])
+    if lang == "en":
+        return f"Projected {ep['home']} : {ep['away']}, {fav} lead {pc(favp)}; total {ep['total']}"
+    if lang == "vi":
+        return f"Dự báo {ep['home']} : {ep['away']}, {fav} dẫn {pc(favp)}; tổng {ep['total']}"
+    return f"預計 {ep['home']} : {ep['away']},{fav} 領先機率 {pc(favp)};總分 {ep['total']}"
+
+
+def _reasons(A, B, mk, p, lang):
+    """逐玩法量化依据,key 对齐 platform_markets + 半场。三语:zh(繁體)/en/vi。
+    覆盖:moneyline/spreads/totals/soccer_extra_time/first_half/second_half/winning_margin。"""
+    f = mk["full_game"]; ml = f["moneyline"]; eg = f["expected_points"]; pc = _pc
     fav, favp = (A, ml["home"]) if ml["home"] >= ml["away"] else (B, ml["away"])
     mm = round(eg["home"] - eg["away"], 1)          # 主队净胜(正=主胜)
     line = -abs(mm)                                  # 让分线(受让方视角)
     fav_side = A if mm >= 0 else B
+    p_ot = ((p or {}).get("soccer_extra_time") or {}).get("yes", 0.0)
     wm = mk["winning_margin"]
     band = max(wm, key=wm.get)                       # 最可能净胜区间
     _bz = {"home_1_5": (A, "1-5"), "home_6_10": (A, "6-10"), "home_11_15": (A, "11-15"),
            "home_16plus": (A, "16+"), "away_1_5": (B, "1-5"), "away_6_10": (B, "6-10"),
            "away_11_15": (B, "11-15"), "away_16plus": (B, "16+")}
     bteam, brange = _bz[band]
+    h1, h2 = mk.get("first_half"), mk.get("second_half")
     if lang == "en":
-        return {"moneyline": [f"Projected score {A} {eg['home']} : {eg['away']} {B}",
-                              f"Model lean: {fav} {pc(favp)} to win"],
-                "spreads": [f"Fair line: {fav_side} {line}"],
-                "totals": [f"Projected total {eg['total']}"],
-                "winning_margin": [f"Most likely: {bteam} by {brange} ({pc(wm[band])})"]}
-    if lang == "vi":
-        return {"moneyline": [f"Dự báo tỉ số {A} {eg['home']} : {eg['away']} {B}",
-                              f"Mô hình nghiêng: {fav} thắng {pc(favp)}"],
-                "spreads": [f"Kèo chấp hợp lý: {fav_side} {line}"],
-                "totals": [f"Tổng điểm dự báo {eg['total']}"],
-                "winning_margin": [f"Khả năng cao: {bteam} thắng {brange} ({pc(wm[band])})"]}
-    return {"moneyline": [f"预计比分 {A} {eg['home']} : {eg['away']} {B}",
-                          f"模型倾向:{fav} 胜 {pc(favp)}"],
-            "spreads": [f"合理让分:{fav_side} {line}"],
-            "totals": [f"预计总分 {eg['total']}"],
-            "winning_margin": [f"最可能:{bteam} 净胜 {brange} 分({pc(wm[band])})"]}
+        r = {"moneyline": [f"Projected score {A} {eg['home']} : {eg['away']} {B}",
+                           f"Model lean: {fav} {pc(favp)} to win"],
+             "spreads": [f"Fair line: {fav_side} {line}"],
+             "totals": [f"Projected total {eg['total']}"],
+             "soccer_extra_time": [f"Overtime likelihood: {pc(p_ot)}"],
+             "winning_margin": [f"Most likely: {bteam} by {brange} ({pc(wm[band])})"]}
+    elif lang == "vi":
+        r = {"moneyline": [f"Dự báo tỉ số {A} {eg['home']} : {eg['away']} {B}",
+                           f"Mô hình nghiêng: {fav} thắng {pc(favp)}"],
+             "spreads": [f"Kèo chấp hợp lý: {fav_side} {line}"],
+             "totals": [f"Tổng điểm dự báo {eg['total']}"],
+             "soccer_extra_time": [f"Khả năng vào hiệp phụ: {pc(p_ot)}"],
+             "winning_margin": [f"Khả năng cao: {bteam} thắng {brange} ({pc(wm[band])})"]}
+    else:  # zh — 繁體中文
+        r = {"moneyline": [f"預計比分 {A} {eg['home']} : {eg['away']} {B}",
+                           f"模型傾向:{fav} 勝 {pc(favp)}"],
+             "spreads": [f"合理讓分:{fav_side} {line}"],
+             "totals": [f"預計總分 {eg['total']}"],
+             "soccer_extra_time": [f"進入加時機率:{pc(p_ot)}"],
+             "winning_margin": [f"最可能:{bteam} 淨勝 {brange} 分({pc(wm[band])})"]}
+    if h1: r["first_half"] = [_half_line(A, B, h1, lang)]
+    if h2: r["second_half"] = [_half_line(A, B, h2, lang)]
+    return r
 
 
 def _platform_markets(mk, cfg):
@@ -107,11 +132,12 @@ def predict(code, A, B, lang="zh", odds_ml=None):
     mk = markets(ph, pa, sd_margin=cfg.get("sd_margin", 14.7),
                  sd_total=cfg.get("sd_total", 20.0), fh_share=cfg.get("fh_share", 0.505),
                  q_shares=cfg.get("q_shares"))
+    pm = _platform_markets(mk, cfg)
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
            "platform_id": cfg.get("platform_id"), "A": a, "B": b, "lang": lang,
            "matched_exact": (A == a and B == b),
-           "markets": mk, "platform_markets": _platform_markets(mk, cfg),
-           "reasons": _reasons(a, b, mk, lang)}
+           "markets": mk, "platform_markets": pm,
+           "reasons": _reasons(a, b, mk, pm, lang)}
     if odds_ml:
         m = mk["full_game"]["moneyline"]; model = [m["home"], m["away"]]
         market = devig_two(*odds_ml)
