@@ -55,9 +55,9 @@ The `markets` object has the keys below. The seven segments `full_game / first_h
 |---|---|---|
 | 期望得分 Expected points | `expected_points.home/.away/.total` | 该分段双方期望得分与总分 · projected points/total for the segment |
 | 胜负 Moneyline | `moneyline.home/.away` | 该分段主/客获胜概率 · win prob for the segment |
-| 让分 Spreads | `spreads["<line>"].{line,home,away}` | 每条让分线双方赢盘概率(多线)· cover prob per line |
-| 大小分 Totals | `totals["<line>"].{line,over,under}` | 每条总分线大/小概率(多线)· over/under per line |
-| 球队得分 Team totals | `team_totals.home/.away["<line>"].{line,over,under}` | 各队个人得分大小(多线)· each team's points over/under |
+| 让分 Spreads | `spreads["<line>"].{line,home,away}` | 每条让分线双方赢盘概率(0.5 步长,对标真实 NBA 盘口,如 -3.5/-4.5)· cover prob per line |
+| 大小分 Totals | `totals["<line>"].{line,over,under}` | 每条总分线大/小概率(0.5 步长,如 215.5/216.5)· over/under per line |
+| 球队得分 Team totals | `team_totals.home/.away["<line>"].{line,over,under}` | 各队个人得分大小(0.5 步长,如 109.5/110.5)· each team's points over/under |
 
 另有 4 个跨分段衍生玩法 · Plus four cross-segment derived markets:
 
@@ -115,8 +115,8 @@ Team names use fuzzy matching (word-level + common abbreviations like `LA`/`GS`/
 | 平台 key | 值 | 说明 |
 |---|---|---|
 | `moneyline` | home, away | 全场胜负 |
-| `spreads` | 多条 {line, home, away} | 全场让分(多线) |
-| `totals` | 多条 {line, over, under} | 全场大小分(多线) |
+| `spreads` | 多条 {line, home, away} | 全场让分(0.5 步长,如 -3.5/-4.5) |
+| `totals` | 多条 {line, over, under} | 全场大小分(0.5 步长,如 215.5/216.5) |
 | `soccer_extra_time` | yes, no | 是否打加时(势均力敌越可能,由净胜分分布推导) |
 
 > 内部 `markets` 另含半场/单节/球队得分等扩展玩法(有分节数据的联赛),平台只需上面 4 个 key。

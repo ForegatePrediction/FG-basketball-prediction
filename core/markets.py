@@ -4,6 +4,9 @@
 分段(半场/单节)按得分占比拆均值、按时间份额缩放标准差(独立增量假设:σ ∝ √时间)。
 球队得分 ~ Normal(该队期望分, sd_team),sd_team 由 sd_margin/sd_total 解析推导。
 
+让分/总分/球队总分统一采用 **0.5 步长**(对标真实 NBA 盘口:让分 -3.5 / -4.5,大小 215.5 / 216.5)。
+正态 CDF 对 L/T 任意小数步长天然支持,只改循环 step 即可,算法零改动。
+
 产出:
   full_game / first_half / second_half / q1..q4:各含 expected_points + moneyline + spreads + totals + team_totals
   winning_margin           净胜分区间(主/客 1-5 / 6-10 / 11-15 / 16+)
@@ -53,16 +56,22 @@ def _lines_around(center, step, n):
     return sorted({round(base + step * k, 1) for k in range(-n, n + 1)})
 
 
-def _block(ph, pa, sd_m, sd_t, n_spread=6, n_total=5, n_team=3):
+def _block(ph, pa, sd_m, sd_t, n_spread=12, n_total=20, n_team=12):
+    """单分段(spreads/totals/team_totals)产出。
+    步长统一 0.5(对标真实 NBA 盘口),n 翻倍保持覆盖宽度不变:
+      spreads:     n=12,step 0.5 → 25 条线,覆盖 ±6 分
+      totals:      n=20,step 0.5 → 41 条线,覆盖 ±10 分
+      team_totals: n=12,step 0.5 → 25 条线,覆盖 ±6 分
+    """
     mm, tm = ph - pa, ph + pa
     sd_team = math.sqrt(sd_m * sd_m + sd_t * sd_t) / 2.0
     return {
         "expected_points": {"home": round(ph, 1), "away": round(pa, 1), "total": round(tm, 1)},
         "moneyline": {"home": _phi(mm / sd_m), "away": 1 - _phi(mm / sd_m)},
-        "spreads": _spread(mm, sd_m, _lines_around(mm, 1.0, n_spread)),
-        "totals": _totals(tm, sd_t, _lines_around(tm, 2.0, n_total)),
-        "team_totals": {"home": _team_totals(ph, sd_team, _lines_around(ph, 2.0, n_team)),
-                        "away": _team_totals(pa, sd_team, _lines_around(pa, 2.0, n_team))},
+        "spreads": _spread(mm, sd_m, _lines_around(mm, 0.5, n_spread)),
+        "totals": _totals(tm, sd_t, _lines_around(tm, 0.5, n_total)),
+        "team_totals": {"home": _team_totals(ph, sd_team, _lines_around(ph, 0.5, n_team)),
+                        "away": _team_totals(pa, sd_team, _lines_around(pa, 0.5, n_team))},
     }
 
 
@@ -149,12 +158,15 @@ def markets(ph, pa, sd_margin=SD_MARGIN, sd_total=SD_TOTAL, fh_share=FH_SHARE, q
     sd_q_m, sd_q_t = sd_margin / 2.0, sd_total / 2.0                      # 单节
 
     out = {"full_game": _block(ph, pa, sd_margin, sd_total)}
-    out["first_half"] = _block(ph * fh_share, pa * fh_share, sd_h_m, sd_h_t, n_spread=5, n_total=4)
+    # 半场/单节 n 值翻倍以保持 0.5 步长下的覆盖宽度:
+    #   first/second_half: spreads n=10(覆盖 ±5 分),totals n=16(覆盖 ±8 分)
+    #   q1..q4:            spreads n=8(覆盖 ±4 分),totals n=12(覆盖 ±6 分),team_totals n=8(覆盖 ±4 分)
+    out["first_half"] = _block(ph * fh_share, pa * fh_share, sd_h_m, sd_h_t, n_spread=10, n_total=16)
     sh = 1 - fh_share
-    out["second_half"] = _block(ph * sh, pa * sh, sd_h_m, sd_h_t, n_spread=5, n_total=4)
+    out["second_half"] = _block(ph * sh, pa * sh, sd_h_m, sd_h_t, n_spread=10, n_total=16)
     for k in range(4):
         s = q_shares[k]
-        out[f"q{k+1}"] = _block(ph * s, pa * s, sd_q_m, sd_q_t, n_spread=4, n_total=3, n_team=2)
+        out[f"q{k+1}"] = _block(ph * s, pa * s, sd_q_m, sd_q_t, n_spread=8, n_total=12, n_team=8)
     out["winning_margin"] = _winning_margin(mm, sd_margin)
     out["highest_scoring_half"] = _highest_scoring_half(tm, sd_total, fh_share)
     out["highest_scoring_quarter"] = _highest_scoring_quarter(tm, sd_total, q_shares)
