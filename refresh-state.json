@@ -1,0 +1,33 @@
+{
+ "1": {
+  "checked_through": "2026-10-24",
+  "source": "espn"
+ },
+ "116": {
+  "checked_through": "2026-10-24",
+  "source": "espn"
+ },
+ "12": {
+  "checked_through": "2026-10-24",
+  "source": "espn"
+ },
+ "cwbb": {
+  "checked_through": "2026-10-24",
+  "source": "espn"
+ },
+ "wnba": {
+  "checked_through": "2026-10-24",
+  "source": "espn"
+ },
+ "120": {
+  "checked_through": "2026-10-24",
+  "source": "euroleague"
+ },
+ "31": {
+  "checked_through": "2026-10-24",
+  "source": "cba",
+  "latest_match": "2026-10-24",
+  "checked_at": "2026-10-25T04:43:02.173365+00:00",
+  "source_matches_in_batch": 33
+ }
+}
