@@ -22,14 +22,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Restore independent GitHub data checkpoint
+        if: ${{ vars.DUAL_CHANNEL_DATA == 'true' }}
+        run: bash deploy/github-backup.sh prepare basketball
       - name: Regression tests
         run: python3 -m unittest discover -s tests -v
       - name: Refresh free sources and resume historical backfill
         env:
           MAX_DAYS: ${{ inputs.max_days || '31' }}
         run: python3 refresh.py --max-days "$MAX_DAYS"
-      - name: Save successful leagues even if another source failed
-        if: ${{ !cancelled() }}
+      - name: Legacy snapshot commits until VPS migration is verified
+        if: ${{ !cancelled() && vars.DUAL_CHANNEL_DATA != 'true' && github.ref == 'refs/heads/main' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,3 +40,13 @@ jobs:
           [ ! -f refresh-state.json ] || git add refresh-state.json
           git diff --cached --quiet || git commit -m "chore: refresh basketball snapshots and backfill cursor"
           git push
+      - name: Publish verified daily backup to data branch
+        if: ${{ success() && github.ref == 'refs/heads/main' }}
+        run: bash deploy/github-backup.sh publish basketball
+      - name: Preserve collection diagnostics
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: basketball-refresh-status
+          path: refresh-state.json
+          retention-days: 14

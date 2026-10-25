@@ -147,3 +147,11 @@ master_mapping.json  categoryId ↔ 内部 code 映射
 在线评级:每队学习进攻强度 `off` 与防守强度 `dfn`,主场优势 `hfa` 与联赛均值 `mu` 同步在线更新;近期比赛权重更高。期望得分:`home = mu + hfa + off_home − dfn_away`,`away = mu + off_away − dfn_home`。由期望得分经正态近似得到全部让分/大小分/胜负概率(见上)。评级拟合与预测完全分离——快照落地后预测端零训练、可离线秒出。
 
 Online ratings: each team learns an offense strength `off` and defense strength `dfn`; the home-court advantage `hfa` and league mean `mu` update online too, with recent games weighted more heavily. Expected points: `home = mu + hfa + off_home − dfn_away`, `away = mu + off_away − dfn_home`. A normal approximation over the point distribution yields all spread/total/moneyline probabilities (above). Fitting and prediction are fully decoupled — once snapshotted, prediction is training-free and instant offline.
+
+## VPS 与 GitHub 双通道更新
+
+新增可选持久数据模式：设置 `FG_DATA_DIR` 后，预测从该目录的版本快照读取评分，赛事配置仍使用代码版本。数据目录缺失或不兼容时明确报错；通过原子切换 `current` 可更新评分，无需重启服务。未设置时保留仓库快照模式。
+
+GitHub 每日任务将通过校验的数据包写入独立 `data-snapshots` 分支，包含评分、采集状态和文件哈希，不包含原始缓存、Token 或源代码。只有 VPS 迁移通过后才设置仓库变量 `DUAL_CHANNEL_DATA=true`：启用后 GitHub 使用自己的数据检查点续抓，并停止每日向主分支提交数据。未启用时保留原有主分支更新，避免迁移中断。
+
+VPS 和 GitHub 独立采集、保存各自缓存与游标，生产只由 VPS 发布；GitHub 备份不会自动覆盖生产。安装、时间表、验证和人工恢复见[网关部署说明](https://github.com/ForegatePrediction/FG-prediction-gateway-v2/blob/main/deploy/DUAL_CHANNEL.md)。
