@@ -1,28 +1,48 @@
 name: daily-refresh
 on:
   schedule:
-    - cron: "0 8 * * *"   # 每日 UTC 08:00
-  workflow_dispatch: {}
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      max_days:
+        description: "Historical days per league (0 = complete backfill)"
+        default: "31"
+        type: string
+      enable_paid_api:
+        description: "Enable only after renewing API-Sports subscription"
+        default: false
+        type: boolean
 permissions:
   contents: write
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Incremental refresh ratings
-        # APIBASKETBALL_KEY 用于付费源联赛(CBA/欧洲各国等);ESPN/EuroLeague 免费源无需 key。
-        # 付费到期后:免费源联赛继续更新,付费源联赛自动跳过(冻结在已存历史)。
+      - name: Regression tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh free sources and resume historical backfill
         env:
           APIBASKETBALL_KEY: ${{ secrets.APIBASKETBALL_KEY }}
-        run: python3 refresh.py
-      - name: Commit updated snapshots
+          MAX_DAYS: ${{ inputs.max_days || '31' }}
+          ENABLE_PAID: ${{ inputs.enable_paid_api }}
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          args=(--max-days "$MAX_DAYS")
+          if [ "$ENABLE_PAID" = "true" ]; then args+=(--enable-paid-api); fi
+          python3 refresh.py "${args[@]}"
+      - name: Save successful leagues even if another source failed
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add games/*/ratings.json
-          git diff --cached --quiet || git commit -m "chore: daily ratings refresh"
+          [ ! -f refresh-state.json ] || git add refresh-state.json
+          git diff --cached --quiet || git commit -m "chore: refresh basketball snapshots and backfill cursor"
           git push

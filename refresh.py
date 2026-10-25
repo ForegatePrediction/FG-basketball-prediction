@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
-"""每日增量刷新:只拉「上次快照日期之后」的已结束比赛,增量更新评级快照。
-- api-basketball 联赛:按日期拉 /games?date=YYYY-MM-DD(一天一次调用,覆盖全部联赛),
-  只保留我们关心的 league_id 与已结束比分。
-- WNBA:ESPN scoreboard 免费接口按日期拉。
-零训练秒级:from_snapshot 载入现有评级,只 update 新增比赛,写回 ratings.json + last_date。
-用量极低:即便不付费,每天仅需拉当天新增,约 1 次 api-basketball + 若干次 ESPN。
-注:NBA / WNBA / NCAA / NBL 走 ESPN 免费源(不限赛季,当前赛季可用);其余联赛走 api-basketball,
-    免费层仅放行 2022–2024 赛季,当前赛季需付费计划方能日更。
-环境变量:APIBASKETBALL_KEY(api-basketball key)。
+"""Refresh basketball snapshots from free ESPN/EuroLeague sources.
+Historical gaps resume from a committed per-league cursor, at most 31 days per run.
+Use --max-days 0 for full backfill. Paid API-Sports is disabled unless explicitly
+requested with --enable-paid-api after renewing the subscription.
 """
-import json, os, sys, time, datetime as dt, urllib.request, subprocess
+import json, os, sys, time, datetime as dt, urllib.request, subprocess, argparse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GAMES = os.path.join(ROOT, "games")
@@ -23,50 +18,38 @@ MAX_LOOKBACK = 14   # 最多回看天数,防止长时间未刷新时漏单
 
 def _get(url, headers=None):
     req = urllib.request.Request(url, headers=headers or {})
-    for _ in range(2):
+    for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=25) as r:
-                return json.load(r)
+                data = json.load(r)
+            if not isinstance(data, dict) or data.get("errors"):
+                raise ValueError("上游响应错误或订阅权限不足")
+            return data
         except Exception:
+            if attempt == 2:
+                raise RuntimeError("数据请求失败，拒绝将失败当作无比赛") from None
             time.sleep(1)
-    # 回退:部分环境对 Python 客户端做了拦截,改用 curl
-    try:
-        hdr = []
-        for k, v in (headers or {}).items():
-            hdr += ["-H", f"{k}: {v}"]
-        out = subprocess.run(["curl", "-s", "--max-time", "25", *hdr, url],
-                             capture_output=True, text=True, timeout=30).stdout
-        return json.loads(out) if out.strip() else {}
-    except Exception:
-        return {}
 
 
 def _get_text(url):
-    """取纯文本(如 XML)。urllib 优先,失败回退 curl。"""
-    try:
-        with urllib.request.urlopen(urllib.request.Request(url), timeout=25) as r:
-            return r.read().decode("utf-8", "ignore")
-    except Exception:
-        pass
-    try:
-        return subprocess.run(["curl", "-s", "--max-time", "25", url],
-                              capture_output=True, text=True, timeout=30).stdout
-    except Exception:
-        return ""
+    with urllib.request.urlopen(urllib.request.Request(url), timeout=25) as r:
+        return r.read().decode("utf-8")
 
 
-def _dates_since(last_date):
-    today = dt.date.today()
-    if last_date:
-        start = dt.date.fromisoformat(last_date) + dt.timedelta(days=1)
-    else:
-        start = today - dt.timedelta(days=MAX_LOOKBACK)
-    start = max(start, today - dt.timedelta(days=MAX_LOOKBACK))
-    out = []
-    d = start
-    while d <= today:
-        out.append(d.isoformat()); d += dt.timedelta(days=1)
-    return out
+def _dates_since(last_date, checked_through=None, max_days=31, end_date=None):
+    # Completed UTC days only. Persist an independent cursor so offseasons advance too.
+    end = end_date or (dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=1))
+    cursor = checked_through or last_date
+    start = dt.date.fromisoformat(cursor) + dt.timedelta(days=1) if cursor else end - dt.timedelta(days=13)
+    stop = min(end, start + dt.timedelta(days=max_days - 1)) if max_days else end
+    return [(start + dt.timedelta(days=n)).isoformat() for n in range(max(0, (stop-start).days+1))]
+
+
+def _write_json(path, value):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path + ".tmp", "w", encoding="utf-8") as f:
+        json.dump(value, f, ensure_ascii=False, indent=1)
+    os.replace(path + ".tmp", path)
 
 
 def _configs():
@@ -101,7 +84,9 @@ def _espn(path, dates, query=""):
     out = []
     for day in dates:
         d = _get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/{path}/scoreboard?dates={day.replace('-','')}{query}")
-        for e in d.get("events", []):
+        if "events" not in d:
+            raise RuntimeError("ESPN 响应缺少 events")
+        for e in d["events"]:
             if "FINAL" not in e["status"]["type"]["name"]:
                 continue
             comp = e["competitions"][0]["competitors"]
@@ -120,17 +105,11 @@ def _espn(path, dates, query=""):
 def _euroleague(dates):
     """EuroLeague 官方 XML(免费,不限赛季)。拉当前与上一赛季,回看窗口内的已完成比赛。"""
     import xml.etree.ElementTree as ET, datetime as _dt
-    yr = _dt.date.today().year
-    seasons = {yr, yr - 1}   # 覆盖赛季切换
+    seasons = {int(day[:4]) - offset for day in dates for offset in (0, 1)}
     dset = set(dates); out = []
     for s in seasons:
         raw = _get_text(f"https://api-live.euroleague.net/v1/results?seasonCode=E{s}")
-        if not raw:
-            continue
-        try:
-            root = ET.fromstring(raw)
-        except Exception:
-            continue
+        root = ET.fromstring(raw)
         for g in root.findall("game"):
             if (g.findtext("played") or "").lower() != "true":
                 continue
@@ -165,42 +144,63 @@ def _apply(code, cfg, new_ms):
     mp = os.path.join(GAMES, code, "data", "matches.json")
     allm = json.load(open(mp, encoding="utf-8")) if os.path.isfile(mp) else []
     allm += fresh
-    json.dump(allm, open(mp, "w", encoding="utf-8"), ensure_ascii=False)
-    json.dump(out, open(snap_p, "w", encoding="utf-8"), ensure_ascii=False)
+    _write_json(mp, allm)
+    _write_json(snap_p, out)
     print(f"[{code}] {cfg['name']}: +{len(fresh)} 场 -> last_date {out['last_date']}")
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Refresh free basketball sources; resume historical gaps in order")
+    parser.add_argument("--max-days", type=int, default=31, help="Per-league batch size; 0 means complete backfill")
+    parser.add_argument("--enable-paid-api", action="store_true", help="Explicit opt-in after renewing API-Sports")
+    parser.add_argument("--league", action="append", help="League code; repeat to select multiple")
+    args = parser.parse_args()
+    if args.max_days < 0:
+        parser.error("max-days must be >= 0")
     cfgs = list(_configs())
-    # 计算全局回看窗口(取所有联赛 last_date 的最早值)
-    earliest = None
+    known = {code for code, _ in cfgs}
+    if set(args.league or []) - known:
+        parser.error("Unknown league")
+    state_path = os.path.join(ROOT, "refresh-state.json")
+    state = json.load(open(state_path, encoding="utf-8")) if os.path.isfile(state_path) else {}
+    failures = []
     for code, cfg in cfgs:
-        sp = os.path.join(GAMES, code, "ratings.json")
-        if os.path.isfile(sp):
-            ld = json.load(open(sp, encoding="utf-8")).get("last_date")
-            if ld and (earliest is None or ld < earliest):
-                earliest = ld
-    dates = _dates_since(earliest)
-    if not dates:
-        print("全部快照已是最新,无需回看"); return
-    print(f"回看日期: {dates[0]} ~ {dates[-1]} ({len(dates)} 天)")
-
-    srcs = {cfg.get("source") for _, cfg in cfgs}
-    ab = _apibasketball_by_date(dates) if (KEY and "api-basketball" in srcs) else {}
-    if "api-basketball" in srcs and not KEY:
-        print("警告: 未设置 APIBASKETBALL_KEY,跳过 api-basketball 联赛")
-
-    el = _euroleague(dates) if "euroleague" in srcs else []   # 仅在需要时拉取
-
-    for code, cfg in cfgs:
+        if args.league and code not in args.league:
+            continue
         src = cfg.get("source")
-        if src == "espn":
-            ms = _espn(cfg["espn_path"], dates, cfg.get("espn_query", ""))
-        elif src == "euroleague":
-            ms = el
-        else:
-            ms = ab.get(cfg.get("af_id"), [])
-        _apply(code, cfg, ms)
+        if src not in ("espn", "euroleague") and not args.enable_paid_api:
+            print(f"[skip] {code}: paid API disabled (subscription expired)")
+            continue
+        try:
+            if src not in ("espn", "euroleague") and not KEY:
+                raise RuntimeError("Missing APIBASKETBALL_KEY")
+            snap = json.load(open(os.path.join(GAMES, code, "ratings.json"), encoding="utf-8"))
+            dates = _dates_since(snap.get("last_date"), state.get(code, {}).get("checked_through"), args.max_days)
+            if not dates:
+                print(f"[ok] {code}: checked through yesterday")
+                continue
+            print(f"[{code}] {dates[0]} ~ {dates[-1]} ({len(dates)} days)")
+            if src == "espn":
+                ms = _espn(cfg["espn_path"], dates, cfg.get("espn_query", ""))
+            elif src == "euroleague":
+                ms = _euroleague(dates)
+            else:
+                ms = _apibasketball_by_date(dates).get(cfg.get("af_id"), [])
+            _apply(code, cfg, ms)
+            state[code] = {"checked_through": dates[-1], "source": src}
+            _write_json(state_path, state)
+        except Exception as exc:
+            failures.append(code)
+            print(f"[fail] {code}: {type(exc).__name__}: {exc}")
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as f:
+            f.write("\nPaid API: disabled unless explicitly requested.\n\n| League | Checked through |\n|---|---|\n")
+            for code, value in state.items():
+                f.write(f"| {code} | {value['checked_through']} |\n")
+            f.write(f"\nFailed leagues: {failures}\n")
+    if failures:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
