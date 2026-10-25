@@ -1,7 +1,7 @@
 {
  "code": "31",
  "name": "CBA (China)",
- "source": "api-basketball",
+ "source": "cba",
  "category_id": "30166",
  "platform_id": "30166",
  "platform_ids": [
@@ -10,7 +10,7 @@
  "category_ids": [
   "30166"
  ],
- "free_updatable": false,
+ "free_updatable": true,
  "mu": 113.0,
  "hfa": 2.3,
  "lr": 0.06,

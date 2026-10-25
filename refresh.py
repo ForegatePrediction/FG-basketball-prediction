@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Refresh basketball snapshots from free ESPN/EuroLeague sources.
 Historical gaps resume from a committed per-league cursor, at most 31 days per run.
-Use --max-days 0 for full backfill. Paid API-Sports is disabled unless explicitly
-requested with --enable-paid-api after renewing the subscription.
+Use --max-days 0 for full backfill. Only free sources are permitted.
 """
 import json, os, sys, time, datetime as dt, urllib.request, subprocess, argparse
 
@@ -11,9 +10,6 @@ GAMES = os.path.join(ROOT, "games")
 sys.path.insert(0, ROOT)
 from core.ratings import PointsRatings
 
-KEY = os.environ.get("APIBASKETBALL_KEY", "")
-FIN = {"FT", "AOT", "OT", "AET"}
-MAX_LOOKBACK = 14   # 最多回看天数,防止长时间未刷新时漏单
 
 
 def _get(url, headers=None):
@@ -59,27 +55,6 @@ def _configs():
             yield code, json.load(open(cf, encoding="utf-8"))
 
 
-def _apibasketball_by_date(dates):
-    """一天一次调用,返回 {af_league_id: [match,...]}。"""
-    by_league = {}
-    for day in dates:
-        d = _get(f"https://v1.basketball.api-sports.io/games?date={day}",
-                 {"x-apisports-key": KEY})
-        for g in d.get("response", []):
-            if g.get("status", {}).get("short") not in FIN:
-                continue
-            hp = g["scores"]["home"]["total"]; ap = g["scores"]["away"]["total"]
-            if hp is None or ap is None:
-                continue
-            lid = g["league"]["id"]
-            by_league.setdefault(lid, []).append(
-                {"date": g["date"][:10], "home": g["teams"]["home"]["name"],
-                 "away": g["teams"]["away"]["name"], "hp": hp, "ap": ap,
-                 "season": str(g["league"]["season"])})
-        time.sleep(6)  # 免费层 10 次/分
-    return by_league
-
-
 def _espn(path, dates, query=""):
     if not dates:
         return []
@@ -107,6 +82,66 @@ def _espn(path, dates, query=""):
                         "away": a["team"]["displayName"], "hp": hp, "ap": ap,
                         "season": e["date"][:4]})
     return out
+
+
+CBA_TEAMS = {
+    "29136": "Beijing Royal Fighters", "29115": "Beijing", "29134": "Fujian",
+    "29124": "Guangdong", "29139": "Guangzhou", "29118": "Jiangsu Dragons",
+    "29129": "Liaoning", "29133": "Nanjing Tongxi", "100074683": "Ningbo Rockets",
+    "29135": "Qingdao", "29130": "Shandong", "29125": "Shanghai",
+    "29132": "Shanxi Zhongyu", "29131": "Shenzhen", "29127": "Sichuan",
+    "29138": "Tianjin", "29117": "Xinjiang", "29137": "Jilin",
+    "29140": "Zhejiang Chouzhou", "29128": "Zhejiang Guangsha",
+}
+
+
+def _cba_list(path):
+    url = "https://data-server.cbaleague.com/api" + path
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "isEncrypt": "no"})
+            with urllib.request.urlopen(req, timeout=30) as response:
+                result = json.load(response)
+            if not isinstance(result, list):
+                raise ValueError("CBA official response is not a list")
+            return result
+        except Exception:
+            if attempt == 2:
+                raise RuntimeError("CBA official request failed; refuse empty-success") from None
+            time.sleep(1)
+
+
+def _cba(dates):
+    """Official CBA calendar and final scores. Regular season/playoffs only."""
+    wanted = set(dates)
+    active = set()
+    for month in sorted({date[:7] for date in dates}):
+        year, number = month.split("-")
+        calendar = _cba_list(f"/schedules/month?year={year}&month={number}")
+        if not calendar:
+            raise RuntimeError("CBA month calendar is empty")
+        for row in calendar:
+            day = row["scheduleTime"][:10]
+            if day in wanted and int(row["scheduleNum"]) > 0:
+                active.add(day)
+    matches = []
+    for day in sorted(active):
+        rows = _cba_list(f"/schedules/day?day={day}&auto=0")
+        if not rows:
+            raise RuntimeError(f"CBA calendar has games but daily list is empty: {day}")
+        for row in rows:
+            if int(row["status"]) != 4 or int(row["matchTypeId"]) not in (1, 2):
+                continue
+            home_id, away_id = str(row["homeTeamId"]), str(row["visitingTeamId"])
+            if home_id not in CBA_TEAMS or away_id not in CBA_TEAMS:
+                raise RuntimeError("Unmapped CBA team ID; avoid splitting historical ratings")
+            date = row["scheduleTime"][:10]
+            if date not in wanted:
+                raise RuntimeError("CBA daily endpoint returned another day")
+            matches.append({"date": date, "home": CBA_TEAMS[home_id], "away": CBA_TEAMS[away_id],
+                            "hp": int(row["homeTeamScore"]), "ap": int(row["visitingTeamScore"]),
+                            "season": str(row["season"]), "source_id": str(row["scheduleId"])})
+    return matches
 
 
 def _euroleague(dates):
@@ -165,7 +200,6 @@ def _apply(code, cfg, new_ms):
 def main():
     parser = argparse.ArgumentParser(description="Refresh free basketball sources; resume historical gaps in order")
     parser.add_argument("--max-days", type=int, default=31, help="Per-league batch size; 0 means complete backfill")
-    parser.add_argument("--enable-paid-api", action="store_true", help="Explicit opt-in after renewing API-Sports")
     parser.add_argument("--league", action="append", help="League code; repeat to select multiple")
     args = parser.parse_args()
     if args.max_days < 0:
@@ -181,12 +215,10 @@ def main():
         if args.league and code not in args.league:
             continue
         src = cfg.get("source")
-        if src not in ("espn", "euroleague") and not args.enable_paid_api:
-            print(f"[skip] {code}: paid API disabled (subscription expired)")
+        if src not in ("espn", "euroleague", "cba"):
+            print(f"[skip] {code}: no free source connected; historical snapshot only")
             continue
         try:
-            if src not in ("espn", "euroleague") and not KEY:
-                raise RuntimeError("Missing APIBASKETBALL_KEY")
             snap = json.load(open(os.path.join(GAMES, code, "ratings.json"), encoding="utf-8"))
             dates = _dates_since(snap.get("last_date"), state.get(code, {}).get("checked_through"), args.max_days)
             if not dates:
@@ -197,10 +229,12 @@ def main():
                 ms = _espn(cfg["espn_path"], dates, cfg.get("espn_query", ""))
             elif src == "euroleague":
                 ms = _euroleague(dates)
-            else:
-                ms = _apibasketball_by_date(dates).get(cfg.get("af_id"), [])
+            elif src == "cba":
+                ms = _cba(dates)
             _apply(code, cfg, ms)
-            state[code] = {"checked_through": dates[-1], "source": src}
+            latest = json.load(open(os.path.join(GAMES, code, "ratings.json"), encoding="utf-8")).get("last_date")
+            state[code] = {"checked_through": dates[-1], "source": src, "latest_match": latest,
+                           "checked_at": dt.datetime.now(dt.timezone.utc).isoformat(), "source_matches_in_batch": len(ms)}
             _write_json(state_path, state)
         except Exception as exc:
             failures.append(code)
@@ -208,7 +242,7 @@ def main():
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as f:
-            f.write("\nPaid API: disabled unless explicitly requested.\n\n| League | Checked through |\n|---|---|\n")
+            f.write("\nFree sources only. Unsupported leagues remain historical.\n\n| League | Checked through |\n|---|---|\n")
             for code, value in state.items():
                 f.write(f"| {code} | {value['checked_through']} |\n")
             f.write(f"\nFailed leagues: {failures}\n")

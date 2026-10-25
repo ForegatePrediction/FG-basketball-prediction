@@ -53,6 +53,20 @@ class RefreshTests(unittest.TestCase):
             self.assertEqual(len(snap['applied_on_last_date']),2)
             r._apply('12',{'name':'NBA'},matches)
             self.assertEqual(json.loads((d/'ratings.json').read_text())['teams']['C']['gp'],1)
+    def test_cba_final_regular_games_and_stable_team_ids(self):
+        rows=[{'status':4,'matchTypeId':1,'homeTeamId':'29124','visitingTeamId':'29125',
+               'scheduleTime':'2026-10-24 19:35:00','homeTeamScore':90,'visitingTeamScore':80,
+               'season':2026,'scheduleId':'1'},
+              {'status':4,'matchTypeId':3}, {'status':2,'matchTypeId':1}]
+        calendar=[{'scheduleTime':'2026-10-24 00:00:00','scheduleNum':3}]
+        with patch.object(r,'_cba_list',side_effect=[calendar,rows]):
+            matches=r._cba(['2026-10-24'])
+        self.assertEqual(len(matches),1)
+        self.assertEqual((matches[0]['home'],matches[0]['away']),('Guangdong','Shanghai'))
+    def test_cba_missing_daily_results_fails(self):
+        calendar=[{'scheduleTime':'2026-10-24 00:00:00','scheduleNum':3}]
+        with patch.object(r,'_cba_list',side_effect=[calendar,[]]):
+            with self.assertRaises(RuntimeError):r._cba(['2026-10-24'])
     def test_one_failed_source_does_not_block_other_leagues(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp); games=root/'games'; games.mkdir()

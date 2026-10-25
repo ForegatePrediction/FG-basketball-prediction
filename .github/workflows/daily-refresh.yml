@@ -8,10 +8,6 @@ on:
         description: "Historical days per league (0 = complete backfill)"
         default: "31"
         type: string
-      enable_paid_api:
-        description: "Enable only after renewing API-Sports subscription"
-        default: false
-        type: boolean
 permissions:
   contents: write
 concurrency:
@@ -30,13 +26,8 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Refresh free sources and resume historical backfill
         env:
-          APIBASKETBALL_KEY: ${{ secrets.APIBASKETBALL_KEY }}
           MAX_DAYS: ${{ inputs.max_days || '31' }}
-          ENABLE_PAID: ${{ inputs.enable_paid_api }}
-        run: |
-          args=(--max-days "$MAX_DAYS")
-          if [ "$ENABLE_PAID" = "true" ]; then args+=(--enable-paid-api); fi
-          python3 refresh.py "${args[@]}"
+        run: python3 refresh.py --max-days "$MAX_DAYS"
       - name: Save successful leagues even if another source failed
         if: ${{ !cancelled() }}
         run: |

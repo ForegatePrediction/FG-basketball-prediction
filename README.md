@@ -125,12 +125,9 @@ Team names use fuzzy matching (word-level + common abbreviations like `LA`/`GS`/
 
 ## 每日刷新 · Daily Refresh
 
-`refresh.py` 只拉「上次快照日期之后」的已结束比赛,增量并入评级。免费源(NBA/NCAA/WNBA/CWBB/NBL 走 ESPN、EuroLeague 走官方)零成本;其余联赛走 api-basketball 付费源。**付费到期后自动降级**:免费源联赛继续每日更新,付费源联赛拿不到新赛季数据即自动跳过、冻结在已存历史(仍可预测)。
+`refresh.py` 仅使用免费源：NBA、WNBA、澳洲 NBL、NCAA 男/女篮使用 ESPN；EuroLeague、CBA 使用各自官方赛果。CBA 通过官方月赛程定位比赛日，仅采纳常规赛/季后赛完赛比分，并按官方球队 ID 衔接已有英文队名。每日北京时间 16:00（08:00 UTC）运行，无需密钥。付费源代码、工作流密钥和启用开关均已移除。
 
-`refresh.py` merges finished games after the last snapshot date. Free sources (ESPN + EuroLeague official) cost nothing; the rest use api-basketball (paid). **Graceful downgrade when the paid plan ends**: free-source leagues keep updating daily; paid-source leagues simply skip (frozen on stored history, still predictable).
-
-GitHub Actions(`.github/workflows/daily-refresh.yml`)每日运行,付费源需在 Secrets 配置 `APIBASKETBALL_KEY`;免费源联赛即使无该 Secret 也照常更新。
-The GitHub Action runs daily; paid sources need `APIBASKETBALL_KEY` in Secrets, while free-source leagues update even without it.
+未接入免费源的联赛只保留历史模型，不能当作每日更新覆盖。默认按 31 天批次顺序补数，`python3 refresh.py --max-days 0` 全量补数；`refresh-state.json` 保存每联赛检查日期。请求失败则该联赛报错且不推进游标，其余成功联赛照常保存。
 
 ---
 
