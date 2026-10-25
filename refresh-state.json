@@ -18,5 +18,9 @@
  "wnba": {
   "checked_through": "2026-10-24",
   "source": "espn"
+ },
+ "120": {
+  "checked_through": "2026-10-24",
+  "source": "euroleague"
  }
 }
