@@ -5,6 +5,7 @@ import json, os, unicodedata as _ud, re as _re
 from .ratings import PointsRatings
 from .markets import markets
 from .odds import devig_two, divergence
+from . import storage
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GAMES = os.path.join(ROOT, "games")
@@ -17,7 +18,7 @@ def _load(code):
     d = os.path.join(GAMES, str(code))
     cfg = json.load(open(os.path.join(d, "config.json"), encoding="utf-8"))
     ref = cfg.get("pool_ref")
-    snap = json.load(open(os.path.join(GAMES, str(ref) if ref else str(code), "ratings.json"), encoding="utf-8"))
+    snap = json.load(open(storage.snapshot(GAMES, ref or code), encoding="utf-8"))
     return cfg, snap
 
 

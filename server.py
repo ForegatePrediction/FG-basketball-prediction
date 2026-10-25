@@ -17,6 +17,7 @@ from urllib.parse import urlparse, parse_qs
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core import predict as P
+from core import storage
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GAMES = os.path.join(ROOT, "games")
@@ -26,12 +27,13 @@ CORS = {"Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET
 
 def competitions():
     out = {}
+    snapshots = storage.games(GAMES)
     for code in sorted(os.listdir(GAMES)):
         cf = os.path.join(GAMES, code, "config.json")
         if os.path.isfile(cf):
             c = json.load(open(cf, encoding="utf-8"))
             ref = c.get("pool_ref")
-            snap_dir = os.path.join(GAMES, str(ref)) if ref else os.path.join(GAMES, code)
+            snap_dir = snapshots / str(ref or code)
             has = os.path.isfile(os.path.join(snap_dir, "ratings.json"))
             out[code] = {"name": c.get("name"), "category_id": c.get("category_id"),
                          "category_ids": c.get("category_ids", []),
@@ -82,7 +84,8 @@ class H(BaseHTTPRequestHandler):
             if path in ("/", "/health"):
                 cs = competitions()
                 return self._send(200, {"status": "ok", "service": "foregate-basketball-prediction",
-                                        "competitions": len(cs), "ready": sum(1 for c in cs.values() if c["ready"])})
+                                        "competitions": len(cs), "ready": sum(1 for c in cs.values() if c["ready"]),
+                                        "data": storage.provenance()})
             if path == "/competitions":
                 return self._send(200, competitions())
             if path in ("/teams", "/predict"):
