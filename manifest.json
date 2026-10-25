@@ -3,8 +3,8 @@
   "engine": "basketball",
   "channel": "github",
   "kind": "refresh",
-  "generation": "20261025T172324Z-5e04fb3f6b37",
-  "created_at": "2026-10-25T17:23:24.382912+00:00",
+  "generation": "20261025T173708Z-182050a313cd",
+  "created_at": "2026-10-25T17:37:08.623286+00:00",
   "code_revision": "354766a646464620c9d6c5bdd43cfa67e5afbce8",
   "files": {
     "games/1/ratings.json": {
