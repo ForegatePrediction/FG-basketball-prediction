@@ -26,7 +26,12 @@ def now():
 def load(path):
     def invalid(value):
         raise ValueError('Non-finite JSON number: ' + value)
-    return json.loads(Path(path).read_text(encoding='utf-8'), parse_constant=invalid)
+    def finite_float(value):
+        parsed = float(value)
+        if not math.isfinite(parsed):
+            invalid(value)
+        return parsed
+    return json.loads(Path(path).read_text(encoding='utf-8'), parse_constant=invalid, parse_float=finite_float)
 
 
 def write(path, value):
