@@ -32,7 +32,7 @@ def _get(url, headers=None):
 
 
 def _get_text(url):
-    with urllib.request.urlopen(urllib.request.Request(url), timeout=25) as r:
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/xml"}), timeout=25) as r:
         return r.read().decode("utf-8")
 
 
@@ -81,12 +81,19 @@ def _apibasketball_by_date(dates):
 
 
 def _espn(path, dates, query=""):
-    out = []
-    for day in dates:
+    if not dates:
+        return []
+    out = []; seen = set(); wanted = set(dates)
+    # ESPN indexes local league days; UTC matches may be on the preceding scoreboard.
+    query_days = [(dt.date.fromisoformat(dates[0])-dt.timedelta(days=1)).isoformat()] + dates
+    for day in query_days:
         d = _get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/{path}/scoreboard?dates={day.replace('-','')}{query}")
         if "events" not in d:
             raise RuntimeError("ESPN 响应缺少 events")
         for e in d["events"]:
+            if e["id"] in seen or e["date"][:10] not in wanted:
+                continue
+            seen.add(e["id"])
             if "FINAL" not in e["status"]["type"]["name"]:
                 continue
             comp = e["competitions"][0]["competitors"]
@@ -124,13 +131,18 @@ def _euroleague(dates):
     return out
 
 
+def _match_key(match):
+    return "|".join((match["date"], match["home"], match["away"]))
+
+
 def _apply(code, cfg, new_ms):
     if not new_ms:
         print(f"[{code}] {cfg['name']}: 无新增"); return
     snap_p = os.path.join(GAMES, code, "ratings.json")
     snap = json.load(open(snap_p, encoding="utf-8"))
     last = snap.get("last_date")
-    fresh = [m for m in new_ms if not last or m["date"] > last]
+    seen = snap.get("applied_on_last_date")
+    fresh = [m for m in new_ms if not last or m["date"] > last or (m["date"] == last and seen is not None and _match_key(m) not in seen)]
     fresh.sort(key=lambda m: (m["date"], m["home"]))
     if not fresh:
         print(f"[{code}] {cfg['name']}: 无晚于 {last} 的新增"); return
@@ -140,6 +152,7 @@ def _apply(code, cfg, new_ms):
     out = R.snapshot()
     out["updated_from"] = snap.get("updated_from", 0) + len(fresh)
     out["last_date"] = max(m["date"] for m in fresh)
+    out["applied_on_last_date"] = sorted(set(([k for k in (seen or [])] if out["last_date"] == last else []) + [_match_key(m) for m in fresh if m["date"] == out["last_date"]]))
     # 追加到 matches.json 以便未来全量重建
     mp = os.path.join(GAMES, code, "data", "matches.json")
     allm = json.load(open(mp, encoding="utf-8")) if os.path.isfile(mp) else []

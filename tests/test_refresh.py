@@ -32,6 +32,27 @@ class RefreshTests(unittest.TestCase):
     def test_http_failure_is_not_empty_success(self):
         with patch.object(r.urllib.request,'urlopen',side_effect=OSError), patch.object(r.time,'sleep'):
             with self.assertRaises(RuntimeError): r._get('https://example.invalid')
+    def test_espn_utc_boundary_and_duplicate_events(self):
+        def event(identifier, date):
+            return {'id':identifier,'date':date,'status':{'type':{'name':'STATUS_FINAL'}},'competitions':[{'competitors':[{'homeAway':'home','score':'100','team':{'displayName':'A'}},{'homeAway':'away','score':'90','team':{'displayName':'B'}}]}]}
+        rows={'events':[event('1','2026-10-24T01:00Z'),event('2','2026-10-25T01:00Z')]}
+        with patch.object(r,'_get',return_value=rows) as get:
+            matches=r._espn('nba',['2026-10-24'])
+        self.assertEqual(len(matches),1)
+        self.assertEqual(matches[0]['date'],'2026-10-24')
+        self.assertIn('dates=20261023',get.call_args_list[0].args[0])
+    def test_late_same_day_match_is_applied_once(self):
+        with tempfile.TemporaryDirectory() as tmp,patch.object(r,'GAMES',tmp):
+            d=Path(tmp)/'12';d.mkdir()
+            (d/'ratings.json').write_text(json.dumps({'teams':{},'last_date':'2026-10-24','applied_on_last_date':['2026-10-24|A|B']}))
+            matches=[{'date':'2026-10-24','home':a,'away':b,'hp':100,'ap':90} for a,b in [('A','B'),('C','D')]]
+            r._apply('12',{'name':'NBA'},matches)
+            snap=json.loads((d/'ratings.json').read_text())
+            self.assertNotIn('A',snap['teams'])
+            self.assertEqual(snap['teams']['C']['gp'],1)
+            self.assertEqual(len(snap['applied_on_last_date']),2)
+            r._apply('12',{'name':'NBA'},matches)
+            self.assertEqual(json.loads((d/'ratings.json').read_text())['teams']['C']['gp'],1)
     def test_one_failed_source_does_not_block_other_leagues(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp); games=root/'games'; games.mkdir()

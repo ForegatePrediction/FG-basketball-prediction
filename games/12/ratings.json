@@ -375,5 +375,11 @@
   }
  },
  "updated_from": 5659,
- "last_date": "2026-10-25"
+ "last_date": "2026-10-25",
+ "applied_on_last_date": [
+  "2026-10-25|Atlanta Hawks|Houston Rockets",
+  "2026-10-25|Chicago Bulls|Washington Wizards",
+  "2026-10-25|Dallas Mavericks|San Antonio Spurs",
+  "2026-10-25|Denver Nuggets|New Orleans Pelicans"
+ ]
 }
