@@ -1,1 +1,197 @@
-{"mu": 108.3684, "hfa": 2.0216, "teams": {"Connecticut Sun": {"off": -16.3208, "dfn": 10.9881, "w": 115, "l": 107, "gp": 222}, "Atlanta Dream": {"off": -8.3237, "dfn": 11.197, "w": 99, "l": 105, "gp": 204}, "Minnesota Lynx": {"off": -4.9824, "dfn": 13.4701, "w": 140, "l": 82, "gp": 222}, "Las Vegas Aces": {"off": -5.0351, "dfn": 11.8459, "w": 171, "l": 65, "gp": 236}, "Dallas Wings": {"off": -8.9984, "dfn": 12.2444, "w": 85, "l": 119, "gp": 204}, "Indiana Fever": {"off": 1.1853, "dfn": 6.9071, "w": 92, "l": 118, "gp": 210}, "Washington Mystics": {"off": -15.4296, "dfn": 15.5122, "w": 89, "l": 110, "gp": 199}, "Chicago Sky": {"off": -8.994, "dfn": 8.179, "w": 87, "l": 121, "gp": 208}, "Los Angeles Sparks": {"off": -7.812, "dfn": 4.4518, "w": 74, "l": 118, "gp": 192}, "New York Liberty": {"off": -7.0946, "dfn": 9.8443, "w": 146, "l": 82, "gp": 228}, "Phoenix Mercury": {"off": -11.4959, "dfn": 10.7435, "w": 88, "l": 124, "gp": 212}, "Seattle Storm": {"off": -12.4224, "dfn": 9.7255, "w": 93, "l": 114, "gp": 207}, "Team Wilson": {"off": 2.5568, "dfn": -2.2949, "w": 1, "l": 1, "gp": 2}, "TEAM STEWART": {"off": 2.2949, "dfn": -2.5568, "w": 1, "l": 1, "gp": 2}, "Puerto Rico": {"off": -2.3575, "dfn": -0.0423, "w": 0, "l": 1, "gp": 1}, "Team WNBA": {"off": 0.5092, "dfn": -0.0631, "w": 1, "l": 0, "gp": 1}, "Team USA": {"off": 0.0631, "dfn": -0.5092, "w": 0, "l": 1, "gp": 1}, "Brazil": {"off": -5.3319, "dfn": -0.4302, "w": 0, "l": 2, "gp": 2}, "Golden State Valkyries": {"off": -14.5991, "dfn": 20.4043, "w": 44, "l": 33, "gp": 77}, "Toyota Antelopes": {"off": -4.8194, "dfn": -0.2065, "w": 0, "l": 2, "gp": 2}, "TEAM CLARK": {"off": 1.3732, "dfn": -2.6228, "w": 0, "l": 1, "gp": 1}, "TEAM COLLIER": {"off": 2.6228, "dfn": -1.3732, "w": 1, "l": 0, "gp": 1}, "NIGERIA": {"off": -2.1715, "dfn": -0.3059, "w": 0, "l": 1, "gp": 1}, "Toronto Tempo": {"off": -7.9326, "dfn": 2.2024, "w": 10, "l": 20, "gp": 30}, "Portland Fire": {"off": -7.4204, "dfn": 3.6256, "w": 11, "l": 20, "gp": 31}, "TEAM COOP": {"off": 0.7297, "dfn": -1.2586, "w": 0, "l": 1, "gp": 1}, "TEAM SPOON": {"off": 1.2586, "dfn": -0.7297, "w": 1, "l": 0, "gp": 1}}, "updated_from": 1349, "last_date": "2026-08-05"}
+{
+ "mu": 107.6378,
+ "hfa": 1.6086,
+ "teams": {
+  "Connecticut Sun": {
+   "off": -18.5807,
+   "dfn": 9.8343,
+   "w": 119,
+   "l": 117,
+   "gp": 236
+  },
+  "Atlanta Dream": {
+   "off": -5.2212,
+   "dfn": 17.4213,
+   "w": 117,
+   "l": 110,
+   "gp": 227
+  },
+  "Minnesota Lynx": {
+   "off": -9.7967,
+   "dfn": 14.2506,
+   "w": 148,
+   "l": 89,
+   "gp": 237
+  },
+  "Las Vegas Aces": {
+   "off": -6.8797,
+   "dfn": 13.9412,
+   "w": 183,
+   "l": 73,
+   "gp": 256
+  },
+  "Dallas Wings": {
+   "off": -6.4065,
+   "dfn": 10.8527,
+   "w": 94,
+   "l": 126,
+   "gp": 220
+  },
+  "Indiana Fever": {
+   "off": -2.447,
+   "dfn": 8.4006,
+   "w": 102,
+   "l": 125,
+   "gp": 227
+  },
+  "Washington Mystics": {
+   "off": -12.8572,
+   "dfn": 15.5913,
+   "w": 100,
+   "l": 116,
+   "gp": 216
+  },
+  "Chicago Sky": {
+   "off": -10.9769,
+   "dfn": 6.3228,
+   "w": 91,
+   "l": 130,
+   "gp": 221
+  },
+  "Los Angeles Sparks": {
+   "off": -10.7329,
+   "dfn": 9.0977,
+   "w": 79,
+   "l": 128,
+   "gp": 207
+  },
+  "New York Liberty": {
+   "off": -7.8773,
+   "dfn": 14.6113,
+   "w": 155,
+   "l": 90,
+   "gp": 245
+  },
+  "Phoenix Mercury": {
+   "off": -11.8476,
+   "dfn": 10.6274,
+   "w": 92,
+   "l": 132,
+   "gp": 224
+  },
+  "Seattle Storm": {
+   "off": -15.0894,
+   "dfn": 8.6195,
+   "w": 95,
+   "l": 123,
+   "gp": 218
+  },
+  "Team Wilson": {
+   "off": 2.5568,
+   "dfn": -2.2949,
+   "w": 1,
+   "l": 1,
+   "gp": 2
+  },
+  "TEAM STEWART": {
+   "off": 2.2949,
+   "dfn": -2.5568,
+   "w": 1,
+   "l": 1,
+   "gp": 2
+  },
+  "Puerto Rico": {
+   "off": -2.3575,
+   "dfn": -0.0423,
+   "w": 0,
+   "l": 1,
+   "gp": 1
+  },
+  "Team WNBA": {
+   "off": 0.5092,
+   "dfn": -0.0631,
+   "w": 1,
+   "l": 0,
+   "gp": 1
+  },
+  "Team USA": {
+   "off": 0.0631,
+   "dfn": -0.5092,
+   "w": 0,
+   "l": 1,
+   "gp": 1
+  },
+  "Brazil": {
+   "off": -5.3319,
+   "dfn": -0.4302,
+   "w": 0,
+   "l": 2,
+   "gp": 2
+  },
+  "Golden State Valkyries": {
+   "off": -16.8945,
+   "dfn": 25.0381,
+   "w": 62,
+   "l": 39,
+   "gp": 101
+  },
+  "Toyota Antelopes": {
+   "off": -4.8194,
+   "dfn": -0.2065,
+   "w": 0,
+   "l": 2,
+   "gp": 2
+  },
+  "TEAM CLARK": {
+   "off": 1.3732,
+   "dfn": -2.6228,
+   "w": 0,
+   "l": 1,
+   "gp": 1
+  },
+  "TEAM COLLIER": {
+   "off": 2.6228,
+   "dfn": -1.3732,
+   "w": 1,
+   "l": 0,
+   "gp": 1
+  },
+  "NIGERIA": {
+   "off": -2.1715,
+   "dfn": -0.3059,
+   "w": 0,
+   "l": 1,
+   "gp": 1
+  },
+  "Toronto Tempo": {
+   "off": -13.7221,
+   "dfn": 2.7002,
+   "w": 11,
+   "l": 33,
+   "gp": 44
+  },
+  "Portland Fire": {
+   "off": -8.2636,
+   "dfn": 5.9498,
+   "w": 17,
+   "l": 28,
+   "gp": 45
+  },
+  "TEAM COOP": {
+   "off": 0.7297,
+   "dfn": -1.2586,
+   "w": 0,
+   "l": 1,
+   "gp": 1
+  },
+  "TEAM SPOON": {
+   "off": 1.2586,
+   "dfn": -0.7297,
+   "w": 1,
+   "l": 0,
+   "gp": 1
+  }
+ },
+ "updated_from": 1470,
+ "last_date": "2026-10-24"
+}
