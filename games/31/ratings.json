@@ -1,6 +1,6 @@
 {
- "mu": 106.8465,
- "hfa": 2.4481,
+ "mu": 106.7973,
+ "hfa": 2.4088,
  "teams": {
   "Guangdong": {
    "off": -6.3904,
@@ -10,25 +10,25 @@
    "gp": 313
   },
   "Zhejiang Chouzhou": {
-   "off": -11.6936,
-   "dfn": 17.1665,
-   "w": 218,
+   "off": -12.003,
+   "dfn": 18.5869,
+   "w": 219,
    "l": 91,
-   "gp": 309
+   "gp": 310
   },
   "Jiangsu Dragons": {
-   "off": -17.685,
-   "dfn": 9.5717,
+   "off": -17.8583,
+   "dfn": 9.373,
    "w": 59,
-   "l": 223,
-   "gp": 282
+   "l": 224,
+   "gp": 283
   },
   "Qingdao": {
-   "off": -9.1383,
-   "dfn": 10.7113,
-   "w": 156,
+   "off": -9.1317,
+   "dfn": 11.275,
+   "w": 157,
    "l": 137,
-   "gp": 293
+   "gp": 294
   },
   "Bayi Rockets": {
    "off": -6.9126,
@@ -38,11 +38,11 @@
    "gp": 1
   },
   "Beijing": {
-   "off": -6.7683,
-   "dfn": 18.9665,
-   "w": 185,
+   "off": -5.1549,
+   "dfn": 19.2048,
+   "w": 186,
    "l": 123,
-   "gp": 308
+   "gp": 309
   },
   "Fujian": {
    "off": -3.2554,
@@ -52,25 +52,25 @@
    "gp": 278
   },
   "Shanxi Zhongyu": {
-   "off": -2.2101,
-   "dfn": 7.3311,
-   "w": 157,
+   "off": -2.0114,
+   "dfn": 7.5044,
+   "w": 158,
    "l": 141,
-   "gp": 298
+   "gp": 299
   },
   "Guangzhou": {
-   "off": -10.9079,
-   "dfn": 12.417,
+   "off": -11.1462,
+   "dfn": 10.8036,
    "w": 140,
-   "l": 156,
-   "gp": 296
+   "l": 157,
+   "gp": 297
   },
   "Xinjiang": {
-   "off": -12.3279,
-   "dfn": 10.3004,
+   "off": -12.122,
+   "dfn": 9.8072,
    "w": 171,
-   "l": 126,
-   "gp": 297
+   "l": 127,
+   "gp": 298
   },
   "Jilin": {
    "off": -16.377,
@@ -80,25 +80,25 @@
    "gp": 287
   },
   "Nanjing Tongxi": {
-   "off": -6.8089,
-   "dfn": -0.5588,
+   "off": -7.3726,
+   "dfn": -0.5654,
    "w": 89,
-   "l": 192,
-   "gp": 281
+   "l": 193,
+   "gp": 282
   },
   "Shenzhen": {
-   "off": -1.3491,
-   "dfn": 2.8748,
+   "off": -3.2474,
+   "dfn": 2.4915,
    "w": 172,
-   "l": 127,
-   "gp": 299
+   "l": 128,
+   "gp": 300
   },
   "Sichuan": {
-   "off": -19.495,
-   "dfn": -0.9961,
+   "off": -20.9154,
+   "dfn": -0.6867,
    "w": 65,
-   "l": 213,
-   "gp": 278
+   "l": 214,
+   "gp": 279
   },
   "Zhejiang Guangsha": {
    "off": -8.0191,
@@ -115,32 +115,32 @@
    "gp": 308
   },
   "Beijing Royal Fighters": {
-   "off": -7.4195,
-   "dfn": 6.4933,
-   "w": 141,
+   "off": -7.0362,
+   "dfn": 8.3916,
+   "w": 142,
    "l": 147,
-   "gp": 288
+   "gp": 289
   },
   "Shandong": {
-   "off": -8.6027,
-   "dfn": 10.285,
-   "w": 160,
+   "off": -8.382,
+   "dfn": 10.2786,
+   "w": 161,
    "l": 134,
-   "gp": 294
+   "gp": 295
   },
   "Liaoning": {
-   "off": -9.341,
-   "dfn": 10.9967,
-   "w": 246,
+   "off": -8.8478,
+   "dfn": 10.7908,
+   "w": 247,
    "l": 80,
-   "gp": 326
+   "gp": 327
   },
   "Tianjin": {
-   "off": -3.7189,
-   "dfn": -0.4727,
+   "off": -3.7125,
+   "dfn": -0.6934,
    "w": 89,
-   "l": 192,
-   "gp": 281
+   "l": 193,
+   "gp": 282
   },
   "Ningbo Rockets": {
    "off": -17.4228,
@@ -150,11 +150,15 @@
    "gp": 228
   }
  },
- "updated_from": 2938,
- "last_date": "2026-10-24",
+ "updated_from": 2945,
+ "last_date": "2026-10-25",
  "applied_on_last_date": [
-  "2026-10-24|Guangdong|Ningbo Rockets",
-  "2026-10-24|Shanghai|Fujian",
-  "2026-10-24|Zhejiang Guangsha|Jilin"
+  "2026-10-25|Beijing|Guangzhou",
+  "2026-10-25|Liaoning|Xinjiang",
+  "2026-10-25|Qingdao|Nanjing Tongxi",
+  "2026-10-25|Shandong|Tianjin",
+  "2026-10-25|Shanxi Zhongyu|Jiangsu Dragons",
+  "2026-10-25|Shenzhen|Beijing Royal Fighters",
+  "2026-10-25|Sichuan|Zhejiang Chouzhou"
  ]
 }

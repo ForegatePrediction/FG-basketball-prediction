@@ -1,33 +1,51 @@
 {
  "1": {
-  "checked_through": "2026-10-24",
-  "source": "espn"
+  "checked_through": "2026-10-25",
+  "source": "espn",
+  "latest_match": "2026-10-25",
+  "checked_at": "2026-10-26T15:01:10.982038+00:00",
+  "source_matches_in_batch": 2
  },
  "116": {
-  "checked_through": "2026-10-24",
-  "source": "espn"
+  "checked_through": "2026-10-25",
+  "source": "espn",
+  "latest_match": "2026-04-07",
+  "checked_at": "2026-10-26T15:01:11.147811+00:00",
+  "source_matches_in_batch": 0
  },
  "12": {
-  "checked_through": "2026-10-24",
-  "source": "espn"
+  "checked_through": "2026-10-25",
+  "source": "espn",
+  "latest_match": "2026-10-25",
+  "checked_at": "2026-10-26T15:01:11.373179+00:00",
+  "source_matches_in_batch": 11
  },
  "cwbb": {
-  "checked_through": "2026-10-24",
-  "source": "espn"
+  "checked_through": "2026-10-25",
+  "source": "espn",
+  "latest_match": "2026-04-05",
+  "checked_at": "2026-10-26T15:01:14.606748+00:00",
+  "source_matches_in_batch": 0
  },
  "wnba": {
-  "checked_through": "2026-10-24",
-  "source": "espn"
+  "checked_through": "2026-10-25",
+  "source": "espn",
+  "latest_match": "2026-10-24",
+  "checked_at": "2026-10-26T15:01:14.831891+00:00",
+  "source_matches_in_batch": 0
  },
  "120": {
-  "checked_through": "2026-10-24",
-  "source": "euroleague"
+  "checked_through": "2026-10-25",
+  "source": "euroleague",
+  "latest_match": "2026-10-23",
+  "checked_at": "2026-10-26T15:01:12.137240+00:00",
+  "source_matches_in_batch": 0
  },
  "31": {
-  "checked_through": "2026-10-24",
+  "checked_through": "2026-10-25",
   "source": "cba",
-  "latest_match": "2026-10-24",
-  "checked_at": "2026-10-25T04:43:02.173365+00:00",
-  "source_matches_in_batch": 33
+  "latest_match": "2026-10-25",
+  "checked_at": "2026-10-26T15:01:14.475286+00:00",
+  "source_matches_in_batch": 7
  }
 }
