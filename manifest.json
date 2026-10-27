@@ -3,8 +3,8 @@
   "engine": "basketball",
   "channel": "github",
   "kind": "refresh",
-  "generation": "20261026T150115Z-e41eed758032",
-  "created_at": "2026-10-26T15:01:15.488927+00:00",
+  "generation": "20261027T141439Z-9af733550fbb",
+  "created_at": "2026-10-27T14:14:39.571568+00:00",
   "code_revision": "354766a646464620c9d6c5bdd43cfa67e5afbce8",
   "files": {
     "games/1/ratings.json": {
@@ -40,12 +40,12 @@
       "semantic_sha256": "14e0ea0c1a0d98fd68afb111953092bb9ab0d8fc140cbbb0a21593f0d19dca91"
     },
     "games/12/ratings.json": {
-      "sha256": "e62d4cf7facba463b0e746568dab8f9a6a4689ad8d953cea1b2711bf7abd23bb",
-      "bytes": 6011,
+      "sha256": "337a52b1917cf11d83606b9987594e59eb442f3ec3449c458b9c51513a83e378",
+      "bytes": 5719,
       "teams": 53,
-      "matches": 5666,
-      "latest_match": "2026-10-25",
-      "semantic_sha256": "9a31719b61c4f8c7d42fcd217e59b79086e85804fc430e3f49ba5e516cddca98"
+      "matches": 5671,
+      "latest_match": "2026-10-26",
+      "semantic_sha256": "7f077223bb0e970aca7c6a1c9a4b644f5bf33b9327e165be333bd3b1f6ce4e90"
     },
     "games/120/ratings.json": {
       "sha256": "d7c83d158eed4ce0670e5baf0db87f633cfa3350a6c9e1cce45664113a10df3e",
@@ -120,12 +120,12 @@
       "semantic_sha256": "67a076e3d4d1cda9ff81a0a7d273b1ac98040daf8dd2a0ea162bb0ace5ccb699"
     },
     "games/31/ratings.json": {
-      "sha256": "ce943a24b22c33c2bb8b18c022bdd37f8c60c8b44157e91aac8a7cda66c53386",
-      "bytes": 2497,
+      "sha256": "fb327d6ec55f8ef5774bee47f4ee7c767a1752f6fec485fe9a266b1b22e80980",
+      "bytes": 2290,
       "teams": 21,
-      "matches": 2945,
-      "latest_match": "2026-10-25",
-      "semantic_sha256": "d1f2ba8e2a7615d6a6cfc53edca26018c72e8de25eb138e105f0ec2e33335304"
+      "matches": 2947,
+      "latest_match": "2026-10-26",
+      "semantic_sha256": "38c85a45e0f7d6c2ef75117b7a35dc14e7ba471da58f69f66c4a375388b11adb"
     },
     "games/324/ratings.json": {
       "sha256": "ffd72f74994ce45a95c604acef4b87c56e4446f0f56e756b03df9b533afe2bb0",
@@ -200,8 +200,8 @@
       "semantic_sha256": "45f0847489a0354d99f3281c40eed924da8d1d6f9825a52f4a583722b39d407e"
     },
     "refresh-state.json": {
-      "sha256": "39e95d7cf04e83cc2143d5dff365c9a36710f048cfc98089c380938d50e3e921",
-      "bytes": 1294
+      "sha256": "a044ed6cfae9af8faaae6bf77ecace30f0392e1773fa68b46a97d429cb665d1a",
+      "bytes": 1293
     }
   }
 }
