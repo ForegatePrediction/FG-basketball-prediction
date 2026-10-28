@@ -1,6 +1,6 @@
 {
- "mu": 107.6378,
- "hfa": 1.6086,
+ "mu": 107.5712,
+ "hfa": 1.5758,
  "teams": {
   "Connecticut Sun": {
    "off": -18.5807,
@@ -10,11 +10,11 @@
    "gp": 236
   },
   "Atlanta Dream": {
-   "off": -5.2212,
-   "dfn": 17.4213,
+   "off": -6.5639,
+   "dfn": 18.0771,
    "w": 117,
-   "l": 110,
-   "gp": 227
+   "l": 111,
+   "gp": 228
   },
   "Minnesota Lynx": {
    "off": -9.7967,
@@ -129,11 +129,11 @@
    "gp": 2
   },
   "Golden State Valkyries": {
-   "off": -16.8945,
-   "dfn": 25.0381,
-   "w": 62,
+   "off": -17.5503,
+   "dfn": 26.3808,
+   "w": 63,
    "l": 39,
-   "gp": 101
+   "gp": 102
   },
   "Toyota Antelopes": {
    "off": -4.8194,
@@ -192,6 +192,9 @@
    "gp": 1
   }
  },
- "updated_from": 1470,
- "last_date": "2026-10-24"
+ "updated_from": 1471,
+ "last_date": "2026-10-27",
+ "applied_on_last_date": [
+  "2026-10-27|Golden State Valkyries|Atlanta Dream"
+ ]
 }
