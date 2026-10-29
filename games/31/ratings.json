@@ -1,6 +1,6 @@
 {
- "mu": 106.749,
- "hfa": 2.3648,
+ "mu": 106.7038,
+ "hfa": 2.3547,
  "teams": {
   "Guangdong": {
    "off": -6.3132,
@@ -52,11 +52,11 @@
    "gp": 279
   },
   "Shanxi Zhongyu": {
-   "off": -2.0114,
-   "dfn": 7.5044,
+   "off": -3.1662,
+   "dfn": 7.7061,
    "w": 158,
-   "l": 141,
-   "gp": 299
+   "l": 142,
+   "gp": 300
   },
   "Guangzhou": {
    "off": -11.0645,
@@ -87,11 +87,11 @@
    "gp": 283
   },
   "Shenzhen": {
-   "off": -3.2474,
-   "dfn": 2.4915,
-   "w": 172,
+   "off": -3.4491,
+   "dfn": 3.6463,
+   "w": 173,
    "l": 128,
-   "gp": 300
+   "gp": 301
   },
   "Sichuan": {
    "off": -21.3864,
@@ -150,15 +150,9 @@
    "gp": 229
   }
  },
- "updated_from": 2954,
- "last_date": "2026-10-27",
+ "updated_from": 2955,
+ "last_date": "2026-10-28",
  "applied_on_last_date": [
-  "2026-10-27|Guangzhou|Beijing Royal Fighters",
-  "2026-10-27|Jiangsu Dragons|Fujian",
-  "2026-10-27|Qingdao|Tianjin",
-  "2026-10-27|Shandong|Beijing",
-  "2026-10-27|Sichuan|Nanjing Tongxi",
-  "2026-10-27|Xinjiang|Zhejiang Chouzhou",
-  "2026-10-27|Zhejiang Guangsha|Liaoning"
+  "2026-10-28|Shenzhen|Shanxi Zhongyu"
  ]
 }
