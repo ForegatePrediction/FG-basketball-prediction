@@ -1,13 +1,13 @@
 {
- "mu": 100.8289,
- "hfa": 2.6831,
+ "mu": 100.8334,
+ "hfa": 2.7277,
  "teams": {
   "FC BAYERN MUNICH": {
-   "off": -9.908,
-   "dfn": 6.8478,
+   "off": -10.3295,
+   "dfn": 6.0014,
    "w": 110,
-   "l": 143,
-   "gp": 253
+   "l": 144,
+   "gp": 254
   },
   "AX ARMANI EXCHANGE MILAN": {
    "off": -19.0026,
@@ -45,11 +45,11 @@
    "gp": 95
   },
   "REAL MADRID": {
-   "off": -2.1757,
-   "dfn": 10.3828,
-   "w": 184,
+   "off": -2.0653,
+   "dfn": 10.9521,
+   "w": 185,
    "l": 93,
-   "gp": 277
+   "gp": 278
   },
   "FENERBAHCE BEKO ISTANBUL": {
    "off": -11.1413,
@@ -192,11 +192,11 @@
    "gp": 153
   },
   "CRVENA ZVEZDA MERIDIANBET BELGRADE": {
-   "off": -7.7703,
-   "dfn": 10.8957,
-   "w": 72,
+   "off": -6.9239,
+   "dfn": 11.3172,
+   "w": 73,
    "l": 78,
-   "gp": 150
+   "gp": 151
   },
   "VIRTUS SEGAFREDO BOLOGNA": {
    "off": -14.3839,
@@ -220,18 +220,18 @@
    "gp": 134
   },
   "PARIS BASKETBALL": {
-   "off": -4.193,
-   "dfn": 3.5838,
-   "w": 37,
+   "off": -3.9597,
+   "dfn": 3.6479,
+   "w": 38,
    "l": 47,
-   "gp": 84
+   "gp": 85
   },
   "MACCABI RAPYD TEL AVIV": {
-   "off": -4.9164,
-   "dfn": 1.5382,
+   "off": -4.9805,
+   "dfn": 1.3049,
    "w": 20,
-   "l": 26,
-   "gp": 46
+   "l": 27,
+   "gp": 47
   },
   "DUBAI BASKETBALL": {
    "off": -6.2172,
@@ -269,11 +269,11 @@
    "gp": 8
   },
   "FENERBAHCE TARFIN ISTANBUL": {
-   "off": -4.9771,
-   "dfn": 8.2347,
+   "off": -5.5464,
+   "dfn": 8.1243,
    "w": 6,
-   "l": 2,
-   "gp": 8
+   "l": 3,
+   "gp": 9
   },
   "ARMANI OLIMPIA MILAN": {
    "off": -4.3359,
@@ -283,12 +283,11 @@
    "gp": 8
   }
  },
- "updated_from": 2350,
- "last_date": "2026-10-28",
+ "updated_from": 2353,
+ "last_date": "2026-10-29",
  "applied_on_last_date": [
-  "2026-10-28|BESIKTAS ISTANBUL|OLYMPIACOS PIRAEUS",
-  "2026-10-28|HAPOEL IBI TEL AVIV|ANADOLU EFES ISTANBUL",
-  "2026-10-28|LDLC ASVEL VILLEURBANNE|PARTIZAN MOZZART BET BELGRADE",
-  "2026-10-28|VIRTUS BOLOGNA|ZALGIRIS KAUNAS"
+  "2026-10-29|CRVENA ZVEZDA MERIDIANBET BELGRADE|FC BAYERN MUNICH",
+  "2026-10-29|MACCABI RAPYD TEL AVIV|PARIS BASKETBALL",
+  "2026-10-29|REAL MADRID|FENERBAHCE TARFIN ISTANBUL"
  ]
 }

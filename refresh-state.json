@@ -1,51 +1,51 @@
 {
  "1": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "espn",
-  "latest_match": "2026-10-28",
-  "checked_at": "2026-10-29T15:05:09.399696+00:00",
+  "latest_match": "2026-10-29",
+  "checked_at": "2026-10-30T14:56:55.351903+00:00",
   "source_matches_in_batch": 1
  },
  "116": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "espn",
   "latest_match": "2026-04-07",
-  "checked_at": "2026-10-29T15:05:09.626944+00:00",
+  "checked_at": "2026-10-30T14:56:55.551814+00:00",
   "source_matches_in_batch": 0
  },
  "12": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "espn",
-  "latest_match": "2026-10-28",
-  "checked_at": "2026-10-29T15:05:09.776473+00:00",
-  "source_matches_in_batch": 8
+  "latest_match": "2026-10-29",
+  "checked_at": "2026-10-30T14:56:55.754213+00:00",
+  "source_matches_in_batch": 7
  },
  "cwbb": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "espn",
   "latest_match": "2026-04-05",
-  "checked_at": "2026-10-29T15:05:12.592956+00:00",
+  "checked_at": "2026-10-30T14:56:58.531790+00:00",
   "source_matches_in_batch": 0
  },
  "wnba": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "espn",
-  "latest_match": "2026-10-27",
-  "checked_at": "2026-10-29T15:05:12.703561+00:00",
-  "source_matches_in_batch": 0
+  "latest_match": "2026-10-29",
+  "checked_at": "2026-10-30T14:56:58.727572+00:00",
+  "source_matches_in_batch": 1
  },
  "120": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "euroleague",
-  "latest_match": "2026-10-28",
-  "checked_at": "2026-10-29T15:05:10.459172+00:00",
-  "source_matches_in_batch": 4
+  "latest_match": "2026-10-29",
+  "checked_at": "2026-10-30T14:56:56.351840+00:00",
+  "source_matches_in_batch": 3
  },
  "31": {
-  "checked_through": "2026-10-28",
+  "checked_through": "2026-10-29",
   "source": "cba",
-  "latest_match": "2026-10-28",
-  "checked_at": "2026-10-29T15:05:12.309216+00:00",
-  "source_matches_in_batch": 1
+  "latest_match": "2026-10-29",
+  "checked_at": "2026-10-30T14:56:58.343301+00:00",
+  "source_matches_in_batch": 5
  }
 }
