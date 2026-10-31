@@ -1,20 +1,20 @@
 {
- "mu": 112.2004,
- "hfa": 1.2621,
+ "mu": 112.0553,
+ "hfa": 1.1279,
  "teams": {
   "Boston Celtics": {
-   "off": 3.3548,
-   "dfn": 7.2364,
-   "w": 293,
+   "off": 3.2786,
+   "dfn": 7.1073,
+   "w": 294,
    "l": 117,
-   "gp": 410
+   "gp": 411
   },
   "Charlotte Hornets": {
-   "off": -5.3736,
-   "dfn": 5.8925,
+   "off": -7.5072,
+   "dfn": 6.6625,
    "w": 121,
-   "l": 236,
-   "gp": 357
+   "l": 237,
+   "gp": 358
   },
   "Golden State Warriors": {
    "off": 1.8809,
@@ -24,11 +24,11 @@
    "gp": 387
   },
   "Washington Wizards": {
-   "off": 0.408,
-   "dfn": -7.7818,
-   "w": 96,
+   "off": -0.362,
+   "dfn": -5.6482,
+   "w": 97,
    "l": 255,
-   "gp": 351
+   "gp": 352
   },
   "Houston Rockets": {
    "off": 1.2702,
@@ -52,18 +52,18 @@
    "gp": 372
   },
   "Memphis Grizzlies": {
-   "off": 0.3138,
-   "dfn": -4.57,
-   "w": 170,
+   "off": 1.299,
+   "dfn": -3.5402,
+   "w": 171,
    "l": 197,
-   "gp": 367
+   "gp": 368
   },
   "Toronto Raptors": {
-   "off": 4.2811,
-   "dfn": 5.3216,
+   "off": 4.1971,
+   "dfn": 4.4612,
    "w": 164,
-   "l": 200,
-   "gp": 364
+   "l": 201,
+   "gp": 365
   },
   "Utah Jazz": {
    "off": 1.3971,
@@ -73,18 +73,18 @@
    "gp": 355
   },
   "Brooklyn Nets": {
-   "off": -4.2717,
-   "dfn": -3.2624,
+   "off": -4.6405,
+   "dfn": -2.8849,
    "w": 133,
-   "l": 222,
-   "gp": 355
+   "l": 223,
+   "gp": 356
   },
   "Philadelphia 76ers": {
-   "off": 1.7313,
-   "dfn": 0.4113,
-   "w": 199,
+   "off": 1.0974,
+   "dfn": 1.6186,
+   "w": 200,
    "l": 184,
-   "gp": 383
+   "gp": 384
   },
   "Phoenix Suns": {
    "off": -0.0604,
@@ -122,11 +122,11 @@
    "gp": 369
   },
   "Portland Trail Blazers": {
-   "off": 2.2437,
-   "dfn": 4.8618,
+   "off": 1.2139,
+   "dfn": 3.8766,
    "w": 145,
-   "l": 212,
-   "gp": 357
+   "l": 213,
+   "gp": 358
   },
   "Los Angeles Lakers": {
    "off": 0.7527,
@@ -136,18 +136,18 @@
    "gp": 400
   },
   "Sacramento Kings": {
-   "off": -2.6358,
-   "dfn": -6.982,
+   "off": -2.1647,
+   "dfn": -7.663,
    "w": 165,
-   "l": 199,
-   "gp": 364
+   "l": 200,
+   "gp": 365
   },
   "Orlando Magic": {
-   "off": -0.1453,
-   "dfn": 2.1786,
-   "w": 191,
+   "off": 0.7151,
+   "dfn": 2.2626,
+   "w": 192,
    "l": 182,
-   "gp": 373
+   "gp": 374
   },
   "Miami Heat": {
    "off": 8.8582,
@@ -164,18 +164,18 @@
    "gp": 408
   },
   "New York Knicks": {
-   "off": 1.3436,
-   "dfn": 6.6094,
+   "off": 0.1363,
+   "dfn": 7.2433,
    "w": 254,
-   "l": 162,
-   "gp": 416
+   "l": 163,
+   "gp": 417
   },
   "Detroit Pistons": {
-   "off": 0.8536,
-   "dfn": 8.9954,
-   "w": 157,
+   "off": 0.4761,
+   "dfn": 9.3642,
+   "w": 158,
    "l": 215,
-   "gp": 372
+   "gp": 373
   },
   "Indiana Pacers": {
    "off": 2.8314,
@@ -185,32 +185,32 @@
    "gp": 393
   },
   "Chicago Bulls": {
-   "off": 3.9115,
-   "dfn": -9.4996,
+   "off": 4.0406,
+   "dfn": -9.4234,
    "w": 165,
-   "l": 195,
-   "gp": 360
+   "l": 196,
+   "gp": 361
   },
   "New Orleans Pelicans": {
-   "off": 0.2984,
-   "dfn": -2.6334,
-   "w": 150,
+   "off": 0.9794,
+   "dfn": -3.1045,
+   "w": 151,
    "l": 208,
-   "gp": 358
+   "gp": 359
   },
   "Cleveland Cavaliers": {
-   "off": 4.3048,
-   "dfn": -1.5333,
+   "off": 3.9071,
+   "dfn": -1.1313,
    "w": 240,
-   "l": 153,
-   "gp": 393
+   "l": 154,
+   "gp": 394
   },
   "Atlanta Hawks": {
-   "off": 5.7037,
-   "dfn": -1.1232,
-   "w": 181,
+   "off": 5.3017,
+   "dfn": -0.7255,
+   "w": 182,
    "l": 189,
-   "gp": 370
+   "gp": 371
   },
   "Dallas Mavericks": {
    "off": 2.4642,
@@ -374,15 +374,16 @@
    "gp": 1
   }
  },
- "updated_from": 5692,
- "last_date": "2026-10-29",
+ "updated_from": 5700,
+ "last_date": "2026-10-30",
  "applied_on_last_date": [
-  "2026-10-29|Chicago Bulls|New York Knicks",
-  "2026-10-29|Dallas Mavericks|Oklahoma City Thunder",
-  "2026-10-29|LA Clippers|Los Angeles Lakers",
-  "2026-10-29|Milwaukee Bucks|Houston Rockets",
-  "2026-10-29|Minnesota Timberwolves|Golden State Warriors",
-  "2026-10-29|New Orleans Pelicans|Denver Nuggets",
-  "2026-10-29|Utah Jazz|San Antonio Spurs"
+  "2026-10-30|Atlanta Hawks|Cleveland Cavaliers",
+  "2026-10-30|Boston Celtics|Chicago Bulls",
+  "2026-10-30|Brooklyn Nets|Detroit Pistons",
+  "2026-10-30|New Orleans Pelicans|Sacramento Kings",
+  "2026-10-30|Philadelphia 76ers|New York Knicks",
+  "2026-10-30|Portland Trail Blazers|Memphis Grizzlies",
+  "2026-10-30|Toronto Raptors|Orlando Magic",
+  "2026-10-30|Washington Wizards|Charlotte Hornets"
  ]
 }
