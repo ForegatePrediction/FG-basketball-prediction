@@ -1,6 +1,6 @@
 {
- "mu": 77.6021,
- "hfa": 1.7896,
+ "mu": 77.4851,
+ "hfa": 1.6925,
  "teams": {
   "App State Mountaineers": {
    "off": -4.001,
@@ -87,11 +87,11 @@
    "gp": 128
   },
   "Michigan Wolverines": {
-   "off": 15.9536,
-   "dfn": 15.1257,
-   "w": 89,
+   "off": 15.424,
+   "dfn": 15.1831,
+   "w": 90,
    "l": 49,
-   "gp": 138
+   "gp": 139
   },
   "Purdue Fort Wayne Mastodons": {
    "off": 0.4854,
@@ -143,11 +143,11 @@
    "gp": 103
   },
   "Oakland Golden Grizzlies": {
-   "off": 6.5718,
-   "dfn": 2.3616,
+   "off": 6.5144,
+   "dfn": 2.8912,
    "w": 66,
-   "l": 62,
-   "gp": 128
+   "l": 63,
+   "gp": 129
   },
   "Defiance Yellow Jackets": {
    "off": -12.1787,
@@ -171,11 +171,11 @@
    "gp": 5
   },
   "St. John's Red Storm": {
-   "off": 8.7585,
-   "dfn": 14.7198,
-   "w": 91,
+   "off": 8.6527,
+   "dfn": 14.8035,
+   "w": 92,
    "l": 38,
-   "gp": 129
+   "gp": 130
   },
   "Merrimack Warriors": {
    "off": -3.9242,
@@ -339,11 +339,11 @@
    "gp": 1
   },
   "Army Black Knights": {
-   "off": -4.0408,
-   "dfn": 1.9059,
+   "off": -4.3313,
+   "dfn": 2.1141,
    "w": 51,
-   "l": 71,
-   "gp": 122
+   "l": 72,
+   "gp": 123
   },
   "Keystone Giants": {
    "off": -4.2682,
@@ -815,11 +815,11 @@
    "gp": 124
   },
   "Duke Blue Devils": {
-   "off": 9.9836,
-   "dfn": 18.7189,
-   "w": 119,
+   "off": 9.7754,
+   "dfn": 19.0094,
+   "w": 120,
    "l": 21,
-   "gp": 140
+   "gp": 141
   },
   "Jacksonville Dolphins": {
    "off": -2.6182,
@@ -899,11 +899,11 @@
    "gp": 2
   },
   "Florida Gators": {
-   "off": 15.4183,
-   "dfn": 13.5019,
-   "w": 98,
+   "off": 14.8872,
+   "dfn": 13.6621,
+   "w": 99,
    "l": 38,
-   "gp": 136
+   "gp": 137
   },
   "Stony Brook Seawolves": {
    "off": -0.6892,
@@ -1081,11 +1081,11 @@
    "gp": 126
   },
   "High Point Panthers": {
-   "off": 10.7766,
-   "dfn": 7.7095,
-   "w": 94,
+   "off": 10.2088,
+   "dfn": 8.6863,
+   "w": 95,
    "l": 35,
-   "gp": 129
+   "gp": 130
   },
   "Pfeiffer Falcons": {
    "off": -6.3748,
@@ -1333,11 +1333,11 @@
    "gp": 5
   },
   "Liberty Flames": {
-   "off": 3.4272,
-   "dfn": 8.6278,
+   "off": 2.4504,
+   "dfn": 9.1956,
    "w": 93,
-   "l": 35,
-   "gp": 128
+   "l": 36,
+   "gp": 129
   },
   "Regent Royals": {
    "off": -12.4017,
@@ -1473,11 +1473,11 @@
    "gp": 122
   },
   "Miami Hurricanes": {
-   "off": 5.5868,
-   "dfn": 8.9313,
+   "off": 5.4266,
+   "dfn": 9.4624,
    "w": 70,
-   "l": 55,
-   "gp": 125
+   "l": 56,
+   "gp": 126
   },
   "Lafayette Leopards": {
    "off": -5.4691,
@@ -3069,11 +3069,11 @@
    "gp": 127
   },
   "Monmouth Hawks": {
-   "off": 1.6237,
-   "dfn": 8.1848,
+   "off": 1.54,
+   "dfn": 8.2906,
    "w": 51,
-   "l": 71,
-   "gp": 122
+   "l": 72,
+   "gp": 123
   },
   "South Alabama Jaguars": {
    "off": 0.7399,
@@ -7059,9 +7059,13 @@
    "gp": 1
   }
  },
- "updated_from": 23574,
- "last_date": "2026-11-01",
+ "updated_from": 23579,
+ "last_date": "2026-11-02",
  "applied_on_last_date": [
-  "2026-11-01|Villanova Wildcats|Notre Dame Fighting Irish"
+  "2026-11-02|Duke Blue Devils|Army Black Knights",
+  "2026-11-02|Florida Gators|Miami Hurricanes",
+  "2026-11-02|High Point Panthers|Liberty Flames",
+  "2026-11-02|Michigan Wolverines|Oakland Golden Grizzlies",
+  "2026-11-02|St. John's Red Storm|Monmouth Hawks"
  ]
 }

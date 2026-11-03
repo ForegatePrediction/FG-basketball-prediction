@@ -1,13 +1,13 @@
 {
- "mu": 106.6129,
- "hfa": 2.3145,
+ "mu": 106.7278,
+ "hfa": 2.3859,
  "teams": {
   "Guangdong": {
-   "off": -7.8197,
-   "dfn": 10.9198,
+   "off": -6.7148,
+   "dfn": 9.3652,
    "w": 223,
-   "l": 93,
-   "gp": 316
+   "l": 94,
+   "gp": 317
   },
   "Zhejiang Chouzhou": {
    "off": -13.2605,
@@ -24,11 +24,11 @@
    "gp": 286
   },
   "Qingdao": {
-   "off": -9.6037,
-   "dfn": 10.5229,
-   "w": 158,
+   "off": -8.0491,
+   "dfn": 9.418,
+   "w": 159,
    "l": 139,
-   "gp": 297
+   "gp": 298
   },
   "Bayi Rockets": {
    "off": -6.9126,
@@ -115,18 +115,18 @@
    "gp": 311
   },
   "Beijing Royal Fighters": {
-   "off": -5.3981,
-   "dfn": 9.1237,
-   "w": 144,
+   "off": -4.9331,
+   "dfn": 8.8014,
+   "w": 145,
    "l": 148,
-   "gp": 292
+   "gp": 293
   },
   "Shandong": {
-   "off": -8.3197,
-   "dfn": 10.0542,
+   "off": -7.9974,
+   "dfn": 9.5892,
    "w": 162,
-   "l": 136,
-   "gp": 298
+   "l": 137,
+   "gp": 299
   },
   "Liaoning": {
    "off": -7.9354,
@@ -150,15 +150,10 @@
    "gp": 231
   }
  },
- "updated_from": 2975,
- "last_date": "2026-11-01",
+ "updated_from": 2977,
+ "last_date": "2026-11-02",
  "applied_on_last_date": [
-  "2026-11-01|Beijing|Zhejiang Guangsha",
-  "2026-11-01|Jilin|Guangzhou",
-  "2026-11-01|Liaoning|Shenzhen",
-  "2026-11-01|Shanghai|Nanjing Tongxi",
-  "2026-11-01|Shanxi Zhongyu|Sichuan",
-  "2026-11-01|Tianjin|Ningbo Rockets",
-  "2026-11-01|Zhejiang Chouzhou|Jiangsu Dragons"
+  "2026-11-02|Guangdong|Qingdao",
+  "2026-11-02|Shandong|Beijing Royal Fighters"
  ]
 }

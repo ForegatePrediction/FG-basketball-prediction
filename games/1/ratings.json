@@ -1,6 +1,6 @@
 {
- "mu": 110.3322,
- "hfa": 1.1745,
+ "mu": 110.2987,
+ "hfa": 1.1723,
  "teams": {
   "Illawarra Hawks": {
    "off": -4.8775,
@@ -31,18 +31,18 @@
    "gp": 149
   },
   "Melbourne United": {
-   "off": -7.8877,
-   "dfn": 11.7291,
-   "w": 96,
+   "off": -7.9312,
+   "dfn": 12.6913,
+   "w": 97,
    "l": 62,
-   "gp": 158
+   "gp": 159
   },
   "New Zealand Breakers": {
-   "off": -8.5665,
-   "dfn": 8.8948,
+   "off": -9.5287,
+   "dfn": 8.9383,
    "w": 67,
-   "l": 81,
-   "gp": 148
+   "l": 82,
+   "gp": 149
   },
   "Perth Wildcats": {
    "off": -9.3687,
@@ -73,10 +73,9 @@
    "gp": 150
   }
  },
- "updated_from": 745,
- "last_date": "2026-11-01",
+ "updated_from": 746,
+ "last_date": "2026-11-02",
  "applied_on_last_date": [
-  "2026-11-01|Adelaide 36ers|Brisbane Bullets",
-  "2026-11-01|South East Melbourne Phoenix|Tasmania JackJumpers"
+  "2026-11-02|Melbourne United|New Zealand Breakers"
  ]
 }
