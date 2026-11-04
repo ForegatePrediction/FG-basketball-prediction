@@ -1,6 +1,6 @@
 {
- "mu": 77.4851,
- "hfa": 1.6925,
+ "mu": 77.6527,
+ "hfa": 2.1261,
  "teams": {
   "App State Mountaineers": {
    "off": -4.001,
@@ -115,11 +115,11 @@
    "gp": 14
   },
   "Milwaukee Panthers": {
-   "off": 1.2505,
-   "dfn": 4.4975,
+   "off": 0.564,
+   "dfn": 3.5808,
    "w": 70,
-   "l": 55,
-   "gp": 125
+   "l": 56,
+   "gp": 126
   },
   "Milwaukee Engineering Raiders": {
    "off": -5.1393,
@@ -234,11 +234,11 @@
    "gp": 129
   },
   "La Salle Explorers": {
-   "off": -4.3478,
-   "dfn": 5.1057,
+   "off": -4.0517,
+   "dfn": 4.2075,
    "w": 48,
-   "l": 76,
-   "gp": 124
+   "l": 77,
+   "gp": 125
   },
   "Abilene Christian Wildcats": {
    "off": -3.5925,
@@ -248,11 +248,11 @@
    "gp": 121
   },
   "Jackson State Tigers": {
-   "off": -2.9401,
-   "dfn": -2.4712,
+   "off": -4.1179,
+   "dfn": -1.6938,
    "w": 51,
-   "l": 72,
-   "gp": 123
+   "l": 73,
+   "gp": 124
   },
   "Akron Zips": {
    "off": 9.5977,
@@ -297,11 +297,11 @@
    "gp": 124
   },
   "Arizona Wildcats": {
-   "off": 15.1647,
-   "dfn": 14.2937,
+   "off": 14.8942,
+   "dfn": 13.4384,
    "w": 109,
-   "l": 30,
-   "gp": 139
+   "l": 31,
+   "gp": 140
   },
   "Nicholls Colonels": {
    "off": -1.0624,
@@ -367,11 +367,11 @@
    "gp": 128
   },
   "BYU Cougars": {
-   "off": 11.7678,
-   "dfn": 5.7636,
-   "w": 85,
+   "off": 12.5709,
+   "dfn": 5.4633,
+   "w": 86,
    "l": 45,
-   "gp": 130
+   "gp": 131
   },
   "Idaho State Bengals": {
    "off": -0.7619,
@@ -626,11 +626,11 @@
    "gp": 127
   },
   "Chattanooga Mocs": {
-   "off": 3.2159,
-   "dfn": 3.6476,
+   "off": 3.1681,
+   "dfn": 3.7578,
    "w": 75,
-   "l": 55,
-   "gp": 130
+   "l": 56,
+   "gp": 131
   },
   "Charleston Southern Buccaneers": {
    "off": 4.7417,
@@ -724,11 +724,11 @@
    "gp": 132
   },
   "Gardner-Webb Runnin' Bulldogs": {
-   "off": -5.3719,
-   "dfn": -1.4331,
+   "off": -5.8553,
+   "dfn": -1.4402,
    "w": 41,
-   "l": 77,
-   "gp": 118
+   "l": 78,
+   "gp": 119
   },
   "Creighton Bluejays": {
    "off": 4.1264,
@@ -941,11 +941,11 @@
    "gp": 121
   },
   "Fordham Rams": {
-   "off": -5.1631,
-   "dfn": 11.9551,
+   "off": -4.7384,
+   "dfn": 10.5942,
    "w": 62,
-   "l": 62,
-   "gp": 124
+   "l": 63,
+   "gp": 125
   },
   "Dartmouth Big Green": {
    "off": 1.6046,
@@ -1039,11 +1039,11 @@
    "gp": 1
   },
   "Gonzaga Bulldogs": {
-   "off": 8.4361,
-   "dfn": 16.2845,
-   "w": 107,
+   "off": 8.6577,
+   "dfn": 16.2731,
+   "w": 108,
    "l": 27,
-   "gp": 134
+   "gp": 135
   },
   "North Florida Ospreys": {
    "off": 4.6993,
@@ -1109,11 +1109,11 @@
    "gp": 126
   },
   "Houston Cougars": {
-   "off": 4.8623,
-   "dfn": 23.1163,
-   "w": 125,
+   "off": 5.7605,
+   "dfn": 22.8202,
+   "w": 126,
    "l": 20,
-   "gp": 145
+   "gp": 146
   },
   "Northern Colorado Bears": {
    "off": 7.2943,
@@ -1123,11 +1123,11 @@
    "gp": 122
   },
   "Illinois Fighting Illini": {
-   "off": 11.769,
-   "dfn": 14.6194,
-   "w": 94,
+   "off": 14.031,
+   "dfn": 15.2933,
+   "w": 95,
    "l": 41,
-   "gp": 135
+   "gp": 136
   },
   "Eastern Illinois Panthers": {
    "off": -6.8468,
@@ -1235,11 +1235,11 @@
    "gp": 120
   },
   "Iowa State Cyclones": {
-   "off": 9.8928,
-   "dfn": 17.8425,
+   "off": 9.296,
+   "dfn": 16.8416,
    "w": 97,
-   "l": 36,
-   "gp": 133
+   "l": 37,
+   "gp": 134
   },
   "IU Indianapolis Jaguars": {
    "off": 4.8709,
@@ -1277,11 +1277,11 @@
    "gp": 4
   },
   "Kansas Jayhawks": {
-   "off": 4.7659,
-   "dfn": 14.5507,
-   "w": 88,
+   "off": 6.1268,
+   "dfn": 14.126,
+   "w": 89,
    "l": 42,
-   "gp": 130
+   "gp": 131
   },
   "Omaha Mavericks": {
    "off": -0.1742,
@@ -1382,11 +1382,11 @@
    "gp": 127
   },
   "Fairleigh Dickinson Knights": {
-   "off": -6.719,
-   "dfn": 8.8273,
+   "off": -7.3929,
+   "dfn": 6.5653,
    "w": 57,
-   "l": 68,
-   "gp": 125
+   "l": 69,
+   "gp": 126
   },
   "Loyola Marymount Lions": {
    "off": -2.5152,
@@ -1487,11 +1487,11 @@
    "gp": 121
   },
   "Michigan State Spartans": {
-   "off": 8.3582,
-   "dfn": 14.7441,
-   "w": 92,
+   "off": 9.1167,
+   "dfn": 15.0479,
+   "w": 93,
    "l": 43,
-   "gp": 135
+   "gp": 136
   },
   "Northern Arizona Lumberjacks": {
    "off": -3.5686,
@@ -1746,18 +1746,18 @@
    "gp": 127
   },
   "Chicago State Cougars": {
-   "off": -7.1551,
-   "dfn": 3.2018,
+   "off": -7.2467,
+   "dfn": 1.7526,
    "w": 33,
-   "l": 86,
-   "gp": 119
+   "l": 87,
+   "gp": 120
   },
   "Ohio State Buckeyes": {
-   "off": 6.2731,
-   "dfn": 10.3304,
+   "off": 6.5734,
+   "dfn": 9.5273,
    "w": 70,
-   "l": 58,
-   "gp": 128
+   "l": 59,
+   "gp": 129
   },
   "Robert Morris Colonials": {
    "off": 1.4809,
@@ -1949,11 +1949,11 @@
    "gp": 119
   },
   "Purdue Boilermakers": {
-   "off": 10.5723,
-   "dfn": 13.3843,
+   "off": 10.5837,
+   "dfn": 13.1627,
    "w": 113,
-   "l": 30,
-   "gp": 143
+   "l": 31,
+   "gp": 144
   },
   "Queens University Royals": {
    "off": 9.3278,
@@ -1977,11 +1977,11 @@
    "gp": 117
   },
   "Quinnipiac Bobcats": {
-   "off": 1.1165,
-   "dfn": 4.625,
+   "off": 0.8127,
+   "dfn": 3.8665,
    "w": 82,
-   "l": 44,
-   "gp": 126
+   "l": 45,
+   "gp": 127
   },
   "Richmond Spiders": {
    "off": -1.0231,
@@ -2320,11 +2320,11 @@
    "gp": 10
   },
   "Tennessee Volunteers": {
-   "off": 5.1492,
-   "dfn": 16.5123,
-   "w": 102,
+   "off": 5.6837,
+   "dfn": 16.9455,
+   "w": 103,
    "l": 38,
-   "gp": 140
+   "gp": 141
   },
   "Tennessee Tech Golden Eagles": {
    "off": -1.2973,
@@ -2348,11 +2348,11 @@
    "gp": 117
   },
   "Texas Longhorns": {
-   "off": 8.3401,
-   "dfn": 10.0268,
-   "w": 85,
+   "off": 9.7893,
+   "dfn": 10.1184,
+   "w": 86,
    "l": 48,
-   "gp": 133
+   "gp": 134
   },
   "UTEP Miners": {
    "off": -2.8443,
@@ -2362,11 +2362,11 @@
    "gp": 120
   },
   "Texas Tech Red Raiders": {
-   "off": 6.6594,
-   "dfn": 13.1844,
-   "w": 84,
+   "off": 5.882,
+   "dfn": 14.3622,
+   "w": 85,
    "l": 45,
-   "gp": 129
+   "gp": 130
   },
   "Northwestern State Demons": {
    "off": -7.2616,
@@ -2495,11 +2495,11 @@
    "gp": 121
   },
   "UCLA Bruins": {
-   "off": 4.3179,
-   "dfn": 13.3456,
-   "w": 90,
+   "off": 5.1732,
+   "dfn": 13.6161,
+   "w": 91,
    "l": 46,
-   "gp": 136
+   "gp": 137
   },
   "Sacramento State Hornets": {
    "off": 1.8031,
@@ -2509,11 +2509,11 @@
    "gp": 121
   },
   "UConn Huskies": {
-   "off": 4.6654,
-   "dfn": 18.2797,
-   "w": 120,
+   "off": 4.6725,
+   "dfn": 18.7631,
+   "w": 121,
    "l": 26,
-   "gp": 146
+   "gp": 147
   },
   "Stonehill Skyhawks": {
    "off": -8.609,
@@ -2551,11 +2551,11 @@
    "gp": 120
   },
   "USC Trojans": {
-   "off": 4.4511,
-   "dfn": 4.5009,
-   "w": 69,
+   "off": 5.3678,
+   "dfn": 5.1874,
+   "w": 70,
    "l": 56,
-   "gp": 125
+   "gp": 126
   },
   "Florida Gulf Coast Eagles": {
    "off": -1.1481,
@@ -2621,18 +2621,18 @@
    "gp": 118
   },
   "Vanderbilt Commodores": {
-   "off": 12.035,
-   "dfn": 9.3706,
-   "w": 76,
+   "off": 12.124,
+   "dfn": 10.8805,
+   "w": 77,
    "l": 55,
-   "gp": 131
+   "gp": 132
   },
   "Memphis Tigers": {
-   "off": 3.5377,
-   "dfn": 3.4705,
-   "w": 86,
+   "off": 4.5386,
+   "dfn": 4.0673,
+   "w": 87,
    "l": 42,
-   "gp": 128
+   "gp": 129
   },
   "Vermont Catamounts": {
    "off": -2.5964,
@@ -2775,11 +2775,11 @@
    "gp": 121
   },
   "Wofford Terriers": {
-   "off": 5.0269,
-   "dfn": 3.7349,
+   "off": 4.5937,
+   "dfn": 3.2004,
    "w": 71,
-   "l": 54,
-   "gp": 125
+   "l": 55,
+   "gp": 126
   },
   "Bob Jones Bruins": {
    "off": -6.8909,
@@ -2971,18 +2971,18 @@
    "gp": 121
   },
   "Louisville Cardinals": {
-   "off": 9.8482,
-   "dfn": 10.1141,
-   "w": 58,
+   "off": 9.738,
+   "dfn": 10.1619,
+   "w": 59,
    "l": 68,
-   "gp": 126
+   "gp": 127
   },
   "Bellarmine Knights": {
-   "off": 3.8352,
-   "dfn": 0.3402,
+   "off": 2.3253,
+   "dfn": 0.2512,
    "w": 37,
-   "l": 80,
-   "gp": 117
+   "l": 81,
+   "gp": 118
   },
   "Marist Red Foxes": {
    "off": -6.2349,
@@ -7059,13 +7059,23 @@
    "gp": 1
   }
  },
- "updated_from": 23579,
- "last_date": "2026-11-02",
+ "updated_from": 23594,
+ "last_date": "2026-11-03",
  "applied_on_last_date": [
-  "2026-11-02|Duke Blue Devils|Army Black Knights",
-  "2026-11-02|Florida Gators|Miami Hurricanes",
-  "2026-11-02|High Point Panthers|Liberty Flames",
-  "2026-11-02|Michigan Wolverines|Oakland Golden Grizzlies",
-  "2026-11-02|St. John's Red Storm|Monmouth Hawks"
+  "2026-11-03|BYU Cougars|Ohio State Buckeyes",
+  "2026-11-03|Gonzaga Bulldogs|Purdue Boilermakers",
+  "2026-11-03|Houston Cougars|La Salle Explorers",
+  "2026-11-03|Illinois Fighting Illini|Fairleigh Dickinson Knights",
+  "2026-11-03|Iowa State Cyclones|Memphis Tigers",
+  "2026-11-03|Kansas Jayhawks|Fordham Rams",
+  "2026-11-03|Louisville Cardinals|Chattanooga Mocs",
+  "2026-11-03|Michigan State Spartans|Quinnipiac Bobcats",
+  "2026-11-03|Tennessee Volunteers|Wofford Terriers",
+  "2026-11-03|Texas Longhorns|Chicago State Cougars",
+  "2026-11-03|Texas Tech Red Raiders|Jackson State Tigers",
+  "2026-11-03|UCLA Bruins|Arizona Wildcats",
+  "2026-11-03|UConn Huskies|Gardner-Webb Runnin' Bulldogs",
+  "2026-11-03|USC Trojans|Milwaukee Panthers",
+  "2026-11-03|Vanderbilt Commodores|Bellarmine Knights"
  ]
 }

@@ -1,6 +1,6 @@
 {
- "mu": 69.5276,
- "hfa": 3.2785,
+ "mu": 69.5243,
+ "hfa": 3.3419,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -941,11 +941,11 @@
    "gp": 61
   },
   "SE Louisiana Lady Lions": {
-   "off": -7.21,
-   "dfn": 1.1049,
+   "off": -7.9649,
+   "dfn": -0.6255,
    "w": 29,
-   "l": 27,
-   "gp": 56
+   "l": 28,
+   "gp": 57
   },
   "Millsaps Majors": {
    "off": -3.4533,
@@ -1711,11 +1711,11 @@
    "gp": 67
   },
   "LSU Tigers": {
-   "off": 28.517,
-   "dfn": 14.7008,
-   "w": 59,
+   "off": 30.2474,
+   "dfn": 15.4557,
+   "w": 60,
    "l": 10,
-   "gp": 69
+   "gp": 70
   },
   "Eastern Kentucky Colonels": {
    "off": 2.3372,
@@ -2586,11 +2586,11 @@
    "gp": 66
   },
   "Towson Tigers": {
-   "off": 0.0822,
-   "dfn": 1.937,
+   "off": -0.53,
+   "dfn": 2.4001,
    "w": 28,
-   "l": 34,
-   "gp": 62
+   "l": 35,
+   "gp": 63
   },
   "Western Illinois Leathernecks": {
    "off": 4.8551,
@@ -2656,11 +2656,11 @@
    "gp": 3
   },
   "Iowa Hawkeyes": {
-   "off": 9.8486,
-   "dfn": 14.4058,
-   "w": 49,
+   "off": 9.3855,
+   "dfn": 15.018,
+   "w": 50,
    "l": 16,
-   "gp": 65
+   "gp": 66
   },
   "Kansas Jayhawks": {
    "off": 6.4622,
@@ -5386,22 +5386,10 @@
    "gp": 1
   }
  },
- "updated_from": 11400,
- "last_date": "2026-11-02",
+ "updated_from": 11402,
+ "last_date": "2026-11-03",
  "applied_on_last_date": [
-  "2026-11-02|Kentucky Wildcats|Morehead State Eagles",
-  "2026-11-02|Louisville Cardinals|Bellarmine Knights",
-  "2026-11-02|Minnesota Golden Gophers|Harvard Crimson",
-  "2026-11-02|NC State Wolfpack|Wofford Terriers",
-  "2026-11-02|North Carolina Tar Heels|Oklahoma Sooners",
-  "2026-11-02|Ohio State Buckeyes|UIC Flames",
-  "2026-11-02|Oklahoma State Cowgirls|Southern Jaguars",
-  "2026-11-02|Ole Miss Rebels|Alcorn State Lady Braves",
-  "2026-11-02|South Carolina Gamecocks|Maryland Terrapins",
-  "2026-11-02|UCLA Bruins|Lehigh Mountain Hawks",
-  "2026-11-02|UConn Huskies|Cornell Big Red",
-  "2026-11-02|UNLV Lady Rebels|USC Trojans",
-  "2026-11-02|Vanderbilt Commodores|Lipscomb Bisons",
-  "2026-11-02|Washington Huskies|UC San Diego Tritons"
+  "2026-11-03|Iowa Hawkeyes|Towson Tigers",
+  "2026-11-03|LSU Tigers|SE Louisiana Lady Lions"
  ]
 }
