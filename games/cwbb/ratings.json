@@ -1,6 +1,6 @@
 {
- "mu": 69.5243,
- "hfa": 3.3419,
+ "mu": 69.5511,
+ "hfa": 3.3981,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -199,11 +199,11 @@
    "gp": 66
   },
   "Campbell Fighting Camels": {
-   "off": -7.3263,
-   "dfn": 12.2003,
+   "off": -7.7668,
+   "dfn": 11.777,
    "w": 41,
-   "l": 25,
-   "gp": 66
+   "l": 26,
+   "gp": 67
   },
   "Mount Olive Trojans": {
    "off": -5.8376,
@@ -311,11 +311,11 @@
    "gp": 5
   },
   "Duke Blue Devils": {
-   "off": 11.0299,
-   "dfn": 19.8777,
-   "w": 53,
+   "off": 11.1844,
+   "dfn": 19.3569,
+   "w": 54,
    "l": 16,
-   "gp": 69
+   "gp": 70
   },
   "Radford Highlanders": {
    "off": 1.2301,
@@ -528,11 +528,11 @@
    "gp": 71
   },
   "Green Bay Phoenix": {
-   "off": 1.6729,
-   "dfn": 10.4703,
+   "off": 2.1937,
+   "dfn": 10.3158,
    "w": 51,
-   "l": 15,
-   "gp": 66
+   "l": 16,
+   "gp": 67
   },
   "Kentucky Wildcats": {
    "off": 11.424,
@@ -871,11 +871,11 @@
    "gp": 54
   },
   "Oral Roberts Golden Eagles": {
-   "off": 8.7358,
-   "dfn": -5.0249,
+   "off": 7.6913,
+   "dfn": -5.726,
    "w": 34,
-   "l": 24,
-   "gp": 58
+   "l": 25,
+   "gp": 59
   },
   "Northeastern State RiverHawks": {
    "off": -1.7507,
@@ -913,11 +913,11 @@
    "gp": 59
   },
   "Rhode Island Rams": {
-   "off": 0.796,
-   "dfn": 14.0238,
+   "off": 1.4389,
+   "dfn": 14.1787,
    "w": 45,
-   "l": 21,
-   "gp": 66
+   "l": 22,
+   "gp": 67
   },
   "Stonehill Skyhawks": {
    "off": -10.2722,
@@ -2446,11 +2446,11 @@
    "gp": 4
   },
   "NC State Wolfpack": {
-   "off": 12.2493,
-   "dfn": 9.8781,
-   "w": 48,
+   "off": 12.6726,
+   "dfn": 10.3186,
+   "w": 49,
    "l": 17,
-   "gp": 65
+   "gp": 66
   },
   "East Tennessee State Bucs": {
    "off": -7.4471,
@@ -2516,11 +2516,11 @@
    "gp": 53
   },
   "TCU Horned Frogs": {
-   "off": 9.3733,
-   "dfn": 17.8735,
-   "w": 62,
+   "off": 10.0744,
+   "dfn": 18.918,
+   "w": 63,
    "l": 10,
-   "gp": 72
+   "gp": 73
   },
   "Houston Christian Huskies": {
    "off": -9.3003,
@@ -2579,11 +2579,11 @@
    "gp": 64
   },
   "West Virginia Mountaineers": {
-   "off": 11.6645,
-   "dfn": 17.0459,
-   "w": 53,
+   "off": 11.5096,
+   "dfn": 16.403,
+   "w": 54,
    "l": 13,
-   "gp": 66
+   "gp": 67
   },
   "Towson Tigers": {
    "off": -0.53,
@@ -5386,10 +5386,12 @@
    "gp": 1
   }
  },
- "updated_from": 11402,
- "last_date": "2026-11-03",
+ "updated_from": 11406,
+ "last_date": "2026-11-04",
  "applied_on_last_date": [
-  "2026-11-03|Iowa Hawkeyes|Towson Tigers",
-  "2026-11-03|LSU Tigers|SE Louisiana Lady Lions"
+  "2026-11-04|Duke Blue Devils|Green Bay Phoenix",
+  "2026-11-04|NC State Wolfpack|Campbell Fighting Camels",
+  "2026-11-04|TCU Horned Frogs|Oral Roberts Golden Eagles",
+  "2026-11-04|West Virginia Mountaineers|Rhode Island Rams"
  ]
 }

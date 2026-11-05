@@ -1,6 +1,6 @@
 {
- "mu": 100.8652,
- "hfa": 2.8124,
+ "mu": 100.9859,
+ "hfa": 2.8876,
  "teams": {
   "FC BAYERN MUNICH": {
    "off": -10.3295,
@@ -45,11 +45,11 @@
    "gp": 95
   },
   "REAL MADRID": {
-   "off": -2.0653,
-   "dfn": 10.9521,
+   "off": -0.5615,
+   "dfn": 8.8351,
    "w": 185,
-   "l": 93,
-   "gp": 278
+   "l": 94,
+   "gp": 279
   },
   "FENERBAHCE BEKO ISTANBUL": {
    "off": -11.1413,
@@ -213,11 +213,11 @@
    "gp": 73
   },
   "PANATHINAIKOS AKTOR ATHENS": {
-   "off": -10.1968,
-   "dfn": 14.6762,
-   "w": 85,
+   "off": -8.0798,
+   "dfn": 13.1724,
+   "w": 86,
    "l": 50,
-   "gp": 135
+   "gp": 136
   },
   "PARIS BASKETBALL": {
    "off": -3.9597,
@@ -283,15 +283,9 @@
    "gp": 9
   }
  },
- "updated_from": 2360,
- "last_date": "2026-10-30",
+ "updated_from": 2361,
+ "last_date": "2026-11-04",
  "applied_on_last_date": [
-  "2026-10-30|ANADOLU EFES ISTANBUL|PANATHINAIKOS AKTOR ATHENS",
-  "2026-10-30|DUBAI BASKETBALL|HAPOEL IBI TEL AVIV",
-  "2026-10-30|FC BARCELONA|VALENCIA BASKET",
-  "2026-10-30|LDLC ASVEL VILLEURBANNE|KOSNER BASKONIA VITORIA-GASTEIZ",
-  "2026-10-30|OLYMPIACOS PIRAEUS|ARMANI OLIMPIA MILAN",
-  "2026-10-30|VIRTUS BOLOGNA|BESIKTAS ISTANBUL",
-  "2026-10-30|ZALGIRIS KAUNAS|PARTIZAN MOZZART BET BELGRADE"
+  "2026-11-04|REAL MADRID|PANATHINAIKOS AKTOR ATHENS"
  ]
 }

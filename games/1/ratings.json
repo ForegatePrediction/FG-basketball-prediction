@@ -1,6 +1,6 @@
 {
- "mu": 110.2987,
- "hfa": 1.1723,
+ "mu": 110.3546,
+ "hfa": 1.2366,
  "teams": {
   "Illawarra Hawks": {
    "off": -4.8775,
@@ -45,18 +45,18 @@
    "gp": 149
   },
   "Perth Wildcats": {
-   "off": -9.3687,
-   "dfn": 10.6416,
+   "off": -8.9762,
+   "dfn": 9.3565,
    "w": 86,
-   "l": 61,
-   "gp": 147
+   "l": 62,
+   "gp": 148
   },
   "Brisbane Bullets": {
-   "off": -13.2478,
-   "dfn": 3.4721,
-   "w": 49,
+   "off": -11.9627,
+   "dfn": 3.0796,
+   "w": 50,
    "l": 89,
-   "gp": 138
+   "gp": 139
   },
   "Cairns Taipans": {
    "off": -10.5456,
@@ -73,9 +73,9 @@
    "gp": 150
   }
  },
- "updated_from": 746,
- "last_date": "2026-11-02",
+ "updated_from": 747,
+ "last_date": "2026-11-04",
  "applied_on_last_date": [
-  "2026-11-02|Melbourne United|New Zealand Breakers"
+  "2026-11-04|Brisbane Bullets|Perth Wildcats"
  ]
 }

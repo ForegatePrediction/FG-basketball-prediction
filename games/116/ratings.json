@@ -1,6 +1,6 @@
 {
- "mu": 77.6527,
- "hfa": 2.1261,
+ "mu": 77.6495,
+ "hfa": 2.2629,
  "teams": {
   "App State Mountaineers": {
    "off": -4.001,
@@ -73,11 +73,11 @@
    "gp": 4
   },
   "Kentucky Wildcats": {
-   "off": 8.7872,
-   "dfn": 9.6857,
-   "w": 86,
+   "off": 8.5355,
+   "dfn": 10.2855,
+   "w": 87,
    "l": 45,
-   "gp": 131
+   "gp": 132
   },
   "Howard Bison": {
    "off": 4.0482,
@@ -269,11 +269,11 @@
    "gp": 125
   },
   "Alabama Crimson Tide": {
-   "off": 19.853,
-   "dfn": 3.6488,
-   "w": 102,
+   "off": 19.968,
+   "dfn": 4.0834,
+   "w": 103,
    "l": 35,
-   "gp": 137
+   "gp": 138
   },
   "Longwood Lancers": {
    "off": 1.7913,
@@ -311,11 +311,11 @@
    "gp": 123
   },
   "Arkansas Razorbacks": {
-   "off": 17.0412,
-   "dfn": 3.5962,
-   "w": 84,
+   "off": 17.5387,
+   "dfn": 4.2782,
+   "w": 85,
    "l": 48,
-   "gp": 132
+   "gp": 133
   },
   "North Dakota State Bison": {
    "off": 4.0026,
@@ -948,11 +948,11 @@
    "gp": 125
   },
   "Dartmouth Big Green": {
-   "off": 1.6046,
-   "dfn": 3.5675,
-   "w": 37,
+   "off": 2.9785,
+   "dfn": 4.7743,
+   "w": 38,
    "l": 66,
-   "gp": 103
+   "gp": 104
   },
   "Fresno State Bulldogs": {
    "off": -0.9745,
@@ -1774,11 +1774,11 @@
    "gp": 128
   },
   "Sam Houston Bearkats": {
-   "off": 7.2397,
-   "dfn": 5.5478,
+   "off": 6.8051,
+   "dfn": 5.4328,
    "w": 76,
-   "l": 49,
-   "gp": 125
+   "l": 50,
+   "gp": 126
   },
   "Oklahoma State Cowboys": {
    "off": 11.0877,
@@ -2285,11 +2285,11 @@
    "gp": 130
   },
   "Arkansas-Pine Bluff Golden Lions": {
-   "off": -1.6792,
-   "dfn": -0.8934,
+   "off": -2.3612,
+   "dfn": -1.3909,
    "w": 40,
-   "l": 79,
-   "gp": 119
+   "l": 80,
+   "gp": 120
   },
   "Temple Owls": {
    "off": 0.4835,
@@ -2614,11 +2614,11 @@
    "gp": 138
   },
   "Manhattan Jaspers": {
-   "off": -0.9598,
-   "dfn": -0.5408,
+   "off": -1.5596,
+   "dfn": -0.2891,
    "w": 45,
-   "l": 73,
-   "gp": 118
+   "l": 74,
+   "gp": 119
   },
   "Vanderbilt Commodores": {
    "off": 12.124,
@@ -2649,11 +2649,11 @@
    "gp": 105
   },
   "Virginia Cavaliers": {
-   "off": 4.7779,
-   "dfn": 13.844,
-   "w": 86,
+   "off": 5.7785,
+   "dfn": 13.7525,
+   "w": 87,
    "l": 41,
-   "gp": 127
+   "gp": 128
   },
   "North Carolina Central Eagles": {
    "off": -2.9177,
@@ -3363,11 +3363,11 @@
    "gp": 1
   },
   "Drexel Dragons": {
-   "off": -5.2937,
-   "dfn": 12.2808,
+   "off": -5.2022,
+   "dfn": 11.2802,
    "w": 67,
-   "l": 54,
-   "gp": 121
+   "l": 55,
+   "gp": 122
   },
   "Hawai'i Rainbow Warriors": {
    "off": 2.3184,
@@ -4098,11 +4098,11 @@
    "gp": 2
   },
   "Framingham State Rams": {
-   "off": -3.9554,
-   "dfn": -2.7045,
+   "off": -5.1622,
+   "dfn": -4.0784,
    "w": 0,
-   "l": 3,
-   "gp": 3
+   "l": 4,
+   "gp": 4
   },
   "Arlington Baptist Patriots": {
    "off": -7.4709,
@@ -7059,23 +7059,13 @@
    "gp": 1
   }
  },
- "updated_from": 23594,
- "last_date": "2026-11-03",
+ "updated_from": 23599,
+ "last_date": "2026-11-04",
  "applied_on_last_date": [
-  "2026-11-03|BYU Cougars|Ohio State Buckeyes",
-  "2026-11-03|Gonzaga Bulldogs|Purdue Boilermakers",
-  "2026-11-03|Houston Cougars|La Salle Explorers",
-  "2026-11-03|Illinois Fighting Illini|Fairleigh Dickinson Knights",
-  "2026-11-03|Iowa State Cyclones|Memphis Tigers",
-  "2026-11-03|Kansas Jayhawks|Fordham Rams",
-  "2026-11-03|Louisville Cardinals|Chattanooga Mocs",
-  "2026-11-03|Michigan State Spartans|Quinnipiac Bobcats",
-  "2026-11-03|Tennessee Volunteers|Wofford Terriers",
-  "2026-11-03|Texas Longhorns|Chicago State Cougars",
-  "2026-11-03|Texas Tech Red Raiders|Jackson State Tigers",
-  "2026-11-03|UCLA Bruins|Arizona Wildcats",
-  "2026-11-03|UConn Huskies|Gardner-Webb Runnin' Bulldogs",
-  "2026-11-03|USC Trojans|Milwaukee Panthers",
-  "2026-11-03|Vanderbilt Commodores|Bellarmine Knights"
+  "2026-11-04|Alabama Crimson Tide|Sam Houston Bearkats",
+  "2026-11-04|Arkansas Razorbacks|Arkansas-Pine Bluff Golden Lions",
+  "2026-11-04|Dartmouth Big Green|Framingham State Rams",
+  "2026-11-04|Kentucky Wildcats|Manhattan Jaspers",
+  "2026-11-04|Virginia Cavaliers|Drexel Dragons"
  ]
 }
