@@ -1,13 +1,13 @@
 {
- "mu": 100.9859,
- "hfa": 2.8876,
+ "mu": 100.9389,
+ "hfa": 2.8227,
  "teams": {
   "FC BAYERN MUNICH": {
-   "off": -10.3295,
-   "dfn": 6.0014,
-   "w": 110,
+   "off": -9.4437,
+   "dfn": 5.5381,
+   "w": 111,
    "l": 144,
-   "gp": 254
+   "gp": 255
   },
   "AX ARMANI EXCHANGE MILAN": {
    "off": -19.0026,
@@ -73,25 +73,25 @@
    "gp": 90
   },
   "ANADOLU EFES ISTANBUL": {
-   "off": -10.9342,
-   "dfn": 10.7078,
+   "off": -10.8917,
+   "dfn": 10.1869,
    "w": 146,
-   "l": 118,
-   "gp": 264
+   "l": 119,
+   "gp": 265
   },
   "FC BARCELONA": {
-   "off": -8.5122,
-   "dfn": 11.0189,
-   "w": 178,
+   "off": -8.0159,
+   "dfn": 10.9595,
+   "w": 179,
    "l": 96,
-   "gp": 274
+   "gp": 275
   },
   "LDLC ASVEL VILLEURBANNE": {
-   "off": -10.4134,
-   "dfn": 6.3285,
+   "off": -9.9501,
+   "dfn": 5.4427,
    "w": 75,
-   "l": 168,
-   "gp": 243
+   "l": 169,
+   "gp": 244
   },
   "OLYMPIACOS PIRAEUS": {
    "off": -4.1566,
@@ -101,11 +101,11 @@
    "gp": 274
   },
   "VALENCIA BASKET": {
-   "off": -1.7653,
-   "dfn": 7.5065,
-   "w": 94,
+   "off": -2.5467,
+   "dfn": 8.6328,
+   "w": 95,
    "l": 89,
-   "gp": 183
+   "gp": 184
   },
   "CSKA MOSCOW": {
    "off": -9.0651,
@@ -220,11 +220,11 @@
    "gp": 136
   },
   "PARIS BASKETBALL": {
-   "off": -3.9597,
-   "dfn": 3.6479,
-   "w": 38,
+   "off": -3.4388,
+   "dfn": 3.6054,
+   "w": 39,
    "l": 47,
-   "gp": 85
+   "gp": 86
   },
   "MACCABI RAPYD TEL AVIV": {
    "off": -4.9805,
@@ -241,18 +241,18 @@
    "gp": 47
   },
   "HAPOEL IBI TEL AVIV": {
-   "off": -3.6423,
-   "dfn": 7.6344,
+   "off": -3.5829,
+   "dfn": 7.1381,
    "w": 30,
-   "l": 21,
-   "gp": 51
+   "l": 22,
+   "gp": 52
   },
   "KOSNER BASKONIA VITORIA-GASTEIZ": {
-   "off": -7.2844,
-   "dfn": 1.9369,
+   "off": -8.5163,
+   "dfn": 2.6744,
    "w": 14,
-   "l": 33,
-   "gp": 47
+   "l": 34,
+   "gp": 48
   },
   "VIRTUS BOLOGNA": {
    "off": -10.6924,
@@ -269,23 +269,27 @@
    "gp": 9
   },
   "FENERBAHCE TARFIN ISTANBUL": {
-   "off": -5.5464,
-   "dfn": 8.1243,
-   "w": 6,
+   "off": -6.2839,
+   "dfn": 9.3562,
+   "w": 7,
    "l": 3,
-   "gp": 9
+   "gp": 10
   },
   "ARMANI OLIMPIA MILAN": {
-   "off": -4.617,
-   "dfn": 2.2161,
+   "off": -5.7433,
+   "dfn": 2.9975,
    "w": 1,
-   "l": 8,
-   "gp": 9
+   "l": 9,
+   "gp": 10
   }
  },
- "updated_from": 2361,
- "last_date": "2026-11-04",
+ "updated_from": 2366,
+ "last_date": "2026-11-05",
  "applied_on_last_date": [
-  "2026-11-04|REAL MADRID|PANATHINAIKOS AKTOR ATHENS"
+  "2026-11-05|ANADOLU EFES ISTANBUL|PARIS BASKETBALL",
+  "2026-11-05|ARMANI OLIMPIA MILAN|VALENCIA BASKET",
+  "2026-11-05|FENERBAHCE TARFIN ISTANBUL|KOSNER BASKONIA VITORIA-GASTEIZ",
+  "2026-11-05|HAPOEL IBI TEL AVIV|FC BARCELONA",
+  "2026-11-05|LDLC ASVEL VILLEURBANNE|FC BAYERN MUNICH"
  ]
 }

@@ -1,13 +1,13 @@
 {
- "mu": 110.3546,
- "hfa": 1.2366,
+ "mu": 110.3571,
+ "hfa": 1.2222,
  "teams": {
   "Illawarra Hawks": {
-   "off": -4.8775,
-   "dfn": 1.2422,
-   "w": 65,
+   "off": -4.5144,
+   "dfn": 1.5304,
+   "w": 66,
    "l": 86,
-   "gp": 151
+   "gp": 152
   },
   "Sydney Kings": {
    "off": -3.3722,
@@ -59,11 +59,11 @@
    "gp": 139
   },
   "Cairns Taipans": {
-   "off": -10.5456,
-   "dfn": 4.5292,
+   "off": -10.8338,
+   "dfn": 4.1661,
    "w": 58,
-   "l": 86,
-   "gp": 144
+   "l": 87,
+   "gp": 145
   },
   "Adelaide 36ers": {
    "off": -8.9676,
@@ -73,9 +73,9 @@
    "gp": 150
   }
  },
- "updated_from": 747,
- "last_date": "2026-11-04",
+ "updated_from": 748,
+ "last_date": "2026-11-05",
  "applied_on_last_date": [
-  "2026-11-04|Brisbane Bullets|Perth Wildcats"
+  "2026-11-05|Cairns Taipans|Illawarra Hawks"
  ]
 }

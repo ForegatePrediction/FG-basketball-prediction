@@ -1,6 +1,6 @@
 {
- "mu": 69.5511,
- "hfa": 3.3981,
+ "mu": 69.4565,
+ "hfa": 3.5057,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -213,11 +213,11 @@
    "gp": 2
   },
   "Central Michigan Chippewas": {
-   "off": 3.0517,
-   "dfn": 3.6464,
+   "off": 1.6235,
+   "dfn": 2.5681,
    "w": 29,
-   "l": 29,
-   "gp": 58
+   "l": 30,
+   "gp": 59
   },
   "Coastal Carolina Chanticleers": {
    "off": 4.5528,
@@ -535,11 +535,11 @@
    "gp": 67
   },
   "Kentucky Wildcats": {
-   "off": 11.424,
-   "dfn": 16.7647,
-   "w": 45,
+   "off": 11.1193,
+   "dfn": 18.3676,
+   "w": 46,
    "l": 18,
-   "gp": 63
+   "gp": 64
   },
   "South Carolina Upstate Spartans": {
    "off": -11.042,
@@ -682,11 +682,11 @@
    "gp": 61
   },
   "Stetson Hatters": {
-   "off": 1.9327,
-   "dfn": 4.2491,
+   "off": 0.5687,
+   "dfn": 4.0349,
    "w": 35,
-   "l": 22,
-   "gp": 57
+   "l": 23,
+   "gp": 58
   },
   "Morehead State Eagles": {
    "off": -2.573,
@@ -815,11 +815,11 @@
    "gp": 55
   },
   "Northern Kentucky Norse": {
-   "off": 1.9474,
-   "dfn": 0.2676,
+   "off": 0.3445,
+   "dfn": 0.5723,
    "w": 24,
-   "l": 37,
-   "gp": 61
+   "l": 38,
+   "gp": 62
   },
   "Middle Tennessee Blue Raiders": {
    "off": -1.3139,
@@ -1116,11 +1116,11 @@
    "gp": 72
   },
   "Louisville Cardinals": {
-   "off": 14.8352,
-   "dfn": 13.6692,
-   "w": 48,
+   "off": 15.0494,
+   "dfn": 15.0332,
+   "w": 49,
    "l": 18,
-   "gp": 66
+   "gp": 67
   },
   "UL Monroe Warhawks": {
    "off": 1.8094,
@@ -1207,11 +1207,11 @@
    "gp": 58
   },
   "Vanderbilt Commodores": {
-   "off": 22.2954,
-   "dfn": 7.7919,
-   "w": 49,
+   "off": 22.7746,
+   "dfn": 8.5034,
+   "w": 50,
    "l": 14,
-   "gp": 63
+   "gp": 64
   },
   "Lipscomb Bisons": {
    "off": -5.0413,
@@ -1256,11 +1256,11 @@
    "gp": 58
   },
   "Queens University Royals": {
-   "off": -7.8145,
-   "dfn": 3.2277,
+   "off": -8.526,
+   "dfn": 2.7485,
    "w": 19,
-   "l": 36,
-   "gp": 55
+   "l": 37,
+   "gp": 56
   },
   "Weber State Wildcats": {
    "off": -3.6335,
@@ -1515,11 +1515,11 @@
    "gp": 4
   },
   "Fairleigh Dickinson Knights": {
-   "off": -2.0148,
-   "dfn": 12.8856,
+   "off": -0.767,
+   "dfn": 12.6395,
    "w": 55,
-   "l": 9,
-   "gp": 64
+   "l": 10,
+   "gp": 65
   },
   "Dominican (NY) Chargers": {
    "off": -2.428,
@@ -1837,11 +1837,11 @@
    "gp": 63
   },
   "Ohio State Buckeyes": {
-   "off": 15.8326,
-   "dfn": 12.6752,
-   "w": 54,
+   "off": 16.9109,
+   "dfn": 14.1034,
+   "w": 55,
    "l": 13,
-   "gp": 67
+   "gp": 68
   },
   "Cleveland State Vikings": {
    "off": 1.493,
@@ -1998,11 +1998,11 @@
    "gp": 74
   },
   "Michigan Wolverines": {
-   "off": 16.0055,
-   "dfn": 14.1434,
-   "w": 47,
+   "off": 16.6271,
+   "dfn": 14.9146,
+   "w": 48,
    "l": 17,
-   "gp": 64
+   "gp": 65
   },
   "Southern Indiana Screaming Eagles": {
    "off": 1.8484,
@@ -2971,11 +2971,11 @@
    "gp": 2
   },
   "Illinois Fighting Illini": {
-   "off": 10.5322,
-   "dfn": 10.4415,
-   "w": 43,
+   "off": 10.3501,
+   "dfn": 10.8029,
+   "w": 44,
    "l": 20,
-   "gp": 63
+   "gp": 64
   },
   "Loyola Maryland Greyhounds": {
    "off": -11.3719,
@@ -3083,11 +3083,11 @@
    "gp": 59
   },
   "UConn Huskies": {
-   "off": 23.5659,
-   "dfn": 22.1811,
+   "off": 22.7947,
+   "dfn": 21.5595,
    "w": 71,
-   "l": 3,
-   "gp": 74
+   "l": 4,
+   "gp": 75
   },
   "Arlington Baptist Patriots": {
    "off": -7.5497,
@@ -3118,11 +3118,11 @@
    "gp": 65
   },
   "Detroit Mercy Titans": {
-   "off": -3.0861,
-   "dfn": -3.5536,
+   "off": -3.4475,
+   "dfn": -3.3715,
    "w": 22,
-   "l": 38,
-   "gp": 60
+   "l": 39,
+   "gp": 61
   },
   "Long Beach State Beach": {
    "off": -6.4756,
@@ -3272,11 +3272,11 @@
    "gp": 1
   },
   "Texas Longhorns": {
-   "off": 20.9002,
-   "dfn": 23.1965,
-   "w": 67,
+   "off": 21.1463,
+   "dfn": 21.9487,
+   "w": 68,
    "l": 5,
-   "gp": 72
+   "gp": 73
   },
   "Clinton Golden Bears": {
    "off": -6.4742,
@@ -5386,12 +5386,15 @@
    "gp": 1
   }
  },
- "updated_from": 11406,
- "last_date": "2026-11-04",
+ "updated_from": 11413,
+ "last_date": "2026-11-05",
  "applied_on_last_date": [
-  "2026-11-04|Duke Blue Devils|Green Bay Phoenix",
-  "2026-11-04|NC State Wolfpack|Campbell Fighting Camels",
-  "2026-11-04|TCU Horned Frogs|Oral Roberts Golden Eagles",
-  "2026-11-04|West Virginia Mountaineers|Rhode Island Rams"
+  "2026-11-05|Illinois Fighting Illini|Detroit Mercy Titans",
+  "2026-11-05|Kentucky Wildcats|Northern Kentucky Norse",
+  "2026-11-05|Louisville Cardinals|Stetson Hatters",
+  "2026-11-05|Michigan Wolverines|UConn Huskies",
+  "2026-11-05|Ohio State Buckeyes|Central Michigan Chippewas",
+  "2026-11-05|Texas Longhorns|Fairleigh Dickinson Knights",
+  "2026-11-05|Vanderbilt Commodores|Queens University Royals"
  ]
 }
