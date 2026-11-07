@@ -1,6 +1,6 @@
 {
- "mu": 77.8577,
- "hfa": 3.1746,
+ "mu": 77.9733,
+ "hfa": 3.3887,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -297,11 +297,11 @@
    "gp": 124
   },
   "Arizona Wildcats": {
-   "off": 14.8942,
-   "dfn": 13.4384,
-   "w": 109,
+   "off": 15.1757,
+   "dfn": 12.8643,
+   "w": 110,
    "l": 31,
-   "gp": 140
+   "gp": 141
   },
   "Nicholls Colonels": {
    "off": -1.0624,
@@ -444,11 +444,11 @@
    "gp": 125
   },
   "Northeastern Huskies": {
-   "off": 1.8786,
-   "dfn": 0.6675,
+   "off": 2.2346,
+   "dfn": 0.032,
    "w": 44,
-   "l": 71,
-   "gp": 115
+   "l": 72,
+   "gp": 116
   },
   "Bowling Green Falcons": {
    "off": 1.4675,
@@ -521,11 +521,11 @@
    "gp": 131
   },
   "Cal Poly Mustangs": {
-   "off": 10.0122,
-   "dfn": -3.3814,
+   "off": 10.5863,
+   "dfn": -3.6629,
    "w": 41,
-   "l": 84,
-   "gp": 125
+   "l": 85,
+   "gp": 126
   },
   "Bethesda Flames": {
    "off": -9.682,
@@ -689,11 +689,11 @@
    "gp": 1
   },
   "Coastal Carolina Chanticleers": {
-   "off": -2.2268,
-   "dfn": 6.505,
+   "off": -2.5058,
+   "dfn": 4.7857,
    "w": 45,
-   "l": 69,
-   "gp": 114
+   "l": 70,
+   "gp": 115
   },
   "St. Mary's (MD) Seahawks": {
    "off": -7.7372,
@@ -724,11 +724,11 @@
    "gp": 132
   },
   "Gardner-Webb Runnin' Bulldogs": {
-   "off": -5.8553,
-   "dfn": -1.4402,
+   "off": -6.5755,
+   "dfn": -1.766,
    "w": 41,
-   "l": 78,
-   "gp": 119
+   "l": 79,
+   "gp": 120
   },
   "Creighton Bluejays": {
    "off": 4.1264,
@@ -815,18 +815,18 @@
    "gp": 124
   },
   "Duke Blue Devils": {
-   "off": 9.7754,
-   "dfn": 19.0094,
-   "w": 120,
+   "off": 11.4947,
+   "dfn": 19.2884,
+   "w": 121,
    "l": 21,
-   "gp": 141
+   "gp": 142
   },
   "Jacksonville Dolphins": {
-   "off": -2.6182,
-   "dfn": 8.2518,
+   "off": -2.8974,
+   "dfn": 8.2425,
    "w": 55,
-   "l": 61,
-   "gp": 116
+   "l": 62,
+   "gp": 117
   },
   "East Tennessee State Buccaneers": {
    "off": 1.2707,
@@ -899,11 +899,11 @@
    "gp": 2
   },
   "Florida Gators": {
-   "off": 14.8872,
-   "dfn": 13.6621,
-   "w": 99,
+   "off": 14.8965,
+   "dfn": 13.9413,
+   "w": 100,
    "l": 38,
-   "gp": 137
+   "gp": 138
   },
   "Stony Brook Seawolves": {
    "off": -0.6892,
@@ -1123,11 +1123,11 @@
    "gp": 122
   },
   "Illinois Fighting Illini": {
-   "off": 14.031,
-   "dfn": 15.2933,
-   "w": 95,
+   "off": 15.4179,
+   "dfn": 15.0644,
+   "w": 96,
    "l": 41,
-   "gp": 136
+   "gp": 137
   },
   "Eastern Illinois Panthers": {
    "off": -6.8468,
@@ -1214,11 +1214,11 @@
    "gp": 128
   },
   "Pennsylvania Quakers": {
-   "off": 3.5538,
-   "dfn": 6.346,
+   "off": 3.7827,
+   "dfn": 4.9591,
    "w": 50,
-   "l": 58,
-   "gp": 108
+   "l": 59,
+   "gp": 109
   },
   "Iowa Hawkeyes": {
    "off": 3.7263,
@@ -1228,11 +1228,11 @@
    "gp": 130
   },
   "Bethune-Cookman Wildcats": {
-   "off": -1.3568,
-   "dfn": 3.5087,
+   "off": -1.6115,
+   "dfn": 3.9718,
    "w": 60,
-   "l": 60,
-   "gp": 120
+   "l": 61,
+   "gp": 121
   },
   "Iowa State Cyclones": {
    "off": 9.296,
@@ -1487,11 +1487,11 @@
    "gp": 121
   },
   "Michigan State Spartans": {
-   "off": 9.1167,
-   "dfn": 15.0479,
-   "w": 93,
+   "off": 9.5036,
+   "dfn": 15.4876,
+   "w": 94,
    "l": 43,
-   "gp": 136
+   "gp": 137
   },
   "Northern Arizona Lumberjacks": {
    "off": -3.5686,
@@ -2348,11 +2348,11 @@
    "gp": 118
   },
   "Texas Longhorns": {
-   "off": 9.7893,
-   "dfn": 10.1184,
-   "w": 86,
+   "off": 10.1151,
+   "dfn": 10.8386,
+   "w": 87,
    "l": 48,
-   "gp": 134
+   "gp": 135
   },
   "UTEP Miners": {
    "off": -2.8443,
@@ -2362,11 +2362,11 @@
    "gp": 120
   },
   "Texas Tech Red Raiders": {
-   "off": 5.882,
-   "dfn": 14.3622,
-   "w": 85,
+   "off": 5.4189,
+   "dfn": 14.6169,
+   "w": 86,
    "l": 45,
-   "gp": 130
+   "gp": 131
   },
   "Northwestern State Demons": {
    "off": -7.2616,
@@ -2376,11 +2376,11 @@
    "gp": 122
   },
   "Toledo Rockets": {
-   "off": 5.397,
-   "dfn": 5.8894,
+   "off": 4.9573,
+   "dfn": 5.5025,
    "w": 81,
-   "l": 48,
-   "gp": 129
+   "l": 49,
+   "gp": 130
   },
   "Valparaiso Beacons": {
    "off": 0.0287,
@@ -2649,11 +2649,11 @@
    "gp": 105
   },
   "Virginia Cavaliers": {
-   "off": 5.7785,
-   "dfn": 13.7525,
-   "w": 87,
+   "off": 6.414,
+   "dfn": 13.3965,
+   "w": 88,
    "l": 41,
-   "gp": 128
+   "gp": 129
   },
   "North Carolina Central Eagles": {
    "off": -2.9177,
@@ -7087,34 +7087,16 @@
    "gp": 1
   }
  },
- "updated_from": 23625,
- "last_date": "2026-11-05",
+ "updated_from": 23633,
+ "last_date": "2026-11-06",
  "applied_on_last_date": [
-  "2026-11-05|App State Mountaineers|Christendom Crusaders",
-  "2026-11-05|Auburn Tigers|SE Louisiana Lions",
-  "2026-11-05|Boise State Broncos|West Coast Baptist Eagles",
-  "2026-11-05|Butler Bulldogs|Fairleigh Dickinson Knights",
-  "2026-11-05|California Golden Bears|Radford Highlanders",
-  "2026-11-05|Drake Bulldogs|Central College Dutch",
-  "2026-11-05|Furman Paladins|Bob Jones Bruins",
-  "2026-11-05|High Point Panthers|Maryland Eastern Shore Hawks",
-  "2026-11-05|Loyola Marymount Lions|Queens University Royals",
-  "2026-11-05|Montana Grizzlies|Salish Kootenai Bison",
-  "2026-11-05|Morgan State Bears|Virginia Lynchburg Dragons",
-  "2026-11-05|Norfolk State Spartans|Randolph Wildcats",
-  "2026-11-05|Old Dominion Monarchs|Regent Regent Royals",
-  "2026-11-05|SIU Edwardsville Cougars|Concordia Chicago Cougars",
-  "2026-11-05|Saint Joseph's Hawks|Longwood Lancers",
-  "2026-11-05|Saint Mary's Gaels|North Dakota State Bison",
-  "2026-11-05|Santa Clara Broncos|Milwaukee Panthers",
-  "2026-11-05|South Dakota Coyotes|Northern Kentucky Norse",
-  "2026-11-05|Southeast Missouri State Redhawks|Webster Gorloks",
-  "2026-11-05|Southern Indiana Screaming Eagles|Saint Mary of the Woods Pomeroys",
-  "2026-11-05|Tennessee Tech Golden Eagles|Blue Mountain Christian Toppers",
-  "2026-11-05|UL Monroe Warhawks|Champion Christian Tigers",
-  "2026-11-05|UNC Asheville Bulldogs|Erskine Flying Fleet",
-  "2026-11-05|Utah Tech Trailblazers|Grace University Lancers",
-  "2026-11-05|Vanderbilt Commodores|Wake Forest Demon Deacons",
-  "2026-11-05|Wichita State Shockers|Cal State Northridge Matadors"
+  "2026-11-06|Arizona Wildcats|Cal Poly Mustangs",
+  "2026-11-06|Duke Blue Devils|Coastal Carolina Chanticleers",
+  "2026-11-06|Florida Gators|Jacksonville Dolphins",
+  "2026-11-06|Illinois Fighting Illini|Pennsylvania Quakers",
+  "2026-11-06|Michigan State Spartans|Toledo Rockets",
+  "2026-11-06|Texas Longhorns|Gardner-Webb Runnin' Bulldogs",
+  "2026-11-06|Texas Tech Red Raiders|Bethune-Cookman Wildcats",
+  "2026-11-06|Virginia Cavaliers|Northeastern Huskies"
  ]
 }

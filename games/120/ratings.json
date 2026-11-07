@@ -1,6 +1,6 @@
 {
- "mu": 100.9389,
- "hfa": 2.8227,
+ "mu": 100.7303,
+ "hfa": 2.6244,
  "teams": {
   "FC BAYERN MUNICH": {
    "off": -9.4437,
@@ -94,11 +94,11 @@
    "gp": 244
   },
   "OLYMPIACOS PIRAEUS": {
-   "off": -4.1566,
-   "dfn": 14.1045,
+   "off": -6.0255,
+   "dfn": 15.1751,
    "w": 171,
-   "l": 103,
-   "gp": 274
+   "l": 104,
+   "gp": 275
   },
   "VALENCIA BASKET": {
    "off": -2.5467,
@@ -115,11 +115,11 @@
    "gp": 91
   },
   "ZALGIRIS KAUNAS": {
-   "off": -7.3553,
-   "dfn": 10.5189,
-   "w": 114,
+   "off": -7.9018,
+   "dfn": 11.9817,
+   "w": 115,
    "l": 136,
-   "gp": 250
+   "gp": 251
   },
   "KIROLBET BASKONIA VITORIA-GASTEIZ": {
    "off": -18.7972,
@@ -185,18 +185,18 @@
    "gp": 34
   },
   "PARTIZAN MOZZART BET BELGRADE": {
-   "off": -13.1543,
-   "dfn": 12.8254,
-   "w": 74,
+   "off": -13.2126,
+   "dfn": 13.7835,
+   "w": 75,
    "l": 80,
-   "gp": 154
+   "gp": 155
   },
   "CRVENA ZVEZDA MERIDIANBET BELGRADE": {
-   "off": -6.9239,
-   "dfn": 11.3172,
-   "w": 73,
+   "off": -7.9945,
+   "dfn": 13.1861,
+   "w": 74,
    "l": 78,
-   "gp": 151
+   "gp": 152
   },
   "VIRTUS SEGAFREDO BOLOGNA": {
    "off": -14.3839,
@@ -227,18 +227,18 @@
    "gp": 86
   },
   "MACCABI RAPYD TEL AVIV": {
-   "off": -4.9805,
-   "dfn": 1.3049,
+   "off": -5.9386,
+   "dfn": 1.3632,
    "w": 20,
-   "l": 27,
-   "gp": 47
+   "l": 28,
+   "gp": 48
   },
   "DUBAI BASKETBALL": {
-   "off": -5.752,
-   "dfn": 8.1095,
-   "w": 25,
+   "off": -5.4698,
+   "dfn": 8.685,
+   "w": 26,
    "l": 22,
-   "gp": 47
+   "gp": 48
   },
   "HAPOEL IBI TEL AVIV": {
    "off": -3.5829,
@@ -255,18 +255,18 @@
    "gp": 48
   },
   "VIRTUS BOLOGNA": {
-   "off": -10.6924,
-   "dfn": 6.6917,
+   "off": -11.2679,
+   "dfn": 6.4095,
    "w": 18,
-   "l": 29,
-   "gp": 47
+   "l": 30,
+   "gp": 48
   },
   "BESIKTAS ISTANBUL": {
-   "off": -1.8628,
-   "dfn": 1.4752,
+   "off": -3.3256,
+   "dfn": 2.0217,
    "w": 4,
-   "l": 5,
-   "gp": 9
+   "l": 6,
+   "gp": 10
   },
   "FENERBAHCE TARFIN ISTANBUL": {
    "off": -6.2839,
@@ -283,13 +283,12 @@
    "gp": 10
   }
  },
- "updated_from": 2366,
- "last_date": "2026-11-05",
+ "updated_from": 2370,
+ "last_date": "2026-11-06",
  "applied_on_last_date": [
-  "2026-11-05|ANADOLU EFES ISTANBUL|PARIS BASKETBALL",
-  "2026-11-05|ARMANI OLIMPIA MILAN|VALENCIA BASKET",
-  "2026-11-05|FENERBAHCE TARFIN ISTANBUL|KOSNER BASKONIA VITORIA-GASTEIZ",
-  "2026-11-05|HAPOEL IBI TEL AVIV|FC BARCELONA",
-  "2026-11-05|LDLC ASVEL VILLEURBANNE|FC BAYERN MUNICH"
+  "2026-11-06|BESIKTAS ISTANBUL|ZALGIRIS KAUNAS",
+  "2026-11-06|OLYMPIACOS PIRAEUS|CRVENA ZVEZDA MERIDIANBET BELGRADE",
+  "2026-11-06|PARTIZAN MOZZART BET BELGRADE|MACCABI RAPYD TEL AVIV",
+  "2026-11-06|VIRTUS BOLOGNA|DUBAI BASKETBALL"
  ]
 }

@@ -1,6 +1,6 @@
 {
- "mu": 111.9414,
- "hfa": 1.0997,
+ "mu": 111.887,
+ "hfa": 1.1055,
  "teams": {
   "Boston Celtics": {
    "off": 1.3946,
@@ -17,11 +17,11 @@
    "gp": 361
   },
   "Golden State Warriors": {
-   "off": 2.4865,
-   "dfn": 0.2337,
-   "w": 212,
+   "off": 2.2456,
+   "dfn": 1.5041,
+   "w": 213,
    "l": 178,
-   "gp": 390
+   "gp": 391
   },
   "Washington Wizards": {
    "off": -1.193,
@@ -87,11 +87,11 @@
    "gp": 387
   },
   "Phoenix Suns": {
-   "off": 0.9983,
-   "dfn": -1.4682,
-   "w": 195,
+   "off": 1.3554,
+   "dfn": -0.9891,
+   "w": 196,
    "l": 182,
-   "gp": 377
+   "gp": 378
   },
   "ADELAIDE 36ers": {
    "off": 0.4174,
@@ -143,18 +143,18 @@
    "gp": 368
   },
   "Orlando Magic": {
-   "off": -1.3743,
-   "dfn": 2.9287,
+   "off": -1.8534,
+   "dfn": 2.5716,
    "w": 192,
-   "l": 184,
-   "gp": 376
+   "l": 185,
+   "gp": 377
   },
   "Miami Heat": {
-   "off": 9.466,
-   "dfn": -8.4876,
+   "off": 8.1956,
+   "dfn": -8.2467,
    "w": 202,
-   "l": 197,
-   "gp": 399
+   "l": 198,
+   "gp": 400
   },
   "Minnesota Timberwolves": {
    "off": 3.6772,
@@ -374,22 +374,10 @@
    "gp": 1
   }
  },
- "updated_from": 5745,
- "last_date": "2026-11-05",
+ "updated_from": 5747,
+ "last_date": "2026-11-06",
  "applied_on_last_date": [
-  "2026-11-05|Boston Celtics|Milwaukee Bucks",
-  "2026-11-05|Brooklyn Nets|Charlotte Hornets",
-  "2026-11-05|Denver Nuggets|Toronto Raptors",
-  "2026-11-05|Detroit Pistons|Philadelphia 76ers",
-  "2026-11-05|Houston Rockets|Minnesota Timberwolves",
-  "2026-11-05|LA Clippers|Miami Heat",
-  "2026-11-05|Memphis Grizzlies|Indiana Pacers",
-  "2026-11-05|New Orleans Pelicans|Utah Jazz",
-  "2026-11-05|New York Knicks|Chicago Bulls",
-  "2026-11-05|Oklahoma City Thunder|Cleveland Cavaliers",
-  "2026-11-05|Phoenix Suns|Portland Trail Blazers",
-  "2026-11-05|Sacramento Kings|Los Angeles Lakers",
-  "2026-11-05|San Antonio Spurs|Dallas Mavericks",
-  "2026-11-05|Washington Wizards|Atlanta Hawks"
+  "2026-11-06|Golden State Warriors|Miami Heat",
+  "2026-11-06|Phoenix Suns|Orlando Magic"
  ]
 }
