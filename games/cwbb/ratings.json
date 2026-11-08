@@ -1,6 +1,6 @@
 {
- "mu": 69.4274,
- "hfa": 3.5686,
+ "mu": 69.558,
+ "hfa": 3.8084,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -829,11 +829,11 @@
    "gp": 61
   },
   "Notre Dame Fighting Irish": {
-   "off": 14.4649,
-   "dfn": 12.8035,
-   "w": 51,
+   "off": 16.6469,
+   "dfn": 13.1888,
+   "w": 52,
    "l": 15,
-   "gp": 66
+   "gp": 67
   },
   "Mercyhurst Lakers": {
    "off": -2.952,
@@ -850,11 +850,11 @@
    "gp": 66
   },
   "Southern Jaguars": {
-   "off": -5.9069,
-   "dfn": 7.5522,
+   "off": -7.39,
+   "dfn": 6.1598,
    "w": 37,
-   "l": 29,
-   "gp": 66
+   "l": 30,
+   "gp": 67
   },
   "Oklahoma State Cowgirls": {
    "off": 12.3416,
@@ -920,11 +920,11 @@
    "gp": 67
   },
   "Stonehill Skyhawks": {
-   "off": -10.2722,
-   "dfn": 1.0285,
+   "off": -10.6575,
+   "dfn": -1.1535,
    "w": 27,
-   "l": 32,
-   "gp": 59
+   "l": 33,
+   "gp": 60
   },
   "Rider Broncs": {
    "off": -15.1878,
@@ -1767,11 +1767,11 @@
    "gp": 61
   },
   "Minnesota Golden Gophers": {
-   "off": 9.1767,
-   "dfn": 15.5213,
-   "w": 49,
+   "off": 10.1668,
+   "dfn": 14.2995,
+   "w": 50,
    "l": 19,
-   "gp": 68
+   "gp": 69
   },
   "Central Connecticut Blue Devils": {
    "off": -12.9957,
@@ -2971,11 +2971,11 @@
    "gp": 2
   },
   "Illinois Fighting Illini": {
-   "off": 10.3501,
-   "dfn": 10.8029,
-   "w": 44,
+   "off": 11.7425,
+   "dfn": 12.286,
+   "w": 45,
    "l": 20,
-   "gp": 64
+   "gp": 65
   },
   "Loyola Maryland Greyhounds": {
    "off": -11.3719,
@@ -3076,11 +3076,11 @@
    "gp": 59
   },
   "Marquette Golden Eagles": {
-   "off": 1.0948,
-   "dfn": 8.1032,
+   "off": 2.3166,
+   "dfn": 7.1131,
    "w": 38,
-   "l": 21,
-   "gp": 59
+   "l": 22,
+   "gp": 60
   },
   "UConn Huskies": {
    "off": 22.7947,
@@ -5386,16 +5386,11 @@
    "gp": 1
   }
  },
- "updated_from": 11421,
- "last_date": "2026-11-06",
+ "updated_from": 11424,
+ "last_date": "2026-11-07",
  "applied_on_last_date": [
-  "2026-11-06|Iowa Hawkeyes|Eastern Illinois Panthers",
-  "2026-11-06|LSU Tigers|Texas Southern Tigers",
-  "2026-11-06|Oklahoma State Cowgirls|Morgan State Lady Bears",
-  "2026-11-06|Ole Miss Rebels|North Alabama Lions",
-  "2026-11-06|TCU Horned Frogs|Le Moyne Dolphins",
-  "2026-11-06|UCLA Bruins|UC Irvine Anteaters",
-  "2026-11-06|Washington Huskies|Pacific Tigers",
-  "2026-11-06|West Virginia Mountaineers|George Washington Revolutionaries"
+  "2026-11-07|Illinois Fighting Illini|Southern Jaguars",
+  "2026-11-07|Marquette Golden Eagles|Minnesota Golden Gophers",
+  "2026-11-07|Notre Dame Fighting Irish|Stonehill Skyhawks"
  ]
 }
