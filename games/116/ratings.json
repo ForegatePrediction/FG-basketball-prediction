@@ -1,6 +1,6 @@
 {
- "mu": 78.154,
- "hfa": 3.7213,
+ "mu": 78.1908,
+ "hfa": 3.7973,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -171,11 +171,11 @@
    "gp": 5
   },
   "St. John's Red Storm": {
-   "off": 8.6527,
-   "dfn": 14.8035,
-   "w": 92,
+   "off": 9.7601,
+   "dfn": 14.5999,
+   "w": 93,
    "l": 38,
-   "gp": 130
+   "gp": 131
   },
   "Merrimack Warriors": {
    "off": -3.9242,
@@ -311,11 +311,11 @@
    "gp": 123
   },
   "Arkansas Razorbacks": {
-   "off": 17.5387,
-   "dfn": 4.2782,
+   "off": 16.9183,
+   "dfn": 3.8648,
    "w": 85,
-   "l": 48,
-   "gp": 133
+   "l": 49,
+   "gp": 134
   },
   "North Dakota State Bison": {
    "off": 4.0732,
@@ -1207,11 +1207,11 @@
    "gp": 121
   },
   "Iona Gaels": {
-   "off": -1.7437,
-   "dfn": 4.9847,
+   "off": -1.5401,
+   "dfn": 3.8773,
    "w": 74,
-   "l": 54,
-   "gp": 128
+   "l": 55,
+   "gp": 129
   },
   "Pennsylvania Quakers": {
    "off": 3.7827,
@@ -2649,11 +2649,11 @@
    "gp": 105
   },
   "Virginia Cavaliers": {
-   "off": 6.414,
-   "dfn": 13.3965,
-   "w": 88,
+   "off": 6.8274,
+   "dfn": 14.0169,
+   "w": 89,
    "l": 41,
-   "gp": 129
+   "gp": 130
   },
   "North Carolina Central Eagles": {
    "off": -2.9177,
@@ -7087,18 +7087,10 @@
    "gp": 1
   }
  },
- "updated_from": 23643,
- "last_date": "2026-11-07",
+ "updated_from": 23645,
+ "last_date": "2026-11-08",
  "applied_on_last_date": [
-  "2026-11-07|Alabama Crimson Tide|Arkansas State Red Wolves",
-  "2026-11-07|BYU Cougars|Omaha Mavericks",
-  "2026-11-07|Gonzaga Bulldogs|New Mexico State Aggies",
-  "2026-11-07|Iowa State Cyclones|Southern Miss Golden Eagles",
-  "2026-11-07|Kansas Jayhawks|Middle Tennessee Blue Raiders",
-  "2026-11-07|Kentucky Wildcats|James Madison Dukes",
-  "2026-11-07|Louisville Cardinals|Morehead State Eagles",
-  "2026-11-07|Miami Hurricanes|Wagner Seahawks",
-  "2026-11-07|Michigan Wolverines|UConn Huskies",
-  "2026-11-07|UCLA Bruins|North Florida Ospreys"
+  "2026-11-08|St. John's Red Storm|Iona Gaels",
+  "2026-11-08|Virginia Cavaliers|Arkansas Razorbacks"
  ]
 }

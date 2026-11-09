@@ -1,6 +1,6 @@
 {
- "mu": 69.558,
- "hfa": 3.8084,
+ "mu": 69.6747,
+ "hfa": 3.9801,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -311,11 +311,11 @@
    "gp": 5
   },
   "Duke Blue Devils": {
-   "off": 11.1844,
-   "dfn": 19.3569,
-   "w": 54,
+   "off": 11.0842,
+   "dfn": 18.9224,
+   "w": 55,
    "l": 16,
-   "gp": 70
+   "gp": 71
   },
   "Radford Highlanders": {
    "off": 1.2301,
@@ -409,11 +409,11 @@
    "gp": 2
   },
   "George Mason Patriots": {
-   "off": 2.6343,
-   "dfn": 11.3844,
+   "off": 2.4815,
+   "dfn": 11.3216,
    "w": 49,
-   "l": 16,
-   "gp": 65
+   "l": 17,
+   "gp": 66
   },
   "Johnson C. Smith Golden Bulls": {
    "off": -5.4545,
@@ -451,11 +451,11 @@
    "gp": 57
   },
   "Georgia Tech Yellow Jackets": {
-   "off": 1.3558,
-   "dfn": 9.8582,
+   "off": 1.5649,
+   "dfn": 9.28,
    "w": 36,
-   "l": 28,
-   "gp": 64
+   "l": 29,
+   "gp": 65
   },
   "Winthrop Eagles": {
    "off": -2.6448,
@@ -535,11 +535,11 @@
    "gp": 67
   },
   "Kentucky Wildcats": {
-   "off": 11.1193,
-   "dfn": 18.3676,
-   "w": 46,
+   "off": 12.4734,
+   "dfn": 17.7577,
+   "w": 47,
    "l": 18,
-   "gp": 64
+   "gp": 65
   },
   "South Carolina Upstate Spartans": {
    "off": -11.042,
@@ -703,11 +703,11 @@
    "gp": 1
   },
   "Morgan State Lady Bears": {
-   "off": -10.9558,
-   "dfn": -1.467,
+   "off": -11.7102,
+   "dfn": -1.3548,
    "w": 17,
-   "l": 42,
-   "gp": 59
+   "l": 43,
+   "gp": 60
   },
   "Shepherd Rams": {
    "off": -2.4499,
@@ -773,11 +773,11 @@
    "gp": 65
   },
   "North Carolina Tar Heels": {
-   "off": 10.1689,
-   "dfn": 15.1591,
+   "off": 8.826,
+   "dfn": 14.9855,
    "w": 54,
-   "l": 15,
-   "gp": 69
+   "l": 16,
+   "gp": 70
   },
   "Charleston Southern Buccaneers": {
    "off": -4.7625,
@@ -836,18 +836,18 @@
    "gp": 67
   },
   "Mercyhurst Lakers": {
-   "off": -2.952,
-   "dfn": -7.3535,
+   "off": -2.6905,
+   "dfn": -6.94,
    "w": 21,
-   "l": 35,
-   "gp": 56
+   "l": 36,
+   "gp": 57
   },
   "Oklahoma Sooners": {
-   "off": 21.8017,
-   "dfn": 8.1631,
-   "w": 53,
+   "off": 21.6895,
+   "dfn": 8.9175,
+   "w": 54,
    "l": 13,
-   "gp": 66
+   "gp": 67
   },
   "Southern Jaguars": {
    "off": -7.39,
@@ -1116,11 +1116,11 @@
    "gp": 73
   },
   "Louisville Cardinals": {
-   "off": 15.0494,
-   "dfn": 15.0332,
-   "w": 49,
+   "off": 15.2645,
+   "dfn": 15.2343,
+   "w": 50,
    "l": 18,
-   "gp": 67
+   "gp": 68
   },
   "UL Monroe Warhawks": {
    "off": 1.8094,
@@ -1172,11 +1172,11 @@
    "gp": 55
   },
   "Tarleton State Texans": {
-   "off": -3.711,
-   "dfn": 5.8252,
+   "off": -4.0201,
+   "dfn": 5.1995,
    "w": 30,
-   "l": 30,
-   "gp": 60
+   "l": 31,
+   "gp": 61
   },
   "Utah Tech Trailblazers": {
    "off": -3.2857,
@@ -1536,11 +1536,11 @@
    "gp": 67
   },
   "Florida Atlantic Owls": {
-   "off": -5.2504,
-   "dfn": 1.0731,
+   "off": -4.8159,
+   "dfn": 1.1733,
    "w": 25,
-   "l": 37,
-   "gp": 62
+   "l": 38,
+   "gp": 63
   },
   "Florida International Panthers": {
    "off": 3.1673,
@@ -1809,11 +1809,11 @@
    "gp": 58
   },
   "Northern Colorado Bears": {
-   "off": -1.3001,
-   "dfn": 9.2407,
+   "off": -2.3433,
+   "dfn": 8.9091,
    "w": 33,
-   "l": 26,
-   "gp": 59
+   "l": 27,
+   "gp": 60
   },
   "Concordia (NE) Bulldogs": {
    "off": -1.8798,
@@ -1837,11 +1837,11 @@
    "gp": 63
   },
   "Ohio State Buckeyes": {
-   "off": 16.9109,
-   "dfn": 14.1034,
-   "w": 55,
+   "off": 16.4974,
+   "dfn": 13.8419,
+   "w": 56,
    "l": 13,
-   "gp": 68
+   "gp": 69
   },
   "Cleveland State Vikings": {
    "off": 1.493,
@@ -1991,25 +1991,25 @@
    "gp": 58
   },
   "South Carolina Gamecocks": {
-   "off": 22.6987,
-   "dfn": 18.4498,
-   "w": 66,
+   "off": 22.8723,
+   "dfn": 19.7927,
+   "w": 67,
    "l": 8,
-   "gp": 74
+   "gp": 75
   },
   "Michigan Wolverines": {
-   "off": 16.6271,
-   "dfn": 14.9146,
-   "w": 48,
+   "off": 17.7387,
+   "dfn": 14.8551,
+   "w": 49,
    "l": 17,
-   "gp": 65
+   "gp": 66
   },
   "Southern Indiana Screaming Eagles": {
-   "off": 1.8484,
-   "dfn": 8.2581,
+   "off": 1.6473,
+   "dfn": 8.043,
    "w": 39,
-   "l": 23,
-   "gp": 62
+   "l": 24,
+   "gp": 63
   },
   "Brescia Bearcats": {
    "off": -2.6975,
@@ -2166,11 +2166,11 @@
    "gp": 55
   },
   "Maryland Terrapins": {
-   "off": 17.9026,
-   "dfn": 7.6823,
-   "w": 47,
+   "off": 17.9654,
+   "dfn": 7.8351,
+   "w": 48,
    "l": 18,
-   "gp": 65
+   "gp": 66
   },
   "UNLV Lady Rebels": {
    "off": 5.6664,
@@ -2446,11 +2446,11 @@
    "gp": 4
   },
   "NC State Wolfpack": {
-   "off": 12.6726,
-   "dfn": 10.3186,
+   "off": 13.2825,
+   "dfn": 8.9645,
    "w": 49,
-   "l": 17,
-   "gp": 66
+   "l": 18,
+   "gp": 67
   },
   "East Tennessee State Bucs": {
    "off": -7.4471,
@@ -2516,11 +2516,11 @@
    "gp": 53
   },
   "TCU Horned Frogs": {
-   "off": 10.8702,
-   "dfn": 18.7624,
-   "w": 64,
+   "off": 11.4959,
+   "dfn": 19.0715,
+   "w": 65,
    "l": 10,
-   "gp": 74
+   "gp": 75
   },
   "Houston Christian Huskies": {
    "off": -9.3003,
@@ -2579,11 +2579,11 @@
    "gp": 64
   },
   "West Virginia Mountaineers": {
-   "off": 11.6521,
-   "dfn": 15.2402,
-   "w": 55,
+   "off": 12.2303,
+   "dfn": 15.0311,
+   "w": 56,
    "l": 13,
-   "gp": 68
+   "gp": 69
   },
   "Towson Tigers": {
    "off": -0.53,
@@ -2614,11 +2614,11 @@
    "gp": 63
   },
   "Wright State Raiders": {
-   "off": -3.6694,
-   "dfn": -0.4104,
+   "off": -3.6099,
+   "dfn": -1.522,
    "w": 18,
-   "l": 43,
-   "gp": 61
+   "l": 44,
+   "gp": 62
   },
   "Stillman Tigers": {
    "off": -3.8202,
@@ -2656,11 +2656,11 @@
    "gp": 3
   },
   "Iowa Hawkeyes": {
-   "off": 9.2738,
-   "dfn": 15.4046,
+   "off": 10.5743,
+   "dfn": 14.8017,
    "w": 51,
-   "l": 16,
-   "gp": 67
+   "l": 17,
+   "gp": 68
   },
   "Kansas Jayhawks": {
    "off": 6.4622,
@@ -3083,11 +3083,11 @@
    "gp": 60
   },
   "UConn Huskies": {
-   "off": 22.7947,
-   "dfn": 21.5595,
-   "w": 71,
+   "off": 23.3976,
+   "dfn": 20.259,
+   "w": 72,
    "l": 4,
-   "gp": 75
+   "gp": 76
   },
   "Arlington Baptist Patriots": {
    "off": -7.5497,
@@ -3272,11 +3272,11 @@
    "gp": 1
   },
   "Texas Longhorns": {
-   "off": 21.1463,
-   "dfn": 21.9487,
-   "w": 68,
+   "off": 21.4779,
+   "dfn": 22.9919,
+   "w": 69,
    "l": 5,
-   "gp": 73
+   "gp": 74
   },
   "Clinton Golden Bears": {
    "off": -6.4742,
@@ -5386,11 +5386,20 @@
    "gp": 1
   }
  },
- "updated_from": 11424,
- "last_date": "2026-11-07",
+ "updated_from": 11436,
+ "last_date": "2026-11-08",
  "applied_on_last_date": [
-  "2026-11-07|Illinois Fighting Illini|Southern Jaguars",
-  "2026-11-07|Marquette Golden Eagles|Minnesota Golden Gophers",
-  "2026-11-07|Notre Dame Fighting Irish|Stonehill Skyhawks"
+  "2026-11-08|Florida Atlantic Owls|Duke Blue Devils",
+  "2026-11-08|Georgia Tech Yellow Jackets|West Virginia Mountaineers",
+  "2026-11-08|Maryland Terrapins|George Mason Patriots",
+  "2026-11-08|Michigan Wolverines|Wright State Raiders",
+  "2026-11-08|NC State Wolfpack|Kentucky Wildcats",
+  "2026-11-08|Ohio State Buckeyes|Mercyhurst Lakers",
+  "2026-11-08|Oklahoma Sooners|Morgan State Lady Bears",
+  "2026-11-08|South Carolina Gamecocks|North Carolina Tar Heels",
+  "2026-11-08|Southern Indiana Screaming Eagles|Louisville Cardinals",
+  "2026-11-08|TCU Horned Frogs|Tarleton State Texans",
+  "2026-11-08|Texas Longhorns|Northern Colorado Bears",
+  "2026-11-08|UConn Huskies|Iowa Hawkeyes"
  ]
 }
