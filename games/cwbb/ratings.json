@@ -1,6 +1,6 @@
 {
- "mu": 69.6747,
- "hfa": 3.9801,
+ "mu": 69.7551,
+ "hfa": 4.1278,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -857,11 +857,11 @@
    "gp": 67
   },
   "Oklahoma State Cowgirls": {
-   "off": 12.3416,
-   "dfn": 11.8232,
-   "w": 50,
+   "off": 13.3186,
+   "dfn": 11.7366,
+   "w": 51,
    "l": 15,
-   "gp": 65
+   "gp": 66
   },
   "Arkansas-Pine Bluff Golden Lions": {
    "off": -7.1239,
@@ -1151,11 +1151,11 @@
    "gp": 2
   },
   "USC Trojans": {
-   "off": 10.7208,
-   "dfn": 12.9365,
-   "w": 48,
+   "off": 12.6972,
+   "dfn": 13.5649,
+   "w": 49,
    "l": 16,
-   "gp": 64
+   "gp": 65
   },
   "Ole Miss Rebels": {
    "off": 11.2247,
@@ -2201,11 +2201,11 @@
    "gp": 58
   },
   "Utah State Aggies": {
-   "off": -6.3009,
-   "dfn": -0.5995,
+   "off": -6.9293,
+   "dfn": -2.5759,
    "w": 10,
-   "l": 49,
-   "gp": 59
+   "l": 50,
+   "gp": 60
   },
   "Kansas City Roos": {
    "off": -3.1927,
@@ -2481,11 +2481,11 @@
    "gp": 1
   },
   "Northwestern State Lady Demons": {
-   "off": -3.2946,
-   "dfn": 8.2797,
+   "off": -3.208,
+   "dfn": 7.3027,
    "w": 31,
-   "l": 28,
-   "gp": 59
+   "l": 29,
+   "gp": 60
   },
   "Champion Christian Tigers": {
    "off": -4.3263,
@@ -5386,20 +5386,10 @@
    "gp": 1
   }
  },
- "updated_from": 11436,
- "last_date": "2026-11-08",
+ "updated_from": 11438,
+ "last_date": "2026-11-09",
  "applied_on_last_date": [
-  "2026-11-08|Florida Atlantic Owls|Duke Blue Devils",
-  "2026-11-08|Georgia Tech Yellow Jackets|West Virginia Mountaineers",
-  "2026-11-08|Maryland Terrapins|George Mason Patriots",
-  "2026-11-08|Michigan Wolverines|Wright State Raiders",
-  "2026-11-08|NC State Wolfpack|Kentucky Wildcats",
-  "2026-11-08|Ohio State Buckeyes|Mercyhurst Lakers",
-  "2026-11-08|Oklahoma Sooners|Morgan State Lady Bears",
-  "2026-11-08|South Carolina Gamecocks|North Carolina Tar Heels",
-  "2026-11-08|Southern Indiana Screaming Eagles|Louisville Cardinals",
-  "2026-11-08|TCU Horned Frogs|Tarleton State Texans",
-  "2026-11-08|Texas Longhorns|Northern Colorado Bears",
-  "2026-11-08|UConn Huskies|Iowa Hawkeyes"
+  "2026-11-09|Oklahoma State Cowgirls|Northwestern State Lady Demons",
+  "2026-11-09|USC Trojans|Utah State Aggies"
  ]
 }

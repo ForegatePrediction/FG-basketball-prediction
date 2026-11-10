@@ -1,6 +1,6 @@
 {
- "mu": 78.1908,
- "hfa": 3.7973,
+ "mu": 78.2605,
+ "hfa": 3.854,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -577,11 +577,11 @@
    "gp": 124
   },
   "California Golden Bears": {
-   "off": 5.3535,
-   "dfn": 4.4066,
+   "off": 5.7901,
+   "dfn": 4.2471,
    "w": 50,
-   "l": 75,
-   "gp": 125
+   "l": 76,
+   "gp": 126
   },
   "UC Davis Aggies": {
    "off": -0.5998,
@@ -1109,11 +1109,11 @@
    "gp": 126
   },
   "Houston Cougars": {
-   "off": 5.7605,
-   "dfn": 22.8202,
-   "w": 126,
+   "off": 5.92,
+   "dfn": 22.3836,
+   "w": 127,
    "l": 20,
-   "gp": 146
+   "gp": 147
   },
   "Northern Colorado Bears": {
    "off": 7.2943,
@@ -2551,11 +2551,11 @@
    "gp": 120
   },
   "USC Trojans": {
-   "off": 5.3678,
-   "dfn": 5.1874,
-   "w": 70,
+   "off": 6.3423,
+   "dfn": 4.6683,
+   "w": 71,
    "l": 56,
-   "gp": 126
+   "gp": 127
   },
   "Florida Gulf Coast Eagles": {
    "off": -1.1481,
@@ -2733,11 +2733,11 @@
    "gp": 128
   },
   "Wichita State Shockers": {
-   "off": 4.3257,
-   "dfn": 10.6251,
+   "off": 4.8448,
+   "dfn": 9.6506,
    "w": 71,
-   "l": 59,
-   "gp": 130
+   "l": 60,
+   "gp": 131
   },
   "Central Arkansas Bears": {
    "off": 4.5841,
@@ -7087,10 +7087,10 @@
    "gp": 1
   }
  },
- "updated_from": 23645,
- "last_date": "2026-11-08",
+ "updated_from": 23647,
+ "last_date": "2026-11-09",
  "applied_on_last_date": [
-  "2026-11-08|St. John's Red Storm|Iona Gaels",
-  "2026-11-08|Virginia Cavaliers|Arkansas Razorbacks"
+  "2026-11-09|Houston Cougars|California Golden Bears",
+  "2026-11-09|USC Trojans|Wichita State Shockers"
  ]
 }
