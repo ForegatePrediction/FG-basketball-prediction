@@ -1,6 +1,6 @@
 {
- "mu": 78.2605,
- "hfa": 3.854,
+ "mu": 78.1182,
+ "hfa": 3.8512,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -143,11 +143,11 @@
    "gp": 103
   },
   "Oakland Golden Grizzlies": {
-   "off": 6.5144,
-   "dfn": 2.8912,
+   "off": 5.74,
+   "dfn": 2.3188,
    "w": 66,
-   "l": 63,
-   "gp": 129
+   "l": 64,
+   "gp": 130
   },
   "Defiance Yellow Jackets": {
    "off": -12.1787,
@@ -269,11 +269,11 @@
    "gp": 125
   },
   "Alabama Crimson Tide": {
-   "off": 20.2369,
-   "dfn": 3.8676,
-   "w": 104,
+   "off": 20.8093,
+   "dfn": 4.642,
+   "w": 105,
    "l": 35,
-   "gp": 139
+   "gp": 140
   },
   "Longwood Lancers": {
    "off": 2.008,
@@ -899,11 +899,11 @@
    "gp": 2
   },
   "Florida Gators": {
-   "off": 14.8965,
-   "dfn": 13.9413,
-   "w": 100,
+   "off": 14.4499,
+   "dfn": 14.1352,
+   "w": 101,
    "l": 38,
-   "gp": 138
+   "gp": 139
   },
   "Stony Brook Seawolves": {
    "off": -0.6892,
@@ -927,11 +927,11 @@
    "gp": 119
   },
   "Florida State Seminoles": {
-   "off": 7.0372,
-   "dfn": 4.7067,
+   "off": 6.8433,
+   "dfn": 5.1533,
    "w": 57,
-   "l": 65,
-   "gp": 122
+   "l": 66,
+   "gp": 123
   },
   "Stetson Hatters": {
    "off": -1.7787,
@@ -1046,18 +1046,18 @@
    "gp": 136
   },
   "North Florida Ospreys": {
-   "off": 4.327,
-   "dfn": -5.8605,
+   "off": 3.0287,
+   "dfn": -5.5863,
    "w": 50,
-   "l": 67,
-   "gp": 117
+   "l": 68,
+   "gp": 118
   },
   "Grambling Tigers": {
-   "off": -9.0332,
-   "dfn": 8.7908,
+   "off": -8.8078,
+   "dfn": 8.206,
    "w": 66,
-   "l": 61,
-   "gp": 127
+   "l": 62,
+   "gp": 128
   },
   "UNT Dallas Trailblazers": {
    "off": -7.0403,
@@ -1410,11 +1410,11 @@
    "gp": 133
   },
   "Radford Highlanders": {
-   "off": 3.9376,
-   "dfn": 3.0691,
+   "off": 2.8473,
+   "dfn": 3.9483,
    "w": 68,
-   "l": 57,
-   "gp": 125
+   "l": 58,
+   "gp": 126
   },
   "Maryland Terrapins": {
    "off": 0.0159,
@@ -1473,11 +1473,11 @@
    "gp": 122
   },
   "Miami Hurricanes": {
-   "off": 5.6038,
-   "dfn": 9.9214,
-   "w": 71,
+   "off": 5.3296,
+   "dfn": 11.2197,
+   "w": 72,
    "l": 56,
-   "gp": 127
+   "gp": 128
   },
   "Lafayette Leopards": {
    "off": -5.4691,
@@ -2299,11 +2299,11 @@
    "gp": 124
   },
   "Wagner Seahawks": {
-   "off": -4.4452,
-   "dfn": 6.9506,
+   "off": -5.2761,
+   "dfn": 6.8158,
    "w": 55,
-   "l": 59,
-   "gp": 114
+   "l": 60,
+   "gp": 115
   },
   "Tennessee State Tigers": {
    "off": 7.2035,
@@ -2320,11 +2320,11 @@
    "gp": 10
   },
   "Tennessee Volunteers": {
-   "off": 5.6837,
-   "dfn": 16.9455,
-   "w": 103,
+   "off": 4.8045,
+   "dfn": 18.0358,
+   "w": 104,
    "l": 38,
-   "gp": 141
+   "gp": 142
   },
   "Tennessee Tech Golden Eagles": {
    "off": 0.8035,
@@ -2348,11 +2348,11 @@
    "gp": 118
   },
   "Texas Longhorns": {
-   "off": 10.1151,
-   "dfn": 10.8386,
-   "w": 87,
+   "off": 10.6999,
+   "dfn": 10.6132,
+   "w": 88,
    "l": 48,
-   "gp": 135
+   "gp": 136
   },
   "UTEP Miners": {
    "off": -2.8443,
@@ -2509,11 +2509,11 @@
    "gp": 121
   },
   "UConn Huskies": {
-   "off": 5.7178,
-   "dfn": 18.8476,
-   "w": 122,
+   "off": 5.8526,
+   "dfn": 19.6785,
+   "w": 123,
    "l": 26,
-   "gp": 148
+   "gp": 149
   },
   "Stonehill Skyhawks": {
    "off": -8.609,
@@ -7087,10 +7087,14 @@
    "gp": 1
   }
  },
- "updated_from": 23647,
- "last_date": "2026-11-09",
+ "updated_from": 23653,
+ "last_date": "2026-11-10",
  "applied_on_last_date": [
-  "2026-11-09|Houston Cougars|California Golden Bears",
-  "2026-11-09|USC Trojans|Wichita State Shockers"
+  "2026-11-10|Alabama Crimson Tide|Oakland Golden Grizzlies",
+  "2026-11-10|Florida State Seminoles|Florida Gators",
+  "2026-11-10|Miami Hurricanes|North Florida Ospreys",
+  "2026-11-10|Tennessee Volunteers|Radford Highlanders",
+  "2026-11-10|Texas Longhorns|Grambling Tigers",
+  "2026-11-10|UConn Huskies|Wagner Seahawks"
  ]
 }

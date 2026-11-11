@@ -1,6 +1,6 @@
 {
- "mu": 69.7551,
- "hfa": 4.1278,
+ "mu": 69.7717,
+ "hfa": 4.1497,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -689,11 +689,11 @@
    "gp": 58
   },
   "Morehead State Eagles": {
-   "off": -2.573,
-   "dfn": 4.0418,
+   "off": -3.0946,
+   "dfn": 3.4793,
    "w": 26,
-   "l": 33,
-   "gp": 59
+   "l": 34,
+   "gp": 60
   },
   "Asbury Eagles": {
    "off": -1.4942,
@@ -1207,11 +1207,11 @@
    "gp": 58
   },
   "Vanderbilt Commodores": {
-   "off": 22.7746,
-   "dfn": 8.5034,
-   "w": 50,
+   "off": 23.3371,
+   "dfn": 9.025,
+   "w": 51,
    "l": 14,
-   "gp": 64
+   "gp": 65
   },
   "Lipscomb Bisons": {
    "off": -5.0413,
@@ -2516,11 +2516,11 @@
    "gp": 53
   },
   "TCU Horned Frogs": {
-   "off": 11.4959,
-   "dfn": 19.0715,
-   "w": 65,
+   "off": 11.3717,
+   "dfn": 18.4902,
+   "w": 66,
    "l": 10,
-   "gp": 75
+   "gp": 76
   },
   "Houston Christian Huskies": {
    "off": -9.3003,
@@ -2537,11 +2537,11 @@
    "gp": 59
   },
   "Iona Gaels": {
-   "off": -7.3721,
-   "dfn": 5.308,
+   "off": -6.7908,
+   "dfn": 5.4322,
    "w": 30,
-   "l": 30,
-   "gp": 60
+   "l": 31,
+   "gp": 61
   },
   "UIC Flames": {
    "off": -3.5333,
@@ -5386,10 +5386,10 @@
    "gp": 1
   }
  },
- "updated_from": 11438,
- "last_date": "2026-11-09",
+ "updated_from": 11440,
+ "last_date": "2026-11-10",
  "applied_on_last_date": [
-  "2026-11-09|Oklahoma State Cowgirls|Northwestern State Lady Demons",
-  "2026-11-09|USC Trojans|Utah State Aggies"
+  "2026-11-10|TCU Horned Frogs|Iona Gaels",
+  "2026-11-10|Vanderbilt Commodores|Morehead State Eagles"
  ]
 }
