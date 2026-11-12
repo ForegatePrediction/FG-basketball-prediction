@@ -1,6 +1,6 @@
 {
- "mu": 100.7303,
- "hfa": 2.6244,
+ "mu": 100.7673,
+ "hfa": 2.6629,
  "teams": {
   "FC BAYERN MUNICH": {
    "off": -9.4437,
@@ -185,11 +185,11 @@
    "gp": 34
   },
   "PARTIZAN MOZZART BET BELGRADE": {
-   "off": -13.2126,
-   "dfn": 13.7835,
-   "w": 75,
+   "off": -13.669,
+   "dfn": 14.534,
+   "w": 76,
    "l": 80,
-   "gp": 155
+   "gp": 156
   },
   "CRVENA ZVEZDA MERIDIANBET BELGRADE": {
    "off": -7.9945,
@@ -220,11 +220,11 @@
    "gp": 136
   },
   "PARIS BASKETBALL": {
-   "off": -3.4388,
-   "dfn": 3.6054,
-   "w": 39,
+   "off": -2.2124,
+   "dfn": 2.5159,
+   "w": 40,
    "l": 47,
-   "gp": 86
+   "gp": 87
   },
   "MACCABI RAPYD TEL AVIV": {
    "off": -5.9386,
@@ -248,11 +248,11 @@
    "gp": 52
   },
   "KOSNER BASKONIA VITORIA-GASTEIZ": {
-   "off": -8.5163,
-   "dfn": 2.6744,
+   "off": -9.2668,
+   "dfn": 3.1308,
    "w": 14,
-   "l": 34,
-   "gp": 48
+   "l": 35,
+   "gp": 49
   },
   "VIRTUS BOLOGNA": {
    "off": -11.2679,
@@ -269,11 +269,11 @@
    "gp": 10
   },
   "FENERBAHCE TARFIN ISTANBUL": {
-   "off": -6.2839,
-   "dfn": 9.3562,
+   "off": -5.1944,
+   "dfn": 8.1298,
    "w": 7,
-   "l": 3,
-   "gp": 10
+   "l": 4,
+   "gp": 11
   },
   "ARMANI OLIMPIA MILAN": {
    "off": -5.7433,
@@ -283,12 +283,10 @@
    "gp": 10
   }
  },
- "updated_from": 2370,
- "last_date": "2026-11-06",
+ "updated_from": 2372,
+ "last_date": "2026-11-11",
  "applied_on_last_date": [
-  "2026-11-06|BESIKTAS ISTANBUL|ZALGIRIS KAUNAS",
-  "2026-11-06|OLYMPIACOS PIRAEUS|CRVENA ZVEZDA MERIDIANBET BELGRADE",
-  "2026-11-06|PARTIZAN MOZZART BET BELGRADE|MACCABI RAPYD TEL AVIV",
-  "2026-11-06|VIRTUS BOLOGNA|DUBAI BASKETBALL"
+  "2026-11-11|PARIS BASKETBALL|FENERBAHCE TARFIN ISTANBUL",
+  "2026-11-11|PARTIZAN MOZZART BET BELGRADE|KOSNER BASKONIA VITORIA-GASTEIZ"
  ]
 }
