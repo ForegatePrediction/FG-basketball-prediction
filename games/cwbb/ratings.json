@@ -1,6 +1,6 @@
 {
- "mu": 69.6736,
- "hfa": 4.3088,
+ "mu": 69.7433,
+ "hfa": 4.4644,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -444,11 +444,11 @@
    "gp": 62
   },
   "North Carolina Central Eagles": {
-   "off": -4.6643,
-   "dfn": -0.4667,
+   "off": -5.2657,
+   "dfn": -2.0102,
    "w": 17,
-   "l": 40,
-   "gp": 57
+   "l": 41,
+   "gp": 58
   },
   "Georgia Tech Yellow Jackets": {
    "off": 1.5649,
@@ -773,11 +773,11 @@
    "gp": 65
   },
   "North Carolina Tar Heels": {
-   "off": 8.826,
-   "dfn": 14.9855,
-   "w": 54,
+   "off": 10.3695,
+   "dfn": 15.5869,
+   "w": 55,
    "l": 16,
-   "gp": 70
+   "gp": 71
   },
   "Charleston Southern Buccaneers": {
    "off": -4.7625,
@@ -857,11 +857,11 @@
    "gp": 68
   },
   "Oklahoma State Cowgirls": {
-   "off": 13.3186,
-   "dfn": 11.7366,
+   "off": 12.2709,
+   "dfn": 11.5911,
    "w": 51,
-   "l": 15,
-   "gp": 66
+   "l": 16,
+   "gp": 67
   },
   "Arkansas-Pine Bluff Golden Lions": {
    "off": -7.1239,
@@ -1158,11 +1158,11 @@
    "gp": 66
   },
   "Ole Miss Rebels": {
-   "off": 11.2247,
-   "dfn": 13.1808,
-   "w": 46,
+   "off": 12.4947,
+   "dfn": 13.6452,
+   "w": 47,
    "l": 23,
-   "gp": 69
+   "gp": 70
   },
   "UTEP Miners": {
    "off": 1.3455,
@@ -1207,11 +1207,11 @@
    "gp": 58
   },
   "Vanderbilt Commodores": {
-   "off": 23.3371,
-   "dfn": 9.025,
-   "w": 51,
+   "off": 23.8142,
+   "dfn": 8.8705,
+   "w": 52,
    "l": 14,
-   "gp": 65
+   "gp": 66
   },
   "Lipscomb Bisons": {
    "off": -5.0413,
@@ -1676,11 +1676,11 @@
    "gp": 61
   },
   "Western Kentucky Lady Toppers": {
-   "off": -4.2718,
-   "dfn": 4.452,
+   "off": -4.1173,
+   "dfn": 3.9749,
    "w": 29,
-   "l": 26,
-   "gp": 55
+   "l": 27,
+   "gp": 56
   },
   "Kennesaw State Owls": {
    "off": -4.8204,
@@ -1837,11 +1837,11 @@
    "gp": 63
   },
   "Ohio State Buckeyes": {
-   "off": 16.4974,
-   "dfn": 13.8419,
+   "off": 15.5776,
+   "dfn": 13.3775,
    "w": 56,
-   "l": 13,
-   "gp": 69
+   "l": 14,
+   "gp": 70
   },
   "Cleveland State Vikings": {
    "off": 1.493,
@@ -1914,11 +1914,11 @@
    "gp": 67
   },
   "South Dakota State Jackrabbits": {
-   "off": 8.3727,
-   "dfn": 12.5412,
+   "off": 8.8469,
+   "dfn": 11.9446,
    "w": 52,
-   "l": 10,
-   "gp": 62
+   "l": 11,
+   "gp": 63
   },
   "Rutgers Scarlet Knights": {
    "off": -6.0728,
@@ -2852,11 +2852,11 @@
    "gp": 64
   },
   "Tulsa Golden Hurricane": {
-   "off": -0.8741,
-   "dfn": 3.6092,
-   "w": 34,
+   "off": -0.7286,
+   "dfn": 4.6569,
+   "w": 35,
    "l": 27,
-   "gp": 61
+   "gp": 62
   },
   "UC Santa Barbara Gauchos": {
    "off": -3.1576,
@@ -3083,11 +3083,11 @@
    "gp": 60
   },
   "UConn Huskies": {
-   "off": 23.3976,
-   "dfn": 20.259,
-   "w": 72,
+   "off": 23.862,
+   "dfn": 21.1788,
+   "w": 73,
    "l": 4,
-   "gp": 76
+   "gp": 77
   },
   "Arlington Baptist Patriots": {
    "off": -7.5497,
@@ -3188,11 +3188,11 @@
    "gp": 61
   },
   "UAlbany Great Danes": {
-   "off": -7.7685,
-   "dfn": 11.4205,
+   "off": -8.2329,
+   "dfn": 10.1505,
    "w": 38,
-   "l": 21,
-   "gp": 59
+   "l": 22,
+   "gp": 60
   },
   "Whittier Poets": {
    "off": -2.1417,
@@ -3272,11 +3272,11 @@
    "gp": 1
   },
   "Texas Longhorns": {
-   "off": 21.4779,
-   "dfn": 22.9919,
-   "w": 69,
+   "off": 22.0745,
+   "dfn": 22.5177,
+   "w": 70,
    "l": 5,
-   "gp": 74
+   "gp": 75
   },
   "Clinton Golden Bears": {
    "off": -6.4742,
@@ -5386,16 +5386,14 @@
    "gp": 1
   }
  },
- "updated_from": 11448,
- "last_date": "2026-11-11",
+ "updated_from": 11454,
+ "last_date": "2026-11-12",
  "applied_on_last_date": [
-  "2026-11-11|Kentucky Wildcats|Evansville Purple Aces",
-  "2026-11-11|LSU Tigers|McNeese Cowgirls",
-  "2026-11-11|Louisville Cardinals|Lindenwood Lions",
-  "2026-11-11|Minnesota Golden Gophers|Southern Jaguars",
-  "2026-11-11|Nebraska Cornhuskers|North Carolina A&T Aggies",
-  "2026-11-11|Notre Dame Fighting Irish|Detroit Mercy Titans",
-  "2026-11-11|Oklahoma Sooners|San José State Spartans",
-  "2026-11-11|USC Trojans|Charleston Cougars"
+  "2026-11-12|North Carolina Tar Heels|North Carolina Central Eagles",
+  "2026-11-12|Ohio State Buckeyes|UConn Huskies",
+  "2026-11-12|Ole Miss Rebels|UAlbany Great Danes",
+  "2026-11-12|Texas Longhorns|South Dakota State Jackrabbits",
+  "2026-11-12|Tulsa Golden Hurricane|Oklahoma State Cowgirls",
+  "2026-11-12|Vanderbilt Commodores|Western Kentucky Lady Toppers"
  ]
 }

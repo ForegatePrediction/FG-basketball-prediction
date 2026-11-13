@@ -1,13 +1,13 @@
 {
- "mu": 111.8435,
- "hfa": 1.1844,
+ "mu": 111.891,
+ "hfa": 1.1853,
  "teams": {
   "Boston Celtics": {
-   "off": 2.5536,
-   "dfn": 8.9981,
-   "w": 299,
+   "off": 1.6471,
+   "dfn": 9.883,
+   "w": 300,
    "l": 118,
-   "gp": 417
+   "gp": 418
   },
   "Charlotte Hornets": {
    "off": -7.7644,
@@ -17,67 +17,67 @@
    "gp": 363
   },
   "Golden State Warriors": {
-   "off": 4.1129,
-   "dfn": 2.4894,
+   "off": 4.1567,
+   "dfn": 2.2396,
    "w": 215,
-   "l": 178,
-   "gp": 393
+   "l": 179,
+   "gp": 394
   },
   "Washington Wizards": {
-   "off": -1.2392,
-   "dfn": -5.0633,
+   "off": -2.0477,
+   "dfn": -4.8252,
    "w": 98,
-   "l": 259,
-   "gp": 357
+   "l": 260,
+   "gp": 358
   },
   "Houston Rockets": {
-   "off": 0.2537,
-   "dfn": 8.7015,
-   "w": 196,
+   "off": 0.5035,
+   "dfn": 8.6577,
+   "w": 197,
    "l": 175,
-   "gp": 371
+   "gp": 372
   },
   "San Antonio Spurs": {
-   "off": 4.6051,
-   "dfn": 8.0677,
-   "w": 173,
+   "off": 4.423,
+   "dfn": 7.4561,
+   "w": 174,
    "l": 213,
-   "gp": 386
+   "gp": 387
   },
   "Milwaukee Bucks": {
-   "off": -5.1115,
-   "dfn": -4.9499,
+   "off": -4.7622,
+   "dfn": -5.0913,
    "w": 201,
-   "l": 177,
-   "gp": 378
+   "l": 178,
+   "gp": 379
   },
   "Memphis Grizzlies": {
-   "off": 1.6705,
-   "dfn": -3.0313,
+   "off": 1.8693,
+   "dfn": -3.291,
    "w": 173,
-   "l": 200,
-   "gp": 373
+   "l": 201,
+   "gp": 374
   },
   "Toronto Raptors": {
-   "off": 3.5792,
-   "dfn": 1.3814,
+   "off": 2.6943,
+   "dfn": 2.2879,
    "w": 166,
-   "l": 204,
-   "gp": 370
+   "l": 205,
+   "gp": 371
   },
   "Utah Jazz": {
-   "off": -2.2877,
-   "dfn": -5.4169,
+   "off": -2.3183,
+   "dfn": -5.8681,
    "w": 119,
-   "l": 242,
-   "gp": 361
+   "l": 243,
+   "gp": 362
   },
   "Brooklyn Nets": {
-   "off": -5.6129,
-   "dfn": -1.6921,
-   "w": 135,
+   "off": -3.5907,
+   "dfn": -1.3956,
+   "w": 136,
    "l": 226,
-   "gp": 361
+   "gp": 362
   },
   "Philadelphia 76ers": {
    "off": 0.6389,
@@ -101,18 +101,18 @@
    "gp": 2
   },
   "Denver Nuggets": {
-   "off": 3.8081,
-   "dfn": 0.0319,
-   "w": 263,
+   "off": 4.0678,
+   "dfn": -0.1669,
+   "w": 264,
    "l": 150,
-   "gp": 413
+   "gp": 414
   },
   "Oklahoma City Thunder": {
-   "off": 1.323,
-   "dfn": 6.7847,
+   "off": 1.2133,
+   "dfn": 6.2665,
    "w": 287,
-   "l": 129,
-   "gp": 416
+   "l": 130,
+   "gp": 417
   },
   "LA Clippers": {
    "off": 0.7876,
@@ -122,18 +122,18 @@
    "gp": 375
   },
   "Portland Trail Blazers": {
-   "off": 3.0194,
-   "dfn": 3.4185,
-   "w": 149,
+   "off": 3.5376,
+   "dfn": 3.5282,
+   "w": 150,
    "l": 215,
-   "gp": 364
+   "gp": 365
   },
   "Los Angeles Lakers": {
-   "off": 3.845,
-   "dfn": 1.7837,
-   "w": 227,
+   "off": 3.9864,
+   "dfn": 1.4344,
+   "w": 228,
    "l": 180,
-   "gp": 407
+   "gp": 408
   },
   "Sacramento Kings": {
    "off": -3.6501,
@@ -143,11 +143,11 @@
    "gp": 371
   },
   "Orlando Magic": {
-   "off": -1.8136,
-   "dfn": 2.2669,
-   "w": 193,
+   "off": -1.3624,
+   "dfn": 2.2975,
+   "w": 194,
    "l": 186,
-   "gp": 379
+   "gp": 380
   },
   "Miami Heat": {
    "off": 6.7984,
@@ -164,11 +164,11 @@
    "gp": 414
   },
   "New York Knicks": {
-   "off": -0.066,
-   "dfn": 9.5859,
+   "off": -0.5252,
+   "dfn": 9.0898,
    "w": 258,
-   "l": 163,
-   "gp": 421
+   "l": 164,
+   "gp": 422
   },
   "Detroit Pistons": {
    "off": 1.5379,
@@ -178,32 +178,32 @@
    "gp": 377
   },
   "Indiana Pacers": {
-   "off": -0.1908,
-   "dfn": -3.8462,
-   "w": 186,
+   "off": -0.4289,
+   "dfn": -3.0377,
+   "w": 187,
    "l": 213,
-   "gp": 399
+   "gp": 400
   },
   "Chicago Bulls": {
-   "off": 3.846,
-   "dfn": -10.5859,
+   "off": 4.4576,
+   "dfn": -10.4038,
    "w": 165,
-   "l": 199,
-   "gp": 364
-  },
-  "New Orleans Pelicans": {
-   "off": 1.1422,
-   "dfn": -5.0449,
-   "w": 154,
-   "l": 211,
+   "l": 200,
    "gp": 365
   },
+  "New Orleans Pelicans": {
+   "off": 0.8457,
+   "dfn": -7.0671,
+   "w": 154,
+   "l": 212,
+   "gp": 366
+  },
   "Cleveland Cavaliers": {
-   "off": 4.3964,
-   "dfn": -1.5685,
-   "w": 242,
+   "off": 4.8925,
+   "dfn": -1.1093,
+   "w": 243,
    "l": 158,
-   "gp": 400
+   "gp": 401
   },
   "Atlanta Hawks": {
    "off": 4.5985,
@@ -374,14 +374,18 @@
    "gp": 1
   }
  },
- "updated_from": 5784,
- "last_date": "2026-11-11",
+ "updated_from": 5794,
+ "last_date": "2026-11-12",
  "applied_on_last_date": [
-  "2026-11-11|New York Knicks|Milwaukee Bucks",
-  "2026-11-11|Philadelphia 76ers|Boston Celtics",
-  "2026-11-11|Phoenix Suns|LA Clippers",
-  "2026-11-11|Portland Trail Blazers|Oklahoma City Thunder",
-  "2026-11-11|Sacramento Kings|Orlando Magic",
-  "2026-11-11|Utah Jazz|Miami Heat"
+  "2026-11-12|Chicago Bulls|San Antonio Spurs",
+  "2026-11-12|Houston Rockets|Golden State Warriors",
+  "2026-11-12|Indiana Pacers|Washington Wizards",
+  "2026-11-12|Memphis Grizzlies|Denver Nuggets",
+  "2026-11-12|Milwaukee Bucks|Los Angeles Lakers",
+  "2026-11-12|New Orleans Pelicans|Brooklyn Nets",
+  "2026-11-12|New York Knicks|Cleveland Cavaliers",
+  "2026-11-12|Portland Trail Blazers|Oklahoma City Thunder",
+  "2026-11-12|Toronto Raptors|Boston Celtics",
+  "2026-11-12|Utah Jazz|Orlando Magic"
  ]
 }
