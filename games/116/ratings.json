@@ -1,6 +1,6 @@
 {
- "mu": 78.1169,
- "hfa": 3.9527,
+ "mu": 78.1098,
+ "hfa": 3.9852,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -367,11 +367,11 @@
    "gp": 128
   },
   "BYU Cougars": {
-   "off": 13.883,
-   "dfn": 5.8202,
-   "w": 88,
+   "off": 13.8814,
+   "dfn": 6.0532,
+   "w": 89,
    "l": 45,
-   "gp": 133
+   "gp": 134
   },
   "Idaho State Bengals": {
    "off": -0.7619,
@@ -1074,11 +1074,11 @@
    "gp": 130
   },
   "Montana State Bobcats": {
-   "off": 2.5869,
-   "dfn": 9.9254,
+   "off": 2.3539,
+   "dfn": 9.927,
    "w": 69,
-   "l": 57,
-   "gp": 126
+   "l": 58,
+   "gp": 127
   },
   "High Point Panthers": {
    "off": 8.97,
@@ -1473,11 +1473,11 @@
    "gp": 122
   },
   "Miami Hurricanes": {
-   "off": 5.3296,
-   "dfn": 11.2197,
-   "w": 72,
+   "off": 5.9813,
+   "dfn": 11.8486,
+   "w": 73,
    "l": 56,
-   "gp": 128
+   "gp": 129
   },
   "Lafayette Leopards": {
    "off": -5.4691,
@@ -1641,11 +1641,11 @@
    "gp": 34
   },
   "North Alabama Lions": {
-   "off": -4.4085,
-   "dfn": 4.2529,
+   "off": -5.0374,
+   "dfn": 3.6012,
    "w": 62,
-   "l": 59,
-   "gp": 121
+   "l": 60,
+   "gp": 122
   },
   "Oakwood Ambassadors": {
    "off": -4.1163,
@@ -7087,15 +7087,10 @@
    "gp": 1
   }
  },
- "updated_from": 23667,
- "last_date": "2026-11-12",
+ "updated_from": 23669,
+ "last_date": "2026-11-13",
  "applied_on_last_date": [
-  "2026-11-12|Arkansas Razorbacks|Robert Morris Colonials",
-  "2026-11-12|California Golden Bears|USC Trojans",
-  "2026-11-12|Houston Cougars|Jacksonville State Gamecocks",
-  "2026-11-12|Michigan Wolverines|Marquette Golden Eagles",
-  "2026-11-12|Nebraska Cornhuskers|Lindenwood Lions",
-  "2026-11-12|St. John's Red Storm|Colgate Raiders",
-  "2026-11-12|UCLA Bruins|Arkansas-Pine Bluff Golden Lions"
+  "2026-11-13|BYU Cougars|Montana State Bobcats",
+  "2026-11-13|Miami Hurricanes|North Alabama Lions"
  ]
 }

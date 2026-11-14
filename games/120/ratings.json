@@ -1,6 +1,6 @@
 {
- "mu": 100.7496,
- "hfa": 2.7271,
+ "mu": 100.783,
+ "hfa": 2.7441,
  "teams": {
   "FC BAYERN MUNICH": {
    "off": -9.1828,
@@ -73,25 +73,25 @@
    "gp": 90
   },
   "ANADOLU EFES ISTANBUL": {
-   "off": -10.8917,
-   "dfn": 10.1869,
-   "w": 146,
+   "off": -9.8822,
+   "dfn": 9.4846,
+   "w": 147,
    "l": 119,
-   "gp": 265
+   "gp": 266
   },
   "FC BARCELONA": {
-   "off": -8.0159,
-   "dfn": 10.9595,
-   "w": 179,
+   "off": -8.2333,
+   "dfn": 11.5924,
+   "w": 180,
    "l": 96,
-   "gp": 275
+   "gp": 276
   },
   "LDLC ASVEL VILLEURBANNE": {
-   "off": -9.9501,
-   "dfn": 5.4427,
+   "off": -9.9868,
+   "dfn": 5.265,
    "w": 75,
-   "l": 169,
-   "gp": 244
+   "l": 170,
+   "gp": 245
   },
   "OLYMPIACOS PIRAEUS": {
    "off": -5.2816,
@@ -213,11 +213,11 @@
    "gp": 73
   },
   "PANATHINAIKOS AKTOR ATHENS": {
-   "off": -8.0798,
-   "dfn": 13.1724,
+   "off": -8.7127,
+   "dfn": 13.3898,
    "w": 86,
-   "l": 50,
-   "gp": 136
+   "l": 51,
+   "gp": 137
   },
   "PARIS BASKETBALL": {
    "off": -2.2124,
@@ -255,18 +255,18 @@
    "gp": 49
   },
   "VIRTUS BOLOGNA": {
-   "off": -11.2679,
-   "dfn": 6.4095,
+   "off": -10.5656,
+   "dfn": 5.4,
    "w": 18,
-   "l": 30,
-   "gp": 48
+   "l": 31,
+   "gp": 49
   },
   "BESIKTAS ISTANBUL": {
-   "off": -3.3256,
-   "dfn": 2.0217,
-   "w": 4,
+   "off": -3.1479,
+   "dfn": 2.0584,
+   "w": 5,
    "l": 6,
-   "gp": 10
+   "gp": 11
   },
   "FENERBAHCE TARFIN ISTANBUL": {
    "off": -5.1944,
@@ -283,13 +283,11 @@
    "gp": 11
   }
  },
- "updated_from": 2377,
- "last_date": "2026-11-12",
+ "updated_from": 2380,
+ "last_date": "2026-11-13",
  "applied_on_last_date": [
-  "2026-11-12|ARMANI OLIMPIA MILAN|ZALGIRIS KAUNAS",
-  "2026-11-12|MACCABI RAPYD TEL AVIV|HAPOEL IBI TEL AVIV",
-  "2026-11-12|OLYMPIACOS PIRAEUS|DUBAI BASKETBALL",
-  "2026-11-12|REAL MADRID|CRVENA ZVEZDA MERIDIANBET BELGRADE",
-  "2026-11-12|VALENCIA BASKET|FC BAYERN MUNICH"
+  "2026-11-13|ANADOLU EFES ISTANBUL|VIRTUS BOLOGNA",
+  "2026-11-13|LDLC ASVEL VILLEURBANNE|BESIKTAS ISTANBUL",
+  "2026-11-13|PANATHINAIKOS AKTOR ATHENS|FC BARCELONA"
  ]
 }

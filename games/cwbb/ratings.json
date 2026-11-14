@@ -1,6 +1,6 @@
 {
- "mu": 69.7433,
- "hfa": 4.4644,
+ "mu": 69.6058,
+ "hfa": 4.2572,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -59,11 +59,11 @@
    "gp": 54
   },
   "Arizona Wildcats": {
-   "off": 2.435,
-   "dfn": 2.6131,
+   "off": 2.1109,
+   "dfn": 3.4938,
    "w": 30,
-   "l": 31,
-   "gp": 61
+   "l": 32,
+   "gp": 62
   },
   "UT Arlington Mavericks": {
    "off": -3.2208,
@@ -101,11 +101,11 @@
    "gp": 2
   },
   "Ball State Cardinals": {
-   "off": 10.5905,
-   "dfn": 4.8711,
+   "off": 10.888,
+   "dfn": 4.0017,
    "w": 51,
-   "l": 14,
-   "gp": 65
+   "l": 15,
+   "gp": 66
   },
   "Old Dominion Monarchs": {
    "off": 1.8751,
@@ -269,11 +269,11 @@
    "gp": 2
   },
   "Clemson Tigers": {
-   "off": 2.3334,
-   "dfn": 14.4756,
+   "off": 1.5653,
+   "dfn": 15.2663,
    "w": 34,
-   "l": 28,
-   "gp": 62
+   "l": 29,
+   "gp": 63
   },
   "Jackson State Lady Tigers": {
    "off": -10.433,
@@ -311,11 +311,11 @@
    "gp": 5
   },
   "Duke Blue Devils": {
-   "off": 11.0842,
-   "dfn": 18.9224,
-   "w": 55,
+   "off": 11.9474,
+   "dfn": 20.708,
+   "w": 56,
    "l": 16,
-   "gp": 71
+   "gp": 72
   },
   "Radford Highlanders": {
    "off": 1.2301,
@@ -472,11 +472,11 @@
    "gp": 63
   },
   "Cal State Bakersfield Roadrunners": {
-   "off": -7.8277,
-   "dfn": -1.2087,
+   "off": -7.6485,
+   "dfn": -1.3377,
    "w": 9,
-   "l": 46,
-   "gp": 55
+   "l": 47,
+   "gp": 56
   },
   "Hampton Lady Pirates": {
    "off": -6.2479,
@@ -759,11 +759,11 @@
    "gp": 62
   },
   "Norfolk State Spartans": {
-   "off": -2.4268,
-   "dfn": 10.167,
+   "off": -4.2124,
+   "dfn": 9.3038,
    "w": 45,
-   "l": 20,
-   "gp": 65
+   "l": 21,
+   "gp": 66
   },
   "William & Mary Tribe": {
    "off": -4.3995,
@@ -843,11 +843,11 @@
    "gp": 57
   },
   "Oklahoma Sooners": {
-   "off": 21.767,
-   "dfn": 9.3612,
-   "w": 55,
+   "off": 21.2581,
+   "dfn": 9.7209,
+   "w": 56,
    "l": 13,
-   "gp": 68
+   "gp": 69
   },
   "Southern Jaguars": {
    "off": -7.4488,
@@ -871,11 +871,11 @@
    "gp": 54
   },
   "Oral Roberts Golden Eagles": {
-   "off": 7.6913,
-   "dfn": -5.726,
+   "off": 7.3316,
+   "dfn": -5.2171,
    "w": 34,
-   "l": 25,
-   "gp": 59
+   "l": 26,
+   "gp": 60
   },
   "Northeastern State RiverHawks": {
    "off": -1.7507,
@@ -941,11 +941,11 @@
    "gp": 61
   },
   "SE Louisiana Lady Lions": {
-   "off": -7.9649,
-   "dfn": -0.6255,
+   "off": -7.7358,
+   "dfn": -1.8296,
    "w": 29,
-   "l": 28,
-   "gp": 57
+   "l": 29,
+   "gp": 58
   },
   "Millsaps Majors": {
    "off": -3.4533,
@@ -1109,18 +1109,18 @@
    "gp": 3
   },
   "UCLA Bruins": {
-   "off": 19.2483,
-   "dfn": 22.7176,
-   "w": 69,
+   "off": 18.3676,
+   "dfn": 23.0417,
+   "w": 70,
    "l": 4,
-   "gp": 73
+   "gp": 74
   },
   "Louisville Cardinals": {
-   "off": 14.6385,
-   "dfn": 16.7564,
-   "w": 51,
+   "off": 15.5079,
+   "dfn": 16.4589,
+   "w": 52,
    "l": 18,
-   "gp": 69
+   "gp": 70
   },
   "UL Monroe Warhawks": {
    "off": 1.8094,
@@ -1459,11 +1459,11 @@
    "gp": 60
   },
   "Columbia Lions": {
-   "off": 8.8521,
-   "dfn": 13.9431,
+   "off": 8.242,
+   "dfn": 13.4946,
    "w": 46,
-   "l": 15,
-   "gp": 61
+   "l": 16,
+   "gp": 62
   },
   "Stony Brook Seawolves": {
    "off": -8.5792,
@@ -1991,18 +1991,18 @@
    "gp": 58
   },
   "South Carolina Gamecocks": {
-   "off": 22.8723,
-   "dfn": 19.7927,
-   "w": 67,
+   "off": 22.0816,
+   "dfn": 20.5608,
+   "w": 68,
    "l": 8,
-   "gp": 75
+   "gp": 76
   },
   "Michigan Wolverines": {
-   "off": 17.7387,
-   "dfn": 14.8551,
-   "w": 49,
+   "off": 18.1872,
+   "dfn": 15.4652,
+   "w": 50,
    "l": 17,
-   "gp": 66
+   "gp": 67
   },
   "Southern Indiana Screaming Eagles": {
    "off": 1.6473,
@@ -2243,11 +2243,11 @@
    "gp": 1
   },
   "Washington Huskies": {
-   "off": 7.684,
-   "dfn": 13.8023,
-   "w": 43,
+   "off": 7.813,
+   "dfn": 13.6231,
+   "w": 44,
    "l": 25,
-   "gp": 68
+   "gp": 69
   },
   "Seattle U Redhawks": {
    "off": -7.562,
@@ -2467,11 +2467,11 @@
    "gp": 3
   },
   "Northern Iowa Panthers": {
-   "off": 0.206,
-   "dfn": 7.4705,
+   "off": -0.7017,
+   "dfn": 7.4248,
    "w": 32,
-   "l": 31,
-   "gp": 63
+   "l": 32,
+   "gp": 64
   },
   "Wisconsin La Crosse Eagles": {
    "off": -2.0967,
@@ -2516,11 +2516,11 @@
    "gp": 53
   },
   "TCU Horned Frogs": {
-   "off": 11.3717,
-   "dfn": 18.4902,
-   "w": 66,
+   "off": 12.5758,
+   "dfn": 18.2611,
+   "w": 67,
    "l": 10,
-   "gp": 76
+   "gp": 77
   },
   "Houston Christian Huskies": {
    "off": -9.3003,
@@ -2579,11 +2579,11 @@
    "gp": 64
   },
   "West Virginia Mountaineers": {
-   "off": 12.2303,
-   "dfn": 15.0311,
-   "w": 56,
+   "off": 10.9641,
+   "dfn": 15.2203,
+   "w": 57,
    "l": 13,
-   "gp": 69
+   "gp": 70
   },
   "Towson Tigers": {
    "off": -0.53,
@@ -2656,11 +2656,11 @@
    "gp": 3
   },
   "Iowa Hawkeyes": {
-   "off": 10.5743,
-   "dfn": 14.8017,
-   "w": 51,
+   "off": 10.62,
+   "dfn": 15.7094,
+   "w": 52,
    "l": 17,
-   "gp": 68
+   "gp": 69
   },
   "Kansas Jayhawks": {
    "off": 6.4622,
@@ -2719,11 +2719,11 @@
    "gp": 2
   },
   "Northwestern Wildcats": {
-   "off": 1.5302,
-   "dfn": -0.8976,
+   "off": 1.341,
+   "dfn": 0.3686,
    "w": 16,
-   "l": 38,
-   "gp": 54
+   "l": 39,
+   "gp": 55
   },
   "Illinois State Redbirds": {
    "off": 0.9243,
@@ -5386,14 +5386,18 @@
    "gp": 1
   }
  },
- "updated_from": 11454,
- "last_date": "2026-11-12",
+ "updated_from": 11464,
+ "last_date": "2026-11-13",
  "applied_on_last_date": [
-  "2026-11-12|North Carolina Tar Heels|North Carolina Central Eagles",
-  "2026-11-12|Ohio State Buckeyes|UConn Huskies",
-  "2026-11-12|Ole Miss Rebels|UAlbany Great Danes",
-  "2026-11-12|Texas Longhorns|South Dakota State Jackrabbits",
-  "2026-11-12|Tulsa Golden Hurricane|Oklahoma State Cowgirls",
-  "2026-11-12|Vanderbilt Commodores|Western Kentucky Lady Toppers"
+  "2026-11-13|Ball State Cardinals|Louisville Cardinals",
+  "2026-11-13|Clemson Tigers|South Carolina Gamecocks",
+  "2026-11-13|Columbia Lions|Michigan Wolverines",
+  "2026-11-13|Iowa Hawkeyes|Northern Iowa Panthers",
+  "2026-11-13|Norfolk State Spartans|Duke Blue Devils",
+  "2026-11-13|Oklahoma Sooners|Oral Roberts Golden Eagles",
+  "2026-11-13|TCU Horned Frogs|SE Louisiana Lady Lions",
+  "2026-11-13|UCLA Bruins|Arizona Wildcats",
+  "2026-11-13|Washington Huskies|Cal State Bakersfield Roadrunners",
+  "2026-11-13|West Virginia Mountaineers|Northwestern Wildcats"
  ]
 }
