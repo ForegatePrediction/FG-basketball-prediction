@@ -1,6 +1,6 @@
 {
- "mu": 69.6058,
- "hfa": 4.2572,
+ "mu": 69.7184,
+ "hfa": 4.3041,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.4695,
@@ -521,11 +521,11 @@
    "gp": 61
   },
   "Kansas State Wildcats": {
-   "off": 7.4993,
-   "dfn": 7.1686,
+   "off": 7.3744,
+   "dfn": 7.4785,
    "w": 45,
-   "l": 26,
-   "gp": 71
+   "l": 27,
+   "gp": 72
   },
   "Green Bay Phoenix": {
    "off": 2.1937,
@@ -717,11 +717,11 @@
    "gp": 1
   },
   "Nebraska Cornhuskers": {
-   "off": 11.0303,
-   "dfn": 9.0303,
-   "w": 41,
+   "off": 13.09,
+   "dfn": 8.928,
+   "w": 42,
    "l": 23,
-   "gp": 64
+   "gp": 65
   },
   "Omaha Mavericks": {
    "off": -11.8389,
@@ -773,11 +773,11 @@
    "gp": 65
   },
   "North Carolina Tar Heels": {
-   "off": 10.3695,
-   "dfn": 15.5869,
-   "w": 55,
+   "off": 10.3878,
+   "dfn": 15.5139,
+   "w": 56,
    "l": 16,
-   "gp": 71
+   "gp": 72
   },
   "Charleston Southern Buccaneers": {
    "off": -4.7625,
@@ -829,11 +829,11 @@
    "gp": 61
   },
   "Notre Dame Fighting Irish": {
-   "off": 17.497,
-   "dfn": 12.7683,
-   "w": 53,
+   "off": 18.4248,
+   "dfn": 11.105,
+   "w": 54,
    "l": 15,
-   "gp": 68
+   "gp": 69
   },
   "Mercyhurst Lakers": {
    "off": -2.6905,
@@ -1172,11 +1172,11 @@
    "gp": 55
   },
   "Tarleton State Texans": {
-   "off": -4.0201,
-   "dfn": 5.1995,
+   "off": -4.5119,
+   "dfn": 5.1943,
    "w": 30,
-   "l": 31,
-   "gp": 61
+   "l": 32,
+   "gp": 62
   },
   "Utah Tech Trailblazers": {
    "off": -3.2857,
@@ -1487,11 +1487,11 @@
    "gp": 3
   },
   "Denver Pioneers": {
-   "off": -6.6115,
-   "dfn": 4.2552,
+   "off": -7.1091,
+   "dfn": 4.3014,
    "w": 20,
-   "l": 36,
-   "gp": 56
+   "l": 37,
+   "gp": 57
   },
   "Colorado Christian Cougars": {
    "off": -2.7934,
@@ -1711,11 +1711,11 @@
    "gp": 67
   },
   "LSU Tigers": {
-   "off": 32.1052,
-   "dfn": 17.7583,
-   "w": 62,
+   "off": 32.059,
+   "dfn": 18.2559,
+   "w": 63,
    "l": 10,
-   "gp": 72
+   "gp": 73
   },
   "Eastern Kentucky Colonels": {
    "off": 2.3372,
@@ -1767,11 +1767,11 @@
    "gp": 61
   },
   "Minnesota Golden Gophers": {
-   "off": 10.6561,
-   "dfn": 14.3583,
-   "w": 51,
+   "off": 10.3462,
+   "dfn": 14.4832,
+   "w": 52,
    "l": 19,
-   "gp": 70
+   "gp": 71
   },
   "Central Connecticut Blue Devils": {
    "off": -12.9957,
@@ -2376,11 +2376,11 @@
    "gp": 56
   },
   "DePaul Blue Demons": {
-   "off": -0.5988,
-   "dfn": -1.1404,
+   "off": 1.0645,
+   "dfn": -2.0682,
    "w": 21,
-   "l": 42,
-   "gp": 63
+   "l": 43,
+   "gp": 64
   },
   "East Carolina Pirates": {
    "off": 1.5502,
@@ -2663,11 +2663,11 @@
    "gp": 69
   },
   "Kansas Jayhawks": {
-   "off": 6.4622,
-   "dfn": 9.965,
+   "off": 6.5645,
+   "dfn": 7.9053,
    "w": 38,
-   "l": 26,
-   "gp": 64
+   "l": 27,
+   "gp": 65
   },
   "Lindenwood Lions": {
    "off": 4.3393,
@@ -3020,11 +3020,11 @@
    "gp": 4
   },
   "Pennsylvania Quakers": {
-   "off": 0.3391,
-   "dfn": 9.4064,
+   "off": 0.4121,
+   "dfn": 9.3881,
    "w": 31,
-   "l": 21,
-   "gp": 52
+   "l": 22,
+   "gp": 53
   },
   "Portland Pilots": {
    "off": 1.7845,
@@ -3272,11 +3272,11 @@
    "gp": 1
   },
   "Texas Longhorns": {
-   "off": 22.0745,
-   "dfn": 22.5177,
-   "w": 70,
+   "off": 22.0797,
+   "dfn": 23.0095,
+   "w": 71,
    "l": 5,
-   "gp": 75
+   "gp": 76
   },
   "Clinton Golden Bears": {
    "off": -6.4742,
@@ -5386,18 +5386,14 @@
    "gp": 1
   }
  },
- "updated_from": 11464,
- "last_date": "2026-11-13",
+ "updated_from": 11470,
+ "last_date": "2026-11-14",
  "applied_on_last_date": [
-  "2026-11-13|Ball State Cardinals|Louisville Cardinals",
-  "2026-11-13|Clemson Tigers|South Carolina Gamecocks",
-  "2026-11-13|Columbia Lions|Michigan Wolverines",
-  "2026-11-13|Iowa Hawkeyes|Northern Iowa Panthers",
-  "2026-11-13|Norfolk State Spartans|Duke Blue Devils",
-  "2026-11-13|Oklahoma Sooners|Oral Roberts Golden Eagles",
-  "2026-11-13|TCU Horned Frogs|SE Louisiana Lady Lions",
-  "2026-11-13|UCLA Bruins|Arizona Wildcats",
-  "2026-11-13|Washington Huskies|Cal State Bakersfield Roadrunners",
-  "2026-11-13|West Virginia Mountaineers|Northwestern Wildcats"
+  "2026-11-14|Kansas Jayhawks|Nebraska Cornhuskers",
+  "2026-11-14|Kansas State Wildcats|Minnesota Golden Gophers",
+  "2026-11-14|LSU Tigers|Denver Pioneers",
+  "2026-11-14|Notre Dame Fighting Irish|DePaul Blue Demons",
+  "2026-11-14|Pennsylvania Quakers|North Carolina Tar Heels",
+  "2026-11-14|Texas Longhorns|Tarleton State Texans"
  ]
 }

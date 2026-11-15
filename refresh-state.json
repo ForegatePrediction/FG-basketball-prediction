@@ -1,51 +1,51 @@
 {
  "1": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "espn",
-  "latest_match": "2026-11-13",
-  "checked_at": "2026-11-14T14:53:52.232957+00:00",
+  "latest_match": "2026-11-14",
+  "checked_at": "2026-11-15T15:30:14.634574+00:00",
   "source_matches_in_batch": 2
  },
  "116": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "espn",
-  "latest_match": "2026-11-13",
-  "checked_at": "2026-11-14T14:53:52.656851+00:00",
-  "source_matches_in_batch": 2
+  "latest_match": "2026-11-14",
+  "checked_at": "2026-11-15T15:30:14.919997+00:00",
+  "source_matches_in_batch": 14
  },
  "12": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "espn",
-  "latest_match": "2026-11-13",
-  "checked_at": "2026-11-14T14:53:53.177785+00:00",
-  "source_matches_in_batch": 4
+  "latest_match": "2026-11-14",
+  "checked_at": "2026-11-15T15:30:15.239650+00:00",
+  "source_matches_in_batch": 9
  },
  "cwbb": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "espn",
-  "latest_match": "2026-11-13",
-  "checked_at": "2026-11-14T14:53:55.057113+00:00",
-  "source_matches_in_batch": 10
+  "latest_match": "2026-11-14",
+  "checked_at": "2026-11-15T15:30:17.376227+00:00",
+  "source_matches_in_batch": 6
  },
  "wnba": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "espn",
   "latest_match": "2026-11-01",
-  "checked_at": "2026-11-14T14:53:55.238976+00:00",
+  "checked_at": "2026-11-15T15:30:17.474667+00:00",
   "source_matches_in_batch": 0
  },
  "120": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "euroleague",
   "latest_match": "2026-11-13",
-  "checked_at": "2026-11-14T14:53:53.706530+00:00",
-  "source_matches_in_batch": 3
+  "checked_at": "2026-11-15T15:30:15.900305+00:00",
+  "source_matches_in_batch": 0
  },
  "31": {
-  "checked_through": "2026-11-13",
+  "checked_through": "2026-11-14",
   "source": "cba",
   "latest_match": "2026-11-03",
-  "checked_at": "2026-11-14T14:53:54.649455+00:00",
+  "checked_at": "2026-11-15T15:30:16.879394+00:00",
   "source_matches_in_batch": 0
  }
 }
