@@ -1,6 +1,6 @@
 {
- "mu": 78.3709,
- "hfa": 4.2925,
+ "mu": 78.3592,
+ "hfa": 4.3576,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -171,11 +171,11 @@
    "gp": 5
   },
   "St. John's Red Storm": {
-   "off": 9.8937,
-   "dfn": 14.9496,
-   "w": 94,
+   "off": 9.3427,
+   "dfn": 15.2393,
+   "w": 95,
    "l": 38,
-   "gp": 132
+   "gp": 133
   },
   "Merrimack Warriors": {
    "off": -4.2825,
@@ -2264,11 +2264,11 @@
    "gp": 7
   },
   "Syracuse Orange": {
-   "off": 3.4063,
-   "dfn": 4.3738,
+   "off": 3.1166,
+   "dfn": 4.9248,
    "w": 62,
-   "l": 61,
-   "gp": 123
+   "l": 62,
+   "gp": 124
   },
   "Lehigh Mountain Hawks": {
    "off": -1.252,
@@ -2285,11 +2285,11 @@
    "gp": 130
   },
   "Arkansas-Pine Bluff Golden Lions": {
-   "off": -3.8483,
-   "dfn": -2.3536,
+   "off": -5.2125,
+   "dfn": -4.2071,
    "w": 40,
-   "l": 81,
-   "gp": 121
+   "l": 82,
+   "gp": 122
   },
   "Temple Owls": {
    "off": 0.4835,
@@ -2551,11 +2551,11 @@
    "gp": 120
   },
   "USC Trojans": {
-   "off": 6.147,
-   "dfn": 5.7583,
-   "w": 72,
+   "off": 8.0005,
+   "dfn": 7.1225,
+   "w": 73,
    "l": 56,
-   "gp": 128
+   "gp": 129
   },
   "Florida Gulf Coast Eagles": {
    "off": -1.1481,
@@ -7087,12 +7087,10 @@
    "gp": 1
   }
  },
- "updated_from": 23687,
- "last_date": "2026-11-15",
+ "updated_from": 23689,
+ "last_date": "2026-11-16",
  "applied_on_last_date": [
-  "2026-11-15|Memphis Tigers|Louisville Cardinals",
-  "2026-11-15|Michigan Wolverines|William & Mary Tribe",
-  "2026-11-15|Nebraska Cornhuskers|Boise State Broncos",
-  "2026-11-15|Texas Longhorns|Baylor Bears"
+  "2026-11-16|St. John's Red Storm|Syracuse Orange",
+  "2026-11-16|USC Trojans|Arkansas-Pine Bluff Golden Lions"
  ]
 }

@@ -1,6 +1,6 @@
 {
- "mu": 112.104,
- "hfa": 1.5525,
+ "mu": 112.1703,
+ "hfa": 1.5723,
  "teams": {
   "Boston Celtics": {
    "off": 2.4276,
@@ -24,18 +24,18 @@
    "gp": 395
   },
   "Washington Wizards": {
-   "off": 0.1506,
-   "dfn": -6.371,
+   "off": 0.9225,
+   "dfn": -8.0342,
    "w": 98,
-   "l": 261,
-   "gp": 359
+   "l": 262,
+   "gp": 360
   },
   "Houston Rockets": {
-   "off": 0.8204,
-   "dfn": 7.6384,
-   "w": 198,
+   "off": 2.4836,
+   "dfn": 6.8665,
+   "w": 199,
    "l": 175,
-   "gp": 373
+   "gp": 374
   },
   "San Antonio Spurs": {
    "off": 4.0758,
@@ -45,11 +45,11 @@
    "gp": 389
   },
   "Milwaukee Bucks": {
-   "off": -5.1227,
-   "dfn": -4.4788,
+   "off": -5.4366,
+   "dfn": -4.0239,
    "w": 201,
-   "l": 179,
-   "gp": 380
+   "l": 180,
+   "gp": 381
   },
   "Memphis Grizzlies": {
    "off": 3.7892,
@@ -108,11 +108,11 @@
    "gp": 415
   },
   "Oklahoma City Thunder": {
-   "off": 1.0879,
-   "dfn": 5.9616,
-   "w": 287,
+   "off": 1.473,
+   "dfn": 6.0246,
+   "w": 288,
    "l": 131,
-   "gp": 418
+   "gp": 419
   },
   "LA Clippers": {
    "off": 1.2773,
@@ -136,11 +136,11 @@
    "gp": 409
   },
   "Sacramento Kings": {
-   "off": -3.6044,
-   "dfn": -5.4148,
+   "off": -3.6674,
+   "dfn": -5.7999,
    "w": 166,
-   "l": 206,
-   "gp": 372
+   "l": 207,
+   "gp": 373
   },
   "Orlando Magic": {
    "off": -1.9749,
@@ -206,11 +206,11 @@
    "gp": 403
   },
   "Atlanta Hawks": {
-   "off": 3.9985,
-   "dfn": -2.6973,
-   "w": 186,
+   "off": 3.5436,
+   "dfn": -2.3834,
+   "w": 187,
    "l": 192,
-   "gp": 378
+   "gp": 379
   },
   "Dallas Mavericks": {
    "off": 1.0791,
@@ -374,19 +374,11 @@
    "gp": 1
   }
  },
- "updated_from": 5818,
- "last_date": "2026-11-15",
+ "updated_from": 5821,
+ "last_date": "2026-11-16",
  "applied_on_last_date": [
-  "2026-11-15|Boston Celtics|Dallas Mavericks",
-  "2026-11-15|Cleveland Cavaliers|Dallas Mavericks",
-  "2026-11-15|LA Clippers|Charlotte Hornets",
-  "2026-11-15|Memphis Grizzlies|Brooklyn Nets",
-  "2026-11-15|Miami Heat|Detroit Pistons",
-  "2026-11-15|Minnesota Timberwolves|Chicago Bulls",
-  "2026-11-15|New Orleans Pelicans|Denver Nuggets",
-  "2026-11-15|Philadelphia 76ers|Indiana Pacers",
-  "2026-11-15|Phoenix Suns|Los Angeles Lakers",
-  "2026-11-15|Toronto Raptors|New York Knicks",
-  "2026-11-15|Utah Jazz|San Antonio Spurs"
+  "2026-11-16|Milwaukee Bucks|Atlanta Hawks",
+  "2026-11-16|Sacramento Kings|Oklahoma City Thunder",
+  "2026-11-16|Washington Wizards|Houston Rockets"
  ]
 }
