@@ -1,6 +1,6 @@
 {
- "mu": 69.6942,
- "hfa": 4.432,
+ "mu": 69.6984,
+ "hfa": 4.3799,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.531,
@@ -31,11 +31,11 @@
    "gp": 2
   },
   "Akron Zips": {
-   "off": 0.5937,
-   "dfn": -5.5865,
+   "off": 0.8909,
+   "dfn": -6.0316,
    "w": 17,
-   "l": 42,
-   "gp": 59
+   "l": 43,
+   "gp": 60
   },
   "Georgia State Panthers": {
    "off": 0.6963,
@@ -192,11 +192,11 @@
    "gp": 64
   },
   "Troy Trojans": {
-   "off": 13.6359,
-   "dfn": 0.839,
+   "off": 13.9332,
+   "dfn": 0.1926,
    "w": 44,
-   "l": 22,
-   "gp": 66
+   "l": 23,
+   "gp": 67
   },
   "Campbell Fighting Camels": {
    "off": -7.7668,
@@ -213,11 +213,11 @@
    "gp": 2
   },
   "Central Michigan Chippewas": {
-   "off": 1.6235,
-   "dfn": 2.5681,
+   "off": -0.1936,
+   "dfn": 1.6269,
    "w": 29,
-   "l": 30,
-   "gp": 59
+   "l": 31,
+   "gp": 60
   },
   "Coastal Carolina Chanticleers": {
    "off": 4.5528,
@@ -1081,11 +1081,11 @@
    "gp": 59
   },
   "Tennessee State Lady Tigers": {
-   "off": -6.5246,
-   "dfn": -3.6617,
+   "off": -6.8933,
+   "dfn": -3.3453,
    "w": 14,
-   "l": 41,
-   "gp": 55
+   "l": 42,
+   "gp": 56
   },
   "Cumberland Bulldogs": {
    "off": -3.5764,
@@ -1116,11 +1116,11 @@
    "gp": 75
   },
   "Louisville Cardinals": {
-   "off": 15.5418,
-   "dfn": 18.0264,
-   "w": 53,
+   "off": 15.2254,
+   "dfn": 18.3951,
+   "w": 54,
    "l": 18,
-   "gp": 71
+   "gp": 72
   },
   "UL Monroe Warhawks": {
    "off": 1.8094,
@@ -1711,11 +1711,11 @@
    "gp": 67
   },
   "LSU Tigers": {
-   "off": 32.059,
-   "dfn": 18.2559,
-   "w": 63,
+   "off": 32.7054,
+   "dfn": 17.9586,
+   "w": 64,
    "l": 10,
-   "gp": 73
+   "gp": 74
   },
   "Eastern Kentucky Colonels": {
    "off": 2.3372,
@@ -1998,11 +1998,11 @@
    "gp": 77
   },
   "Michigan Wolverines": {
-   "off": 18.1872,
-   "dfn": 15.4652,
-   "w": 50,
+   "off": 19.1284,
+   "dfn": 17.2823,
+   "w": 51,
    "l": 17,
-   "gp": 67
+   "gp": 68
   },
   "Southern Indiana Screaming Eagles": {
    "off": 1.6473,
@@ -2579,11 +2579,11 @@
    "gp": 64
   },
   "West Virginia Mountaineers": {
-   "off": 10.9641,
-   "dfn": 15.2203,
-   "w": 57,
+   "off": 11.4092,
+   "dfn": 14.9231,
+   "w": 58,
    "l": 13,
-   "gp": 70
+   "gp": 71
   },
   "Towson Tigers": {
    "off": -0.53,
@@ -5386,20 +5386,12 @@
    "gp": 1
   }
  },
- "updated_from": 11482,
- "last_date": "2026-11-15",
+ "updated_from": 11486,
+ "last_date": "2026-11-17",
  "applied_on_last_date": [
-  "2026-11-15|Duke Blue Devils|Marshall Thundering Herd",
-  "2026-11-15|Illinois Fighting Illini|Southeast Missouri State Redhawks",
-  "2026-11-15|Iowa Hawkeyes|Vanderbilt Commodores",
-  "2026-11-15|Kentucky Wildcats|Eastern Michigan Eagles",
-  "2026-11-15|Louisville Cardinals|UConn Huskies",
-  "2026-11-15|Maryland Terrapins|Columbia Lions",
-  "2026-11-15|Ohio State Buckeyes|Fairleigh Dickinson Knights",
-  "2026-11-15|Ole Miss Rebels|Louisiana Tech Lady Techsters",
-  "2026-11-15|South Carolina Gamecocks|USC Trojans",
-  "2026-11-15|South Dakota State Jackrabbits|Oklahoma State Cowgirls",
-  "2026-11-15|TCU Horned Frogs|Abilene Christian Wildcats",
-  "2026-11-15|UCLA Bruins|Princeton Tigers"
+  "2026-11-17|Central Michigan Chippewas|Michigan Wolverines",
+  "2026-11-17|LSU Tigers|Troy Trojans",
+  "2026-11-17|Louisville Cardinals|Tennessee State Lady Tigers",
+  "2026-11-17|West Virginia Mountaineers|Akron Zips"
  ]
 }

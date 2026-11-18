@@ -1,6 +1,6 @@
 {
- "mu": 78.3592,
- "hfa": 4.3576,
+ "mu": 78.4442,
+ "hfa": 4.3945,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -570,11 +570,11 @@
    "gp": 124
   },
   "Long Beach State Beach": {
-   "off": -0.2016,
-   "dfn": 2.5706,
+   "off": -0.0051,
+   "dfn": 1.5304,
    "w": 51,
-   "l": 73,
-   "gp": 124
+   "l": 74,
+   "gp": 125
   },
   "California Golden Bears": {
    "off": 4.7001,
@@ -899,11 +899,11 @@
    "gp": 2
   },
   "Florida Gators": {
-   "off": 14.4356,
-   "dfn": 14.4935,
-   "w": 102,
+   "off": 14.0417,
+   "dfn": 13.7986,
+   "w": 103,
    "l": 38,
-   "gp": 140
+   "gp": 141
   },
   "Stony Brook Seawolves": {
    "off": -0.6892,
@@ -1109,11 +1109,11 @@
    "gp": 126
   },
   "Houston Cougars": {
-   "off": 6.8229,
-   "dfn": 22.8539,
-   "w": 128,
+   "off": 6.9141,
+   "dfn": 21.9341,
+   "w": 129,
    "l": 20,
-   "gp": 148
+   "gp": 149
   },
   "Northern Colorado Bears": {
    "off": 7.2943,
@@ -1998,11 +1998,11 @@
    "gp": 123
   },
   "Rutgers Scarlet Knights": {
-   "off": 2.1549,
-   "dfn": 6.0503,
+   "off": 3.0747,
+   "dfn": 5.9591,
    "w": 62,
-   "l": 66,
-   "gp": 128
+   "l": 67,
+   "gp": 129
   },
   "Columbia Lions": {
    "off": 2.7117,
@@ -2495,11 +2495,11 @@
    "gp": 122
   },
   "UCLA Bruins": {
-   "off": 7.4885,
-   "dfn": 15.4755,
-   "w": 93,
+   "off": 8.5287,
+   "dfn": 15.279,
+   "w": 94,
    "l": 46,
-   "gp": 139
+   "gp": 140
   },
   "Sacramento State Hornets": {
    "off": 1.8031,
@@ -3258,11 +3258,11 @@
    "gp": 2
   },
   "Notre Dame Fighting Irish": {
-   "off": 2.553,
-   "dfn": 4.5875,
+   "off": 3.2479,
+   "dfn": 4.9814,
    "w": 53,
-   "l": 69,
-   "gp": 122
+   "l": 70,
+   "gp": 123
   },
   "Saint Joseph's Hawks": {
    "off": 1.6083,
@@ -7087,10 +7087,11 @@
    "gp": 1
   }
  },
- "updated_from": 23689,
- "last_date": "2026-11-16",
+ "updated_from": 23692,
+ "last_date": "2026-11-17",
  "applied_on_last_date": [
-  "2026-11-16|St. John's Red Storm|Syracuse Orange",
-  "2026-11-16|USC Trojans|Arkansas-Pine Bluff Golden Lions"
+  "2026-11-17|Florida Gators|Notre Dame Fighting Irish",
+  "2026-11-17|Houston Cougars|Rutgers Scarlet Knights",
+  "2026-11-17|UCLA Bruins|Long Beach State Beach"
  ]
 }

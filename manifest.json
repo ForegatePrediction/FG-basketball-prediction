@@ -3,8 +3,8 @@
   "engine": "basketball",
   "channel": "github",
   "kind": "refresh",
-  "generation": "20261117T172934Z-d936e5f1f1e2",
-  "created_at": "2026-11-17T17:29:34.420013+00:00",
+  "generation": "20261118T170443Z-9cf906fe1bc8",
+  "created_at": "2026-11-18T17:04:43.383168+00:00",
   "code_revision": "354766a646464620c9d6c5bdd43cfa67e5afbce8",
   "files": {
     "games/1/ratings.json": {
@@ -24,12 +24,12 @@
       "semantic_sha256": "02ad5b6308260fff20526371d6cc50238480f61e204a5e797b51fe7c954473db"
     },
     "games/116/ratings.json": {
-      "sha256": "1ab172025d91aebc981bf71c0074b774967b82f7b8a927e7b4e4f10c16f20fc7",
-      "bytes": 107359,
+      "sha256": "430a5c596cb2bde3ed420d12504b64292f3550229cf1f43fd48933ab64aeec13",
+      "bytes": 107409,
       "teams": 1012,
-      "matches": 23689,
-      "latest_match": "2026-11-16",
-      "semantic_sha256": "5703a758b4d3cdf7859aa835ea85cb1b1787821137cf1d8dfa679ea3eaf1aa2e"
+      "matches": 23692,
+      "latest_match": "2026-11-17",
+      "semantic_sha256": "e96b3ef0aa9835a17b8ffb4609963e05ea236d065be62672feed0558638245b2"
     },
     "games/117/ratings.json": {
       "sha256": "b5606bedd90ecade6d37154dca4e29bbe83456ffce9ef9a13ccc0f0c2e11eac9",
@@ -40,20 +40,20 @@
       "semantic_sha256": "14e0ea0c1a0d98fd68afb111953092bb9ab0d8fc140cbbb0a21593f0d19dca91"
     },
     "games/12/ratings.json": {
-      "sha256": "ddeddab579450b6d2eb005766fc685977403d66ecd9bb78f30dba85b3fdbe98e",
-      "bytes": 5621,
+      "sha256": "571b7b976c4394547f123c200898cf05f731fa5bdb9a270bf5c362e3ba037879",
+      "bytes": 5872,
       "teams": 53,
-      "matches": 5821,
-      "latest_match": "2026-11-16",
-      "semantic_sha256": "e50c65f30c66a5f2b4f8e6c9b9c76eeefea9d795ecf35edb63f405220880035a"
+      "matches": 5829,
+      "latest_match": "2026-11-17",
+      "semantic_sha256": "45656bb1e628ca2c2f3838d8e4d8561781ea929d2de1fab82224fdd87c9e11d7"
     },
     "games/120/ratings.json": {
-      "sha256": "ae1e3f57f5e86218691d1aa3ee3eae614f884c7810c94fda5876f82179afa89e",
-      "bytes": 4628,
+      "sha256": "37a9fac3a3ac3dd139a27a10c6d38429e9045cc82f7ca50ecb7bfc1fbd3d1eac",
+      "bytes": 5002,
       "teams": 40,
-      "matches": 2380,
-      "latest_match": "2026-11-13",
-      "semantic_sha256": "197637a6734bf838c33587bb67f1b4eb07371495848f78a735fe135fe3d3c77f"
+      "matches": 2389,
+      "latest_match": "2026-11-17",
+      "semantic_sha256": "b5e131f0c62b01e62adddec855b36cc6c7dafa98655faa1f2aab6478ae290cde"
     },
     "games/17/ratings.json": {
       "sha256": "d77c2e8f4b3ea5de33b8ebf608d96dc57296d04ea63899a1e6cd7f1f5dc46109",
@@ -184,12 +184,12 @@
       "semantic_sha256": "1a4ad4e46e537d2f6433c82eb4d5215dd43bdeb003d702e57b0ef83d3ddf8c58"
     },
     "games/cwbb/ratings.json": {
-      "sha256": "b80ec443d7169362eef7b3e9e6d3812e8402ff158a474975d7ba429041f5b441",
-      "bytes": 82013,
+      "sha256": "f6d5ff602040aac310c8d1fd015fdcdd51f34ed3a1c2d09a91e643ecb24f173c",
+      "bytes": 81540,
       "teams": 769,
-      "matches": 11482,
-      "latest_match": "2026-11-15",
-      "semantic_sha256": "65ae4facca8e26b452494d3ba11f2ad44f74141a5b2dda4dd595246454622070"
+      "matches": 11486,
+      "latest_match": "2026-11-17",
+      "semantic_sha256": "dabccb5d88b9e492915afe8f44eb1bf784548644a9a873fb63ded113cef82b20"
     },
     "games/wnba/ratings.json": {
       "sha256": "b428625f0d911534fb1606ba2b16e17b9791b8aa15a76092311c5c69ef1feff9",
@@ -200,7 +200,7 @@
       "semantic_sha256": "787e0e67f1a905d6cbf63961b643bed5bfc86e4d6ae39037351cd6cac02e444d"
     },
     "refresh-state.json": {
-      "sha256": "845efe8c148aeb905ec787a918722ed003921ce0627d9656016584eb4753e467",
+      "sha256": "a1f0dc07c7549be7a9a29647fa3949ee442e32cf73fcde0ec914240ecd2d242a",
       "bytes": 1293
     }
   }
