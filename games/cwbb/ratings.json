@@ -1,6 +1,6 @@
 {
- "mu": 69.6984,
- "hfa": 4.3799,
+ "mu": 69.7581,
+ "hfa": 4.5312,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.531,
@@ -101,11 +101,11 @@
    "gp": 2
   },
   "Ball State Cardinals": {
-   "off": 10.888,
-   "dfn": 4.0017,
+   "off": 9.6161,
+   "dfn": 3.2677,
    "w": 51,
-   "l": 15,
-   "gp": 66
+   "l": 16,
+   "gp": 67
   },
   "Old Dominion Monarchs": {
    "off": 1.8751,
@@ -717,11 +717,11 @@
    "gp": 1
   },
   "Nebraska Cornhuskers": {
-   "off": 13.09,
-   "dfn": 8.928,
-   "w": 42,
+   "off": 14.8042,
+   "dfn": 9.9418,
+   "w": 43,
    "l": 23,
-   "gp": 65
+   "gp": 66
   },
   "Omaha Mavericks": {
    "off": -11.8389,
@@ -843,11 +843,11 @@
    "gp": 57
   },
   "Oklahoma Sooners": {
-   "off": 21.2581,
-   "dfn": 9.7209,
-   "w": 56,
+   "off": 22.5558,
+   "dfn": 10.152,
+   "w": 57,
    "l": 13,
-   "gp": 69
+   "gp": 70
   },
   "Southern Jaguars": {
    "off": -7.4488,
@@ -1074,11 +1074,11 @@
    "gp": 65
   },
   "Texas Southern Tigers": {
-   "off": -4.7425,
-   "dfn": -7.0765,
+   "off": -5.1736,
+   "dfn": -8.3742,
    "w": 23,
-   "l": 36,
-   "gp": 59
+   "l": 37,
+   "gp": 60
   },
   "Tennessee State Lady Tigers": {
    "off": -6.8933,
@@ -1473,11 +1473,11 @@
    "gp": 62
   },
   "Coppin State Eagles": {
-   "off": -7.5408,
-   "dfn": 3.5389,
+   "off": -8.8956,
+   "dfn": 3.8276,
    "w": 28,
-   "l": 36,
-   "gp": 64
+   "l": 37,
+   "gp": 65
   },
   "Frostburg State Bobcats": {
    "off": -3.8077,
@@ -1991,11 +1991,11 @@
    "gp": 58
   },
   "South Carolina Gamecocks": {
-   "off": 22.5333,
-   "dfn": 19.2625,
-   "w": 69,
+   "off": 24.4028,
+   "dfn": 18.6946,
+   "w": 70,
    "l": 8,
-   "gp": 77
+   "gp": 78
   },
   "Michigan Wolverines": {
    "off": 19.1284,
@@ -2166,11 +2166,11 @@
    "gp": 55
   },
   "Maryland Terrapins": {
-   "off": 18.3537,
-   "dfn": 8.5597,
-   "w": 49,
+   "off": 18.065,
+   "dfn": 9.9145,
+   "w": 50,
    "l": 18,
-   "gp": 67
+   "gp": 68
   },
   "UNLV Lady Rebels": {
    "off": 5.6664,
@@ -2243,11 +2243,11 @@
    "gp": 1
   },
   "Washington Huskies": {
-   "off": 7.813,
-   "dfn": 13.6231,
-   "w": 44,
+   "off": 8.0745,
+   "dfn": 13.9173,
+   "w": 45,
    "l": 25,
-   "gp": 69
+   "gp": 70
   },
   "Seattle U Redhawks": {
    "off": -7.562,
@@ -2257,11 +2257,11 @@
    "gp": 57
   },
   "Washington State Cougars": {
-   "off": -1.7795,
-   "dfn": -0.07,
+   "off": -2.0737,
+   "dfn": -0.3315,
    "w": 27,
-   "l": 37,
-   "gp": 64
+   "l": 38,
+   "gp": 65
   },
   "Eastern Washington Eagles": {
    "off": 3.2294,
@@ -2355,11 +2355,11 @@
    "gp": 65
   },
   "Florida Gulf Coast Eagles": {
-   "off": -1.8808,
-   "dfn": 11.8221,
+   "off": -1.3129,
+   "dfn": 9.9526,
    "w": 41,
-   "l": 18,
-   "gp": 59
+   "l": 19,
+   "gp": 60
   },
   "Dayton Flyers": {
    "off": 1.9649,
@@ -2971,11 +2971,11 @@
    "gp": 2
   },
   "Illinois Fighting Illini": {
-   "off": 13.0701,
-   "dfn": 12.7677,
-   "w": 46,
+   "off": 13.8041,
+   "dfn": 14.0396,
+   "w": 47,
    "l": 20,
-   "gp": 66
+   "gp": 67
   },
   "Loyola Maryland Greyhounds": {
    "off": -11.3719,
@@ -3048,11 +3048,11 @@
    "gp": 63
   },
   "Mount St. Mary's Mountaineers": {
-   "off": -6.8006,
-   "dfn": 2.5882,
+   "off": -7.8144,
+   "dfn": 0.874,
    "w": 27,
-   "l": 29,
-   "gp": 56
+   "l": 30,
+   "gp": 57
   },
   "Crown Storm": {
    "off": -5.2967,
@@ -5386,12 +5386,14 @@
    "gp": 1
   }
  },
- "updated_from": 11486,
- "last_date": "2026-11-17",
+ "updated_from": 11492,
+ "last_date": "2026-11-18",
  "applied_on_last_date": [
-  "2026-11-17|Central Michigan Chippewas|Michigan Wolverines",
-  "2026-11-17|LSU Tigers|Troy Trojans",
-  "2026-11-17|Louisville Cardinals|Tennessee State Lady Tigers",
-  "2026-11-17|West Virginia Mountaineers|Akron Zips"
+  "2026-11-18|Ball State Cardinals|Illinois Fighting Illini",
+  "2026-11-18|Maryland Terrapins|Coppin State Eagles",
+  "2026-11-18|Nebraska Cornhuskers|Mount St. Mary's Mountaineers",
+  "2026-11-18|Oklahoma Sooners|Texas Southern Tigers",
+  "2026-11-18|South Carolina Gamecocks|Florida Gulf Coast Eagles",
+  "2026-11-18|Washington State Cougars|Washington Huskies"
  ]
 }

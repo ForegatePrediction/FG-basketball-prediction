@@ -1,6 +1,6 @@
 {
- "mu": 78.4442,
- "hfa": 4.3945,
+ "mu": 78.4706,
+ "hfa": 4.459,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -269,11 +269,11 @@
    "gp": 125
   },
   "Alabama Crimson Tide": {
-   "off": 20.4681,
-   "dfn": 4.3201,
-   "w": 106,
+   "off": 21.0903,
+   "dfn": 3.8185,
+   "w": 107,
    "l": 35,
-   "gp": 141
+   "gp": 142
   },
   "Longwood Lancers": {
    "off": 2.008,
@@ -311,11 +311,11 @@
    "gp": 123
   },
   "Arkansas Razorbacks": {
-   "off": 15.3502,
-   "dfn": 5.9231,
+   "off": 14.7699,
+   "dfn": 5.9478,
    "w": 87,
-   "l": 49,
-   "gp": 136
+   "l": 50,
+   "gp": 137
   },
   "North Dakota State Bison": {
    "off": 4.0732,
@@ -815,11 +815,11 @@
    "gp": 124
   },
   "Duke Blue Devils": {
-   "off": 11.909,
-   "dfn": 19.1849,
+   "off": 11.7059,
+   "dfn": 17.7825,
    "w": 122,
-   "l": 22,
-   "gp": 144
+   "l": 23,
+   "gp": 145
   },
   "Jacksonville Dolphins": {
    "off": -2.8974,
@@ -899,11 +899,11 @@
    "gp": 2
   },
   "Florida Gators": {
-   "off": 14.0417,
-   "dfn": 13.7986,
+   "off": 14.099,
+   "dfn": 12.9368,
    "w": 103,
-   "l": 38,
-   "gp": 141
+   "l": 39,
+   "gp": 142
   },
   "Stony Brook Seawolves": {
    "off": -0.6892,
@@ -1039,11 +1039,11 @@
    "gp": 1
   },
   "Gonzaga Bulldogs": {
-   "off": 9.8129,
-   "dfn": 15.1741,
-   "w": 109,
+   "off": 9.2815,
+   "dfn": 15.398,
+   "w": 110,
    "l": 28,
-   "gp": 137
+   "gp": 138
   },
   "North Florida Ospreys": {
    "off": 3.0287,
@@ -1074,11 +1074,11 @@
    "gp": 130
   },
   "Montana State Bobcats": {
-   "off": 2.3539,
-   "dfn": 9.927,
+   "off": 2.13,
+   "dfn": 10.4584,
    "w": 69,
-   "l": 58,
-   "gp": 127
+   "l": 59,
+   "gp": 128
   },
   "High Point Panthers": {
    "off": 8.97,
@@ -1109,11 +1109,11 @@
    "gp": 126
   },
   "Houston Cougars": {
-   "off": 6.9141,
-   "dfn": 21.9341,
-   "w": 129,
+   "off": 7.7759,
+   "dfn": 21.8768,
+   "w": 130,
    "l": 20,
-   "gp": 149
+   "gp": 150
   },
   "Northern Colorado Bears": {
    "off": 7.2943,
@@ -1123,18 +1123,18 @@
    "gp": 122
   },
   "Illinois Fighting Illini": {
-   "off": 16.33,
-   "dfn": 13.4308,
-   "w": 97,
+   "off": 17.7324,
+   "dfn": 13.6339,
+   "w": 98,
    "l": 42,
-   "gp": 139
+   "gp": 140
   },
   "Eastern Illinois Panthers": {
-   "off": -6.8468,
-   "dfn": 9.1612,
+   "off": -7.4418,
+   "dfn": 8.5556,
    "w": 41,
-   "l": 76,
-   "gp": 117
+   "l": 77,
+   "gp": 118
   },
   "Illinois State Redbirds": {
    "off": 1.6016,
@@ -1179,11 +1179,11 @@
    "gp": 121
   },
   "Indiana Hoosiers": {
-   "off": 4.4156,
-   "dfn": 8.206,
-   "w": 73,
+   "off": 4.3909,
+   "dfn": 8.7863,
+   "w": 74,
    "l": 52,
-   "gp": 125
+   "gp": 126
   },
   "Morehead State Eagles": {
    "off": -0.5008,
@@ -1277,11 +1277,11 @@
    "gp": 4
   },
   "Kansas Jayhawks": {
-   "off": 7.439,
-   "dfn": 15.8419,
-   "w": 91,
+   "off": 8.4663,
+   "dfn": 15.2889,
+   "w": 92,
    "l": 42,
-   "gp": 133
+   "gp": 134
   },
   "Omaha Mavericks": {
    "off": -0.4953,
@@ -1305,11 +1305,11 @@
    "gp": 117
   },
   "Kennesaw State Owls": {
-   "off": 8.5163,
-   "dfn": 4.6776,
+   "off": 9.0179,
+   "dfn": 4.0554,
    "w": 77,
-   "l": 49,
-   "gp": 126
+   "l": 50,
+   "gp": 127
   },
   "LaGrange Panthers": {
    "off": -4.6699,
@@ -1473,11 +1473,11 @@
    "gp": 122
   },
   "Miami Hurricanes": {
-   "off": 5.9813,
-   "dfn": 11.8486,
-   "w": 73,
+   "off": 6.4486,
+   "dfn": 12.4695,
+   "w": 74,
    "l": 56,
-   "gp": 129
+   "gp": 130
   },
   "Lafayette Leopards": {
    "off": -5.4691,
@@ -1487,11 +1487,11 @@
    "gp": 121
   },
   "Michigan State Spartans": {
-   "off": 12.0598,
-   "dfn": 15.1429,
+   "off": 10.4269,
+   "dfn": 15.845,
    "w": 96,
-   "l": 43,
-   "gp": 139
+   "l": 44,
+   "gp": 140
   },
   "Northern Arizona Lumberjacks": {
    "off": -3.0466,
@@ -1795,11 +1795,11 @@
    "gp": 121
   },
   "Old Dominion Monarchs": {
-   "off": 2.2906,
-   "dfn": 5.4661,
+   "off": 2.128,
+   "dfn": 5.4953,
    "w": 47,
-   "l": 74,
-   "gp": 121
+   "l": 75,
+   "gp": 122
   },
   "Maryland Eastern Shore Hawks": {
    "off": -10.2003,
@@ -1942,11 +1942,11 @@
    "gp": 125
   },
   "Rider Broncs": {
-   "off": -8.3634,
-   "dfn": 1.7713,
+   "off": -8.9843,
+   "dfn": 1.304,
    "w": 48,
-   "l": 71,
-   "gp": 119
+   "l": 72,
+   "gp": 120
   },
   "Purdue Boilermakers": {
    "off": 10.5837,
@@ -2320,11 +2320,11 @@
    "gp": 10
   },
   "Tennessee Volunteers": {
-   "off": 4.8254,
-   "dfn": 17.4,
-   "w": 105,
+   "off": 4.1233,
+   "dfn": 19.0329,
+   "w": 106,
    "l": 38,
-   "gp": 143
+   "gp": 144
   },
   "Tennessee Tech Golden Eagles": {
    "off": 0.8035,
@@ -2537,11 +2537,11 @@
    "gp": 7
   },
   "UNLV Rebels": {
-   "off": 5.1182,
-   "dfn": 5.4574,
+   "off": 5.6712,
+   "dfn": 4.4301,
    "w": 72,
-   "l": 56,
-   "gp": 128
+   "l": 57,
+   "gp": 129
   },
   "Southern Jaguars": {
    "off": 0.2138,
@@ -2621,11 +2621,11 @@
    "gp": 119
   },
   "Vanderbilt Commodores": {
-   "off": 12.1614,
-   "dfn": 11.713,
-   "w": 80,
+   "off": 12.767,
+   "dfn": 12.308,
+   "w": 81,
    "l": 55,
-   "gp": 135
+   "gp": 136
   },
   "Memphis Tigers": {
    "off": 6.4486,
@@ -2649,11 +2649,11 @@
    "gp": 105
   },
   "Virginia Cavaliers": {
-   "off": 8.0157,
-   "dfn": 13.0571,
-   "w": 91,
+   "off": 7.9865,
+   "dfn": 13.2197,
+   "w": 92,
    "l": 41,
-   "gp": 132
+   "gp": 133
   },
   "North Carolina Central Eagles": {
    "off": -2.9177,
@@ -7087,11 +7087,18 @@
    "gp": 1
   }
  },
- "updated_from": 23692,
- "last_date": "2026-11-17",
+ "updated_from": 23702,
+ "last_date": "2026-11-18",
  "applied_on_last_date": [
-  "2026-11-17|Florida Gators|Notre Dame Fighting Irish",
-  "2026-11-17|Houston Cougars|Rutgers Scarlet Knights",
-  "2026-11-17|UCLA Bruins|Long Beach State Beach"
+  "2026-11-18|Alabama Crimson Tide|Kennesaw State Owls",
+  "2026-11-18|Duke Blue Devils|Illinois Fighting Illini",
+  "2026-11-18|Florida Gators|Houston Cougars",
+  "2026-11-18|Gonzaga Bulldogs|Montana State Bobcats",
+  "2026-11-18|Indiana Hoosiers|Arkansas Razorbacks",
+  "2026-11-18|Kansas Jayhawks|UNLV Rebels",
+  "2026-11-18|Miami Hurricanes|Rider Broncs",
+  "2026-11-18|Tennessee Volunteers|Michigan State Spartans",
+  "2026-11-18|Vanderbilt Commodores|Eastern Illinois Panthers",
+  "2026-11-18|Virginia Cavaliers|Old Dominion Monarchs"
  ]
 }

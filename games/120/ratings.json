@@ -1,6 +1,6 @@
 {
- "mu": 100.8453,
- "hfa": 2.8512,
+ "mu": 100.7876,
+ "hfa": 2.825,
  "teams": {
   "FC BAYERN MUNICH": {
    "off": -7.1065,
@@ -45,11 +45,11 @@
    "gp": 95
   },
   "REAL MADRID": {
-   "off": 0.3619,
-   "dfn": 8.8271,
+   "off": -0.847,
+   "dfn": 9.3504,
    "w": 186,
-   "l": 94,
-   "gp": 280
+   "l": 95,
+   "gp": 281
   },
   "FENERBAHCE BEKO ISTANBUL": {
    "off": -11.1413,
@@ -262,11 +262,11 @@
    "gp": 50
   },
   "BESIKTAS ISTANBUL": {
-   "off": -3.1479,
-   "dfn": 2.0584,
-   "w": 5,
+   "off": -3.6712,
+   "dfn": 3.2673,
+   "w": 6,
    "l": 6,
-   "gp": 11
+   "gp": 12
   },
   "FENERBAHCE TARFIN ISTANBUL": {
    "off": -3.8735,
@@ -283,17 +283,9 @@
    "gp": 12
   }
  },
- "updated_from": 2389,
- "last_date": "2026-11-17",
+ "updated_from": 2390,
+ "last_date": "2026-11-18",
  "applied_on_last_date": [
-  "2026-11-17|ARMANI OLIMPIA MILAN|CRVENA ZVEZDA MERIDIANBET BELGRADE",
-  "2026-11-17|DUBAI BASKETBALL|ANADOLU EFES ISTANBUL",
-  "2026-11-17|FC BARCELONA|PARIS BASKETBALL",
-  "2026-11-17|FENERBAHCE TARFIN ISTANBUL|LDLC ASVEL VILLEURBANNE",
-  "2026-11-17|KOSNER BASKONIA VITORIA-GASTEIZ|HAPOEL IBI TEL AVIV",
-  "2026-11-17|MACCABI RAPYD TEL AVIV|OLYMPIACOS PIRAEUS",
-  "2026-11-17|PARTIZAN MOZZART BET BELGRADE|VALENCIA BASKET",
-  "2026-11-17|VIRTUS BOLOGNA|PANATHINAIKOS AKTOR ATHENS",
-  "2026-11-17|ZALGIRIS KAUNAS|FC BAYERN MUNICH"
+  "2026-11-18|BESIKTAS ISTANBUL|REAL MADRID"
  ]
 }
