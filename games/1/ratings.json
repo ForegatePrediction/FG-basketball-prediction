@@ -1,13 +1,13 @@
 {
- "mu": 110.4817,
- "hfa": 1.3602,
+ "mu": 110.4842,
+ "hfa": 1.3785,
  "teams": {
   "Illawarra Hawks": {
-   "off": -4.265,
-   "dfn": 0.6086,
-   "w": 67,
+   "off": -3.8995,
+   "dfn": 0.8981,
+   "w": 68,
    "l": 88,
-   "gp": 155
+   "gp": 156
   },
   "Sydney Kings": {
    "off": -3.4424,
@@ -66,16 +66,16 @@
    "gp": 147
   },
   "Adelaide 36ers": {
-   "off": -8.0488,
-   "dfn": 10.6688,
+   "off": -8.3383,
+   "dfn": 10.3033,
    "w": 77,
-   "l": 75,
-   "gp": 152
+   "l": 76,
+   "gp": 153
   }
  },
- "updated_from": 763,
- "last_date": "2026-11-18",
+ "updated_from": 764,
+ "last_date": "2026-11-19",
  "applied_on_last_date": [
-  "2026-11-18|New Zealand Breakers|South East Melbourne Phoenix"
+  "2026-11-19|Illawarra Hawks|Adelaide 36ers"
  ]
 }
