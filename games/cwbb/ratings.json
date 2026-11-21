@@ -1,6 +1,6 @@
 {
- "mu": 69.7333,
- "hfa": 4.5916,
+ "mu": 69.7194,
+ "hfa": 4.685,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.531,
@@ -535,11 +535,11 @@
    "gp": 68
   },
   "Kentucky Wildcats": {
-   "off": 12.7522,
-   "dfn": 19.2385,
-   "w": 49,
+   "off": 13.0325,
+   "dfn": 19.6329,
+   "w": 50,
    "l": 18,
-   "gp": 67
+   "gp": 68
   },
   "South Carolina Upstate Spartans": {
    "off": -11.042,
@@ -843,11 +843,11 @@
    "gp": 57
   },
   "Oklahoma Sooners": {
-   "off": 22.5558,
-   "dfn": 10.152,
-   "w": 57,
+   "off": 23.9629,
+   "dfn": 10.9521,
+   "w": 58,
    "l": 13,
-   "gp": 70
+   "gp": 71
   },
   "Southern Jaguars": {
    "off": -7.7035,
@@ -1109,11 +1109,11 @@
    "gp": 3
   },
   "UCLA Bruins": {
-   "off": 16.7943,
-   "dfn": 24.2328,
-   "w": 71,
+   "off": 17.077,
+   "dfn": 24.405,
+   "w": 72,
    "l": 4,
-   "gp": 75
+   "gp": 76
   },
   "Louisville Cardinals": {
    "off": 15.2254,
@@ -1515,11 +1515,11 @@
    "gp": 4
   },
   "Fairleigh Dickinson Knights": {
-   "off": -1.1579,
-   "dfn": 11.6797,
+   "off": -2.2153,
+   "dfn": 11.9424,
    "w": 55,
-   "l": 11,
-   "gp": 66
+   "l": 12,
+   "gp": 67
   },
   "Dominican (NY) Chargers": {
    "off": -2.428,
@@ -1711,11 +1711,11 @@
    "gp": 67
   },
   "LSU Tigers": {
-   "off": 32.7054,
-   "dfn": 17.9586,
-   "w": 64,
+   "off": 32.4427,
+   "dfn": 19.016,
+   "w": 65,
    "l": 10,
-   "gp": 74
+   "gp": 75
   },
   "Eastern Kentucky Colonels": {
    "off": 2.3372,
@@ -1781,11 +1781,11 @@
    "gp": 55
   },
   "Montana State Bobcats": {
-   "off": 4.4084,
-   "dfn": 11.5601,
+   "off": 4.5488,
+   "dfn": 11.3999,
    "w": 54,
-   "l": 12,
-   "gp": 66
+   "l": 13,
+   "gp": 67
   },
   "Chadron State Eagles": {
    "off": -5.3664,
@@ -2110,11 +2110,11 @@
    "gp": 63
   },
   "Marshall Thundering Herd": {
-   "off": 5.0689,
-   "dfn": 6.7661,
+   "off": 4.6745,
+   "dfn": 6.4858,
    "w": 39,
-   "l": 26,
-   "gp": 65
+   "l": 27,
+   "gp": 66
   },
   "UC Davis Aggies": {
    "off": 0.5193,
@@ -2481,11 +2481,11 @@
    "gp": 1
   },
   "Northwestern State Lady Demons": {
-   "off": -3.208,
-   "dfn": 7.3027,
+   "off": -4.0081,
+   "dfn": 5.8956,
    "w": 31,
-   "l": 29,
-   "gp": 60
+   "l": 30,
+   "gp": 61
   },
   "Champion Christian Tigers": {
    "off": -4.3263,
@@ -2642,11 +2642,11 @@
    "gp": 60
   },
   "Cal Poly Mustangs": {
-   "off": -8.6133,
-   "dfn": -0.1072,
+   "off": -8.7855,
+   "dfn": -0.3899,
    "w": 17,
-   "l": 40,
-   "gp": 57
+   "l": 41,
+   "gp": 58
   },
   "UC Merced Bobcats": {
    "off": -3.3717,
@@ -2656,11 +2656,11 @@
    "gp": 3
   },
   "Iowa Hawkeyes": {
-   "off": 10.5656,
-   "dfn": 16.4812,
-   "w": 53,
+   "off": 10.7258,
+   "dfn": 16.3408,
+   "w": 54,
    "l": 17,
-   "gp": 70
+   "gp": 71
   },
   "Kansas Jayhawks": {
    "off": 6.3286,
@@ -5386,18 +5386,13 @@
    "gp": 1
   }
  },
- "updated_from": 11502,
- "last_date": "2026-11-19",
+ "updated_from": 11507,
+ "last_date": "2026-11-20",
  "applied_on_last_date": [
-  "2026-11-19|Duke Blue Devils|Fordham Rams",
-  "2026-11-19|Green Bay Phoenix|Texas Longhorns",
-  "2026-11-19|Michigan Wolverines|Niagara Purple Eagles",
-  "2026-11-19|Minnesota Golden Gophers|Kansas Jayhawks",
-  "2026-11-19|North Carolina Tar Heels|Texas Tech Lady Raiders",
-  "2026-11-19|Notre Dame Fighting Irish|Southern Jaguars",
-  "2026-11-19|Ohio State Buckeyes|Ole Miss Rebels",
-  "2026-11-19|Oklahoma State Cowgirls|St. John's Red Storm",
-  "2026-11-19|TCU Horned Frogs|UT Arlington Mavericks",
-  "2026-11-19|Vanderbilt Commodores|North Alabama Lions"
+  "2026-11-20|Iowa Hawkeyes|Montana State Bobcats",
+  "2026-11-20|Kentucky Wildcats|Marshall Thundering Herd",
+  "2026-11-20|LSU Tigers|Fairleigh Dickinson Knights",
+  "2026-11-20|Oklahoma Sooners|Northwestern State Lady Demons",
+  "2026-11-20|UCLA Bruins|Cal Poly Mustangs"
  ]
 }

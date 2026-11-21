@@ -1,6 +1,6 @@
 {
- "mu": 78.4631,
- "hfa": 4.537,
+ "mu": 78.5088,
+ "hfa": 4.635,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -290,11 +290,11 @@
    "gp": 127
   },
   "Tarleton State Texans": {
-   "off": -1.732,
-   "dfn": 7.0866,
+   "off": -2.8521,
+   "dfn": 6.3687,
    "w": 64,
-   "l": 60,
-   "gp": 124
+   "l": 61,
+   "gp": 125
   },
   "Arizona Wildcats": {
    "off": 15.1276,
@@ -934,11 +934,11 @@
    "gp": 123
   },
   "Stetson Hatters": {
-   "off": -1.7787,
-   "dfn": 2.0954,
+   "off": -1.6707,
+   "dfn": 2.6076,
    "w": 52,
-   "l": 69,
-   "gp": 121
+   "l": 70,
+   "gp": 122
   },
   "Fordham Rams": {
    "off": -4.7384,
@@ -1109,11 +1109,11 @@
    "gp": 127
   },
   "Houston Cougars": {
-   "off": 7.7759,
-   "dfn": 21.8768,
-   "w": 130,
+   "off": 8.9809,
+   "dfn": 21.1252,
+   "w": 131,
    "l": 20,
-   "gp": 150
+   "gp": 151
   },
   "Northern Colorado Bears": {
    "off": 5.7498,
@@ -1277,11 +1277,11 @@
    "gp": 4
   },
   "Kansas Jayhawks": {
-   "off": 9.3507,
-   "dfn": 14.3221,
+   "off": 10.1023,
+   "dfn": 13.1171,
    "w": 93,
-   "l": 42,
-   "gp": 135
+   "l": 43,
+   "gp": 136
   },
   "Omaha Mavericks": {
    "off": -0.4953,
@@ -1473,11 +1473,11 @@
    "gp": 122
   },
   "Miami Hurricanes": {
-   "off": 6.4486,
-   "dfn": 12.4695,
-   "w": 74,
+   "off": 7.4205,
+   "dfn": 13.0986,
+   "w": 75,
    "l": 56,
-   "gp": 130
+   "gp": 131
   },
   "Lafayette Leopards": {
    "off": -5.4691,
@@ -1606,11 +1606,11 @@
    "gp": 133
   },
   "Southern Utah Thunderbirds": {
-   "off": 2.843,
-   "dfn": 1.6753,
+   "off": 2.6911,
+   "dfn": 1.6448,
    "w": 53,
-   "l": 70,
-   "gp": 123
+   "l": 71,
+   "gp": 124
   },
   "New Mexico State Aggies": {
    "off": 1.4646,
@@ -2348,11 +2348,11 @@
    "gp": 119
   },
   "Texas Longhorns": {
-   "off": 10.0436,
-   "dfn": 10.8373,
-   "w": 89,
+   "off": 10.0741,
+   "dfn": 10.9892,
+   "w": 90,
    "l": 48,
-   "gp": 137
+   "gp": 138
   },
   "UTEP Miners": {
    "off": -2.8443,
@@ -2551,11 +2551,11 @@
    "gp": 120
   },
   "USC Trojans": {
-   "off": 8.0005,
-   "dfn": 7.1225,
-   "w": 73,
+   "off": 8.7184,
+   "dfn": 8.2426,
+   "w": 74,
    "l": 56,
-   "gp": 129
+   "gp": 130
   },
   "Florida Gulf Coast Eagles": {
    "off": -1.1481,
@@ -2614,11 +2614,11 @@
    "gp": 138
   },
   "Manhattan Jaspers": {
-   "off": -1.5596,
-   "dfn": -0.2891,
+   "off": -2.1887,
+   "dfn": -1.261,
    "w": 45,
-   "l": 74,
-   "gp": 119
+   "l": 75,
+   "gp": 120
   },
   "Vanderbilt Commodores": {
    "off": 12.767,
@@ -2971,11 +2971,11 @@
    "gp": 123
   },
   "Louisville Cardinals": {
-   "off": 10.5285,
-   "dfn": 9.5489,
-   "w": 60,
+   "off": 10.0163,
+   "dfn": 9.4409,
+   "w": 61,
    "l": 69,
-   "gp": 129
+   "gp": 130
   },
   "Bellarmine Knights": {
    "off": 2.3253,
@@ -7087,17 +7087,13 @@
    "gp": 1
   }
  },
- "updated_from": 23711,
- "last_date": "2026-11-19",
+ "updated_from": 23716,
+ "last_date": "2026-11-20",
  "applied_on_last_date": [
-  "2026-11-19|Arizona Wildcats|UConn Huskies",
-  "2026-11-19|BYU Cougars|Northern Colorado Bears",
-  "2026-11-19|LSU Tigers|UL Monroe Warhawks",
-  "2026-11-19|Nebraska Cornhuskers|South Dakota Coyotes",
-  "2026-11-19|St. John's Red Storm|Siena Saints",
-  "2026-11-19|Texas Tech Red Raiders|LSU New Orleans Privateers",
-  "2026-11-19|UCLA Bruins|Cal State Fullerton Titans",
-  "2026-11-19|West Virginia Mountaineers|Florida Gators",
-  "2026-11-19|West Virginia Mountaineers|Kansas Jayhawks"
+  "2026-11-20|Kansas Jayhawks|Houston Cougars",
+  "2026-11-20|Louisville Cardinals|Stetson Hatters",
+  "2026-11-20|Miami Hurricanes|Manhattan Jaspers",
+  "2026-11-20|Texas Longhorns|Southern Utah Thunderbirds",
+  "2026-11-20|USC Trojans|Tarleton State Texans"
  ]
 }
