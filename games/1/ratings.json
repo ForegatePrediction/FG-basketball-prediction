@@ -1,13 +1,13 @@
 {
- "mu": 110.4817,
- "hfa": 1.3938,
+ "mu": 110.4474,
+ "hfa": 1.3739,
  "teams": {
   "Illawarra Hawks": {
-   "off": -3.8995,
-   "dfn": 0.8981,
+   "off": -4.6616,
+   "dfn": 1.1547,
    "w": 68,
-   "l": 88,
-   "gp": 156
+   "l": 89,
+   "gp": 157
   },
   "Sydney Kings": {
    "off": -3.4424,
@@ -24,25 +24,25 @@
    "gp": 156
   },
   "Tasmania JackJumpers": {
-   "off": -11.6941,
-   "dfn": 11.8808,
-   "w": 79,
+   "off": -11.9507,
+   "dfn": 12.6429,
+   "w": 80,
    "l": 73,
-   "gp": 152
+   "gp": 153
   },
   "Melbourne United": {
-   "off": -6.7352,
-   "dfn": 11.8326,
-   "w": 99,
+   "off": -6.877,
+   "dfn": 11.7018,
+   "w": 100,
    "l": 63,
-   "gp": 162
+   "gp": 163
   },
   "New Zealand Breakers": {
-   "off": -9.8297,
-   "dfn": 8.7762,
+   "off": -9.6989,
+   "dfn": 8.918,
    "w": 68,
-   "l": 85,
-   "gp": 153
+   "l": 86,
+   "gp": 154
   },
   "Perth Wildcats": {
    "off": -8.688,
@@ -73,9 +73,10 @@
    "gp": 153
   }
  },
- "updated_from": 765,
- "last_date": "2026-11-20",
+ "updated_from": 767,
+ "last_date": "2026-11-21",
  "applied_on_last_date": [
-  "2026-11-20|Cairns Taipans|Perth Wildcats"
+  "2026-11-21|Melbourne United|New Zealand Breakers",
+  "2026-11-21|Tasmania JackJumpers|Illawarra Hawks"
  ]
 }

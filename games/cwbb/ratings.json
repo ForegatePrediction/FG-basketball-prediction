@@ -1,6 +1,6 @@
 {
- "mu": 69.7194,
- "hfa": 4.685,
+ "mu": 69.7928,
+ "hfa": 4.8664,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.531,
@@ -45,11 +45,11 @@
    "gp": 60
   },
   "Alabama Crimson Tide": {
-   "off": 7.5533,
-   "dfn": 13.8924,
+   "off": 7.7252,
+   "dfn": 13.4347,
    "w": 48,
-   "l": 17,
-   "gp": 65
+   "l": 18,
+   "gp": 66
   },
   "LSU New Orleans Privateers": {
    "off": -4.65,
@@ -703,11 +703,11 @@
    "gp": 1
   },
   "Morgan State Lady Bears": {
-   "off": -11.7102,
-   "dfn": -1.3548,
+   "off": -12.2559,
+   "dfn": -2.2653,
    "w": 17,
-   "l": 43,
-   "gp": 60
+   "l": 44,
+   "gp": 61
   },
   "Shepherd Rams": {
    "off": -2.4499,
@@ -773,11 +773,11 @@
    "gp": 65
   },
   "North Carolina Tar Heels": {
-   "off": 9.802,
-   "dfn": 16.1498,
-   "w": 57,
+   "off": 10.2597,
+   "dfn": 15.9779,
+   "w": 58,
    "l": 16,
-   "gp": 73
+   "gp": 74
   },
   "Charleston Southern Buccaneers": {
    "off": -4.7625,
@@ -857,11 +857,11 @@
    "gp": 69
   },
   "Oklahoma State Cowgirls": {
-   "off": 13.4227,
-   "dfn": 10.4727,
-   "w": 53,
+   "off": 14.6827,
+   "dfn": 9.9873,
+   "w": 54,
    "l": 16,
-   "gp": 69
+   "gp": 70
   },
   "Arkansas-Pine Bluff Golden Lions": {
    "off": -7.1239,
@@ -1151,11 +1151,11 @@
    "gp": 2
   },
   "USC Trojans": {
-   "off": 15.5699,
-   "dfn": 14.2449,
-   "w": 50,
+   "off": 15.6234,
+   "dfn": 13.813,
+   "w": 51,
    "l": 17,
-   "gp": 67
+   "gp": 68
   },
   "Ole Miss Rebels": {
    "off": 11.4393,
@@ -1893,11 +1893,11 @@
    "gp": 55
   },
   "Providence Friars": {
-   "off": -5.1883,
-   "dfn": 7.1463,
+   "off": -5.653,
+   "dfn": 8.0503,
    "w": 27,
-   "l": 37,
-   "gp": 64
+   "l": 38,
+   "gp": 65
   },
   "Mercy Mavericks": {
    "off": -5.3455,
@@ -1991,11 +1991,11 @@
    "gp": 58
   },
   "South Carolina Gamecocks": {
-   "off": 24.4028,
-   "dfn": 18.6946,
-   "w": 70,
+   "off": 23.4988,
+   "dfn": 19.1593,
+   "w": 71,
    "l": 8,
-   "gp": 78
+   "gp": 79
   },
   "Michigan Wolverines": {
    "off": 19.8397,
@@ -2019,11 +2019,11 @@
    "gp": 1
   },
   "Stanford Cardinal": {
-   "off": 6.6313,
-   "dfn": 7.012,
+   "off": 5.8829,
+   "dfn": 5.248,
    "w": 35,
-   "l": 28,
-   "gp": 63
+   "l": 29,
+   "gp": 64
   },
   "Le Moyne Dolphins": {
    "off": -11.9131,
@@ -2166,11 +2166,11 @@
    "gp": 55
   },
   "Maryland Terrapins": {
-   "off": 18.065,
-   "dfn": 9.9145,
-   "w": 50,
+   "off": 18.9755,
+   "dfn": 10.4602,
+   "w": 51,
    "l": 18,
-   "gp": 68
+   "gp": 69
   },
   "UNLV Lady Rebels": {
    "off": 5.6664,
@@ -2243,11 +2243,11 @@
    "gp": 1
   },
   "Washington Huskies": {
-   "off": 8.0745,
-   "dfn": 13.9173,
-   "w": 45,
+   "off": 9.8385,
+   "dfn": 14.6657,
+   "w": 46,
    "l": 25,
-   "gp": 70
+   "gp": 71
   },
   "Seattle U Redhawks": {
    "off": -7.562,
@@ -2684,11 +2684,11 @@
    "gp": 2
   },
   "Little Rock Trojans": {
-   "off": -6.3698,
-   "dfn": 5.9294,
+   "off": -5.8844,
+   "dfn": 4.6694,
    "w": 26,
-   "l": 30,
-   "gp": 56
+   "l": 31,
+   "gp": 57
   },
   "College of Biblical Studies Ambassadors": {
    "off": -7.3468,
@@ -2894,11 +2894,11 @@
    "gp": 3
   },
   "Baylor Bears": {
-   "off": 6.303,
-   "dfn": 12.9805,
+   "off": 6.7349,
+   "dfn": 12.927,
    "w": 50,
-   "l": 16,
-   "gp": 66
+   "l": 17,
+   "gp": 67
   },
   "Bradley Braves": {
    "off": -2.8411,
@@ -3041,11 +3041,11 @@
    "gp": 59
   },
   "Seton Hall Pirates": {
-   "off": -0.3598,
-   "dfn": 7.9655,
+   "off": -0.6754,
+   "dfn": 8.3187,
    "w": 40,
-   "l": 23,
-   "gp": 63
+   "l": 24,
+   "gp": 64
   },
   "Mount St. Mary's Mountaineers": {
    "off": -7.8144,
@@ -3083,11 +3083,11 @@
    "gp": 60
   },
   "UConn Huskies": {
-   "off": 22.2945,
-   "dfn": 21.1449,
-   "w": 73,
+   "off": 21.9413,
+   "dfn": 21.4605,
+   "w": 74,
    "l": 5,
-   "gp": 78
+   "gp": 79
   },
   "Arlington Baptist Patriots": {
    "off": -7.5497,
@@ -5386,13 +5386,15 @@
    "gp": 1
   }
  },
- "updated_from": 11507,
- "last_date": "2026-11-20",
+ "updated_from": 11514,
+ "last_date": "2026-11-21",
  "applied_on_last_date": [
-  "2026-11-20|Iowa Hawkeyes|Montana State Bobcats",
-  "2026-11-20|Kentucky Wildcats|Marshall Thundering Herd",
-  "2026-11-20|LSU Tigers|Fairleigh Dickinson Knights",
-  "2026-11-20|Oklahoma Sooners|Northwestern State Lady Demons",
-  "2026-11-20|UCLA Bruins|Cal Poly Mustangs"
+  "2026-11-21|Maryland Terrapins|Morgan State Lady Bears",
+  "2026-11-21|North Carolina Tar Heels|Alabama Crimson Tide",
+  "2026-11-21|Oklahoma State Cowgirls|Little Rock Trojans",
+  "2026-11-21|Providence Friars|South Carolina Gamecocks",
+  "2026-11-21|UConn Huskies|Seton Hall Pirates",
+  "2026-11-21|USC Trojans|Baylor Bears",
+  "2026-11-21|Washington Huskies|Stanford Cardinal"
  ]
 }
