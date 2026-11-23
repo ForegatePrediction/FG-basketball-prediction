@@ -1,6 +1,6 @@
 {
- "mu": 69.7928,
- "hfa": 4.8664,
+ "mu": 69.6818,
+ "hfa": 4.766,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.531,
@@ -213,11 +213,11 @@
    "gp": 2
   },
   "Central Michigan Chippewas": {
-   "off": -0.1936,
-   "dfn": 1.6269,
+   "off": -1.6207,
+   "dfn": 1.6912,
    "w": 29,
-   "l": 31,
-   "gp": 60
+   "l": 32,
+   "gp": 61
   },
   "Coastal Carolina Chanticleers": {
    "off": 4.5528,
@@ -311,11 +311,11 @@
    "gp": 5
   },
   "Duke Blue Devils": {
-   "off": 14.1669,
-   "dfn": 20.7195,
-   "w": 58,
+   "off": 14.1741,
+   "dfn": 21.586,
+   "w": 59,
    "l": 16,
-   "gp": 74
+   "gp": 75
   },
   "Radford Highlanders": {
    "off": 1.2301,
@@ -717,11 +717,11 @@
    "gp": 1
   },
   "Nebraska Cornhuskers": {
-   "off": 14.8042,
-   "dfn": 9.9418,
-   "w": 43,
+   "off": 13.3941,
+   "dfn": 11.3253,
+   "w": 44,
    "l": 23,
-   "gp": 66
+   "gp": 67
   },
   "Omaha Mavericks": {
    "off": -11.8389,
@@ -857,11 +857,11 @@
    "gp": 69
   },
   "Oklahoma State Cowgirls": {
-   "off": 14.6827,
-   "dfn": 9.9873,
-   "w": 54,
+   "off": 15.034,
+   "dfn": 10.5731,
+   "w": 55,
    "l": 16,
-   "gp": 70
+   "gp": 71
   },
   "Arkansas-Pine Bluff Golden Lions": {
    "off": -7.1239,
@@ -1109,18 +1109,18 @@
    "gp": 3
   },
   "UCLA Bruins": {
-   "off": 17.077,
-   "dfn": 24.405,
-   "w": 72,
+   "off": 17.6726,
+   "dfn": 23.4726,
+   "w": 73,
    "l": 4,
-   "gp": 76
+   "gp": 77
   },
   "Louisville Cardinals": {
-   "off": 15.2254,
-   "dfn": 18.3951,
-   "w": 54,
+   "off": 17.1431,
+   "dfn": 17.423,
+   "w": 56,
    "l": 18,
-   "gp": 72
+   "gp": 74
   },
   "UL Monroe Warhawks": {
    "off": 1.8094,
@@ -1158,11 +1158,11 @@
    "gp": 68
   },
   "Ole Miss Rebels": {
-   "off": 11.4393,
-   "dfn": 15.0869,
-   "w": 48,
+   "off": 10.85,
+   "dfn": 15.1019,
+   "w": 49,
    "l": 24,
-   "gp": 72
+   "gp": 73
   },
   "UTEP Miners": {
    "off": 1.3455,
@@ -1291,11 +1291,11 @@
    "gp": 4
   },
   "Wichita State Shockers": {
-   "off": -6.8974,
-   "dfn": 2.8947,
+   "off": -7.4832,
+   "dfn": 2.5434,
    "w": 18,
-   "l": 43,
-   "gp": 61
+   "l": 44,
+   "gp": 62
   },
   "Oklahoma Christian Eagles": {
    "off": -4.2584,
@@ -1459,11 +1459,11 @@
    "gp": 60
   },
   "Columbia Lions": {
-   "off": 7.5174,
-   "dfn": 13.1063,
+   "off": 6.6509,
+   "dfn": 13.0991,
    "w": 46,
-   "l": 17,
-   "gp": 63
+   "l": 18,
+   "gp": 64
   },
   "Stony Brook Seawolves": {
    "off": -8.5792,
@@ -1767,11 +1767,11 @@
    "gp": 61
   },
   "Minnesota Golden Gophers": {
-   "off": 10.2892,
-   "dfn": 14.7191,
-   "w": 53,
+   "off": 10.2249,
+   "dfn": 16.1462,
+   "w": 54,
    "l": 19,
-   "gp": 72
+   "gp": 73
   },
   "Central Connecticut Blue Devils": {
    "off": -12.9957,
@@ -1837,11 +1837,11 @@
    "gp": 63
   },
   "Ohio State Buckeyes": {
-   "off": 15.522,
-   "dfn": 14.4372,
+   "off": 15.4346,
+   "dfn": 14.8969,
    "w": 58,
-   "l": 14,
-   "gp": 72
+   "l": 15,
+   "gp": 73
   },
   "Cleveland State Vikings": {
    "off": 1.493,
@@ -2047,11 +2047,11 @@
    "gp": 68
   },
   "Tennessee Lady Volunteers": {
-   "off": 14.3874,
-   "dfn": 6.6932,
+   "off": 15.3198,
+   "dfn": 6.0976,
    "w": 39,
-   "l": 23,
-   "gp": 62
+   "l": 24,
+   "gp": 63
   },
   "Samford Bulldogs": {
    "off": -2.7214,
@@ -2201,11 +2201,11 @@
    "gp": 59
   },
   "Utah State Aggies": {
-   "off": -6.9293,
-   "dfn": -2.5759,
+   "off": -8.3323,
+   "dfn": -2.5124,
    "w": 10,
-   "l": 50,
-   "gp": 60
+   "l": 51,
+   "gp": 61
   },
   "Kansas City Roos": {
    "off": -3.1927,
@@ -2243,18 +2243,18 @@
    "gp": 1
   },
   "Washington Huskies": {
-   "off": 9.8385,
-   "dfn": 14.6657,
-   "w": 46,
+   "off": 10.3399,
+   "dfn": 14.919,
+   "w": 47,
    "l": 25,
-   "gp": 71
+   "gp": 72
   },
   "Seattle U Redhawks": {
-   "off": -7.562,
-   "dfn": -6.3932,
+   "off": -5.7321,
+   "dfn": -6.6385,
    "w": 8,
-   "l": 49,
-   "gp": 57
+   "l": 50,
+   "gp": 58
   },
   "Washington State Cougars": {
    "off": -2.0737,
@@ -2516,11 +2516,11 @@
    "gp": 54
   },
   "TCU Horned Frogs": {
-   "off": 13.7597,
-   "dfn": 18.2205,
-   "w": 69,
+   "off": 13.6962,
+   "dfn": 19.6235,
+   "w": 70,
    "l": 10,
-   "gp": 79
+   "gp": 80
   },
   "Houston Christian Huskies": {
    "off": -9.3003,
@@ -2642,11 +2642,11 @@
    "gp": 60
   },
   "Cal Poly Mustangs": {
-   "off": -8.7855,
-   "dfn": -0.3899,
+   "off": -9.0388,
+   "dfn": -0.8913,
    "w": 17,
-   "l": 41,
-   "gp": 58
+   "l": 42,
+   "gp": 59
   },
   "UC Merced Bobcats": {
    "off": -3.3717,
@@ -2880,11 +2880,11 @@
    "gp": 58
   },
   "Alabama A&M Bulldogs": {
-   "off": -7.3033,
-   "dfn": 9.9841,
+   "off": -7.3183,
+   "dfn": 10.5734,
    "w": 40,
-   "l": 21,
-   "gp": 61
+   "l": 22,
+   "gp": 62
   },
   "Mississippi U for Women Owls": {
    "off": -3.6224,
@@ -3174,11 +3174,11 @@
    "gp": 2
   },
   "Creighton Bluejays": {
-   "off": 3.4287,
-   "dfn": 6.094,
+   "off": 2.0452,
+   "dfn": 7.5041,
    "w": 41,
-   "l": 21,
-   "gp": 62
+   "l": 22,
+   "gp": 63
   },
   "St. Bonaventure Bonnies": {
    "off": -4.9459,
@@ -3272,11 +3272,11 @@
    "gp": 1
   },
   "Texas Longhorns": {
-   "off": 22.5247,
-   "dfn": 22.8066,
-   "w": 72,
+   "off": 22.065,
+   "dfn": 22.894,
+   "w": 73,
    "l": 5,
-   "gp": 77
+   "gp": 78
   },
   "Clinton Golden Bears": {
    "off": -6.4742,
@@ -3636,11 +3636,11 @@
    "gp": 2
   },
   "Alaska Anchorage Seawolves": {
-   "off": -1.9673,
-   "dfn": -0.1083,
+   "off": -2.8251,
+   "dfn": -1.7807,
    "w": 1,
-   "l": 4,
-   "gp": 5
+   "l": 5,
+   "gp": 6
   },
   "Ohio Dominican Panthers": {
    "off": -1.267,
@@ -5386,15 +5386,19 @@
    "gp": 1
   }
  },
- "updated_from": 11514,
- "last_date": "2026-11-21",
+ "updated_from": 11525,
+ "last_date": "2026-11-22",
  "applied_on_last_date": [
-  "2026-11-21|Maryland Terrapins|Morgan State Lady Bears",
-  "2026-11-21|North Carolina Tar Heels|Alabama Crimson Tide",
-  "2026-11-21|Oklahoma State Cowgirls|Little Rock Trojans",
-  "2026-11-21|Providence Friars|South Carolina Gamecocks",
-  "2026-11-21|UConn Huskies|Seton Hall Pirates",
-  "2026-11-21|USC Trojans|Baylor Bears",
-  "2026-11-21|Washington Huskies|Stanford Cardinal"
+  "2026-11-22|Alaska Anchorage Seawolves|Louisville Cardinals",
+  "2026-11-22|Columbia Lions|Duke Blue Devils",
+  "2026-11-22|Creighton Bluejays|Nebraska Cornhuskers",
+  "2026-11-22|Minnesota Golden Gophers|Central Michigan Chippewas",
+  "2026-11-22|Oklahoma State Cowgirls|Wichita State Shockers",
+  "2026-11-22|Ole Miss Rebels|Alabama A&M Bulldogs",
+  "2026-11-22|Seattle U Redhawks|Louisville Cardinals",
+  "2026-11-22|Tennessee Lady Volunteers|UCLA Bruins",
+  "2026-11-22|Texas Longhorns|Ohio State Buckeyes",
+  "2026-11-22|Utah State Aggies|TCU Horned Frogs",
+  "2026-11-22|Washington Huskies|Cal Poly Mustangs"
  ]
 }

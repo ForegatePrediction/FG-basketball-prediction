@@ -1,6 +1,6 @@
 {
- "mu": 78.5124,
- "hfa": 4.7262,
+ "mu": 78.4974,
+ "hfa": 4.7367,
  "teams": {
   "App State Mountaineers": {
    "off": -2.1983,
@@ -31,11 +31,11 @@
    "gp": 118
   },
   "Butler Bulldogs": {
-   "off": 7.327,
-   "dfn": 2.6846,
+   "off": 7.3477,
+   "dfn": 2.9743,
    "w": 58,
-   "l": 65,
-   "gp": 123
+   "l": 66,
+   "gp": 124
   },
   "LSU New Orleans Privateers": {
    "off": 1.1159,
@@ -87,11 +87,11 @@
    "gp": 128
   },
   "Michigan Wolverines": {
-   "off": 16.6251,
-   "dfn": 13.5189,
+   "off": 15.8604,
+   "dfn": 13.1518,
    "w": 92,
-   "l": 50,
-   "gp": 142
+   "l": 51,
+   "gp": 143
   },
   "Purdue Fort Wayne Mastodons": {
    "off": 0.4854,
@@ -227,11 +227,11 @@
    "gp": 5
   },
   "Villanova Wildcats": {
-   "off": 3.1713,
-   "dfn": 9.3904,
-   "w": 76,
+   "off": 3.5384,
+   "dfn": 10.1551,
+   "w": 77,
    "l": 53,
-   "gp": 129
+   "gp": 130
   },
   "La Salle Explorers": {
    "off": -4.0517,
@@ -815,11 +815,11 @@
    "gp": 124
   },
   "Duke Blue Devils": {
-   "off": 11.7059,
-   "dfn": 17.7825,
-   "w": 122,
+   "off": 10.8868,
+   "dfn": 17.1753,
+   "w": 123,
    "l": 23,
-   "gp": 145
+   "gp": 146
   },
   "Jacksonville Dolphins": {
    "off": -2.8974,
@@ -1536,11 +1536,11 @@
    "gp": 127
   },
   "Southern Indiana Screaming Eagles": {
-   "off": -2.9518,
-   "dfn": 6.9606,
+   "off": -3.1651,
+   "dfn": 6.3184,
    "w": 39,
-   "l": 78,
-   "gp": 117
+   "l": 79,
+   "gp": 118
   },
   "NC State Wolfpack": {
    "off": 8.816,
@@ -1557,11 +1557,11 @@
    "gp": 122
   },
   "Nebraska Cornhuskers": {
-   "off": 5.0013,
-   "dfn": 16.9099,
-   "w": 86,
+   "off": 4.7116,
+   "dfn": 16.8892,
+   "w": 87,
    "l": 48,
-   "gp": 134
+   "gp": 135
   },
   "Maine Black Bears": {
    "off": -9.4408,
@@ -2348,11 +2348,11 @@
    "gp": 119
   },
   "Texas Longhorns": {
-   "off": 10.0741,
-   "dfn": 10.9892,
-   "w": 90,
+   "off": 10.7163,
+   "dfn": 11.2025,
+   "w": 91,
    "l": 48,
-   "gp": 138
+   "gp": 139
   },
   "UTEP Miners": {
    "off": -2.8443,
@@ -2705,11 +2705,11 @@
    "gp": 122
   },
   "Washington State Cougars": {
-   "off": 3.1589,
-   "dfn": 3.2857,
+   "off": 3.7661,
+   "dfn": 4.1048,
    "w": 68,
-   "l": 60,
-   "gp": 128
+   "l": 61,
+   "gp": 129
   },
   "Texas State Bobcats": {
    "off": 1.0312,
@@ -7087,15 +7087,12 @@
    "gp": 1
   }
  },
- "updated_from": 23723,
- "last_date": "2026-11-21",
+ "updated_from": 23727,
+ "last_date": "2026-11-22",
  "applied_on_last_date": [
-  "2026-11-21|Arkansas Razorbacks|Mississippi Valley State Delta Devils",
-  "2026-11-21|Illinois Fighting Illini|Eastern Illinois Panthers",
-  "2026-11-21|LSU Tigers|Queens University Royals",
-  "2026-11-21|Michigan State Spartans|Detroit Mercy Titans",
-  "2026-11-21|Tennessee Volunteers|Coastal Carolina Chanticleers",
-  "2026-11-21|Vanderbilt Commodores|UCF Knights",
-  "2026-11-21|Virginia Cavaliers|Loyola Maryland Greyhounds"
+  "2026-11-22|Butler Bulldogs|Nebraska Cornhuskers",
+  "2026-11-22|Duke Blue Devils|Washington State Cougars",
+  "2026-11-22|Texas Longhorns|Southern Indiana Screaming Eagles",
+  "2026-11-22|Villanova Wildcats|Michigan Wolverines"
  ]
 }
