@@ -1,13 +1,13 @@
 {
- "mu": 100.7829,
- "hfa": 2.8511,
+ "mu": 100.7066,
+ "hfa": 2.682,
  "teams": {
   "FC BAYERN MUNICH": {
-   "off": -6.675,
-   "dfn": 3.9311,
+   "off": -7.551,
+   "dfn": 4.1195,
    "w": 112,
-   "l": 146,
-   "gp": 258
+   "l": 147,
+   "gp": 259
   },
   "AX ARMANI EXCHANGE MILAN": {
    "off": -19.0026,
@@ -80,18 +80,18 @@
    "gp": 268
   },
   "FC BARCELONA": {
-   "off": -7.6128,
-   "dfn": 10.1184,
+   "off": -8.2107,
+   "dfn": 10.2616,
    "w": 180,
-   "l": 98,
-   "gp": 278
+   "l": 99,
+   "gp": 279
   },
   "LDLC ASVEL VILLEURBANNE": {
-   "off": -10.0607,
-   "dfn": 2.8702,
+   "off": -9.8782,
+   "dfn": 2.6631,
    "w": 75,
-   "l": 172,
-   "gp": 247
+   "l": 173,
+   "gp": 248
   },
   "OLYMPIACOS PIRAEUS": {
    "off": -4.8605,
@@ -101,11 +101,11 @@
    "gp": 278
   },
   "VALENCIA BASKET": {
-   "off": -2.8115,
-   "dfn": 9.0623,
+   "off": -3.0371,
+   "dfn": 8.8708,
    "w": 98,
-   "l": 89,
-   "gp": 187
+   "l": 90,
+   "gp": 188
   },
   "CSKA MOSCOW": {
    "off": -9.0651,
@@ -192,11 +192,11 @@
    "gp": 158
   },
   "CRVENA ZVEZDA MERIDIANBET BELGRADE": {
-   "off": -7.3906,
-   "dfn": 10.9002,
+   "off": -7.7543,
+   "dfn": 9.2127,
    "w": 75,
-   "l": 80,
-   "gp": 155
+   "l": 81,
+   "gp": 156
   },
   "VIRTUS SEGAFREDO BOLOGNA": {
    "off": -14.3839,
@@ -213,25 +213,25 @@
    "gp": 73
   },
   "PANATHINAIKOS AKTOR ATHENS": {
-   "off": -8.8366,
-   "dfn": 13.8299,
-   "w": 87,
+   "off": -8.6451,
+   "dfn": 14.0555,
+   "w": 88,
    "l": 52,
-   "gp": 139
+   "gp": 140
   },
   "PARIS BASKETBALL": {
-   "off": -1.867,
-   "dfn": 2.6994,
-   "w": 42,
+   "off": -2.5295,
+   "dfn": 4.2,
+   "w": 43,
    "l": 47,
-   "gp": 89
+   "gp": 90
   },
   "MACCABI RAPYD TEL AVIV": {
-   "off": -6.6589,
-   "dfn": 3.1839,
-   "w": 21,
+   "off": -6.8473,
+   "dfn": 4.0599,
+   "w": 22,
    "l": 30,
-   "gp": 51
+   "gp": 52
   },
   "DUBAI BASKETBALL": {
    "off": -7.1463,
@@ -255,11 +255,11 @@
    "gp": 51
   },
   "VIRTUS BOLOGNA": {
-   "off": -9.9349,
-   "dfn": 6.0349,
-   "w": 19,
+   "off": -8.2474,
+   "dfn": 6.3986,
+   "w": 20,
    "l": 32,
-   "gp": 51
+   "gp": 52
   },
   "BESIKTAS ISTANBUL": {
    "off": -3.6712,
@@ -269,33 +269,35 @@
    "gp": 12
   },
   "FENERBAHCE TARFIN ISTANBUL": {
-   "off": -5.2493,
-   "dfn": 8.9356,
-   "w": 8,
+   "off": -5.3925,
+   "dfn": 9.5335,
+   "w": 9,
    "l": 5,
-   "gp": 13
+   "gp": 14
   },
   "ARMANI OLIMPIA MILAN": {
-   "off": -6.2762,
-   "dfn": 5.3594,
-   "w": 3,
+   "off": -6.0691,
+   "dfn": 5.1769,
+   "w": 4,
    "l": 10,
-   "gp": 13
+   "gp": 14
   },
   "BESIKTAS FUZUL ISTANBUL": {
-   "off": 0.0746,
-   "dfn": -0.1261,
+   "off": -1.426,
+   "dfn": 0.5364,
    "w": 0,
-   "l": 1,
-   "gp": 1
+   "l": 2,
+   "gp": 2
   }
  },
- "updated_from": 2400,
- "last_date": "2026-11-20",
+ "updated_from": 2406,
+ "last_date": "2026-11-24",
  "applied_on_last_date": [
-  "2026-11-20|ANADOLU EFES ISTANBUL|LDLC ASVEL VILLEURBANNE",
-  "2026-11-20|FC BARCELONA|CRVENA ZVEZDA MERIDIANBET BELGRADE",
-  "2026-11-20|OLYMPIACOS PIRAEUS|REAL MADRID",
-  "2026-11-20|PARTIZAN MOZZART BET BELGRADE|BESIKTAS FUZUL ISTANBUL"
+  "2026-11-24|BESIKTAS FUZUL ISTANBUL|PARIS BASKETBALL",
+  "2026-11-24|CRVENA ZVEZDA MERIDIANBET BELGRADE|VIRTUS BOLOGNA",
+  "2026-11-24|FC BARCELONA|FENERBAHCE TARFIN ISTANBUL",
+  "2026-11-24|FC BAYERN MUNICH|MACCABI RAPYD TEL AVIV",
+  "2026-11-24|LDLC ASVEL VILLEURBANNE|ARMANI OLIMPIA MILAN",
+  "2026-11-24|VALENCIA BASKET|PANATHINAIKOS AKTOR ATHENS"
  ]
 }
