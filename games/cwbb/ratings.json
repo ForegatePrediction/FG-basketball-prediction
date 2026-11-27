@@ -1,6 +1,6 @@
 {
- "mu": 69.6163,
- "hfa": 4.8323,
+ "mu": 69.6419,
+ "hfa": 4.8084,
  "teams": {
   "Abilene Christian Wildcats": {
    "off": 2.531,
@@ -829,11 +829,11 @@
    "gp": 61
   },
   "Notre Dame Fighting Irish": {
-   "off": 17.859,
-   "dfn": 11.6353,
-   "w": 56,
+   "off": 17.8931,
+   "dfn": 11.9346,
+   "w": 57,
    "l": 15,
-   "gp": 71
+   "gp": 72
   },
   "Mercyhurst Lakers": {
    "off": -2.6905,
@@ -941,11 +941,11 @@
    "gp": 62
   },
   "SE Louisiana Lady Lions": {
-   "off": -7.7358,
-   "dfn": -1.8296,
+   "off": -7.3761,
+   "dfn": -1.6889,
    "w": 29,
-   "l": 29,
-   "gp": 58
+   "l": 30,
+   "gp": 59
   },
   "Millsaps Majors": {
    "off": -3.4533,
@@ -1767,11 +1767,11 @@
    "gp": 61
   },
   "Minnesota Golden Gophers": {
-   "off": 10.2249,
-   "dfn": 16.1462,
-   "w": 54,
+   "off": 11.4101,
+   "dfn": 16.5177,
+   "w": 55,
    "l": 19,
-   "gp": 73
+   "gp": 74
   },
   "Central Connecticut Blue Devils": {
    "off": -12.9957,
@@ -2579,11 +2579,11 @@
    "gp": 64
   },
   "West Virginia Mountaineers": {
-   "off": 10.9808,
-   "dfn": 14.8844,
+   "off": 10.6815,
+   "dfn": 14.8503,
    "w": 59,
-   "l": 13,
-   "gp": 72
+   "l": 14,
+   "gp": 73
   },
   "Towson Tigers": {
    "off": -0.53,
@@ -3244,11 +3244,11 @@
    "gp": 2
   },
   "Missouri State Lady Bears": {
-   "off": 1.8891,
-   "dfn": 10.5943,
+   "off": 1.5176,
+   "dfn": 9.4091,
    "w": 46,
-   "l": 20,
-   "gp": 66
+   "l": 21,
+   "gp": 67
   },
   "Southeastern Fires": {
    "off": -1.4117,
@@ -3272,11 +3272,11 @@
    "gp": 1
   },
   "Texas Longhorns": {
-   "off": 22.065,
-   "dfn": 22.894,
-   "w": 73,
+   "off": 21.9243,
+   "dfn": 22.5343,
+   "w": 74,
    "l": 5,
-   "gp": 78
+   "gp": 79
   },
   "Clinton Golden Bears": {
    "off": -6.4742,
@@ -5386,15 +5386,11 @@
    "gp": 1
   }
  },
- "updated_from": 11542,
- "last_date": "2026-11-25",
+ "updated_from": 11545,
+ "last_date": "2026-11-26",
  "applied_on_last_date": [
-  "2026-11-25|Iowa Hawkeyes|Navy Midshipmen",
-  "2026-11-25|Maryland Terrapins|Monmouth Hawks",
-  "2026-11-25|Michigan Wolverines|Toledo Rockets",
-  "2026-11-25|Nebraska Cornhuskers|Kansas City Roos",
-  "2026-11-25|North Carolina Tar Heels|Gardner-Webb Runnin' Bulldogs",
-  "2026-11-25|Oregon State Beavers|Vanderbilt Commodores",
-  "2026-11-25|UConn Huskies|South Carolina Gamecocks"
+  "2026-11-26|Missouri State Lady Bears|Minnesota Golden Gophers",
+  "2026-11-26|Notre Dame Fighting Irish|West Virginia Mountaineers",
+  "2026-11-26|Texas Longhorns|SE Louisiana Lady Lions"
  ]
 }
